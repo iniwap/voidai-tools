@@ -10,10 +10,7 @@ const GalleryTool = () => {
     const toast = useToast();
 
     useEffect(() => {
-        fetch('assets/gallery/data.json')
-            .then(r => r.json())
-            .then(setItems)
-            .catch(() => setItems([]));
+        fetch('assets/gallery/data.json').then(r => r.json()).then(setItems).catch(() => setItems([]));
     }, []);
 
     const allTags = useMemo(() => ['全部', ...new Set(items.flatMap(i => i.tags || []))], [items]);
@@ -24,7 +21,6 @@ const GalleryTool = () => {
 
     return (
         <div className="flex flex-col h-full animate-enter">
-            {/* Filter */}
             <div className="glass-panel p-3 rounded-xl mb-4 flex gap-4 items-center shrink-0">
                 <div className="relative w-64 group">
                     <div className="absolute left-3 top-2.5 text-slate-500"><Icon name="search" /></div>
@@ -38,13 +34,12 @@ const GalleryTool = () => {
                 </div>
             </div>
 
-            {/* Grid */}
             <div className="flex-1 overflow-y-auto custom-scrollbar -mr-2 pr-2">
                 <div className="masonry-grid pb-20">
                     {visible.map(item => (
                         <div key={item.id} onClick={() => setSelectedItem(item)} className="break-inside-avoid glass-panel rounded-xl overflow-hidden hover:border-indigo-500/50 cursor-zoom-in group relative mb-4 transition-all">
                             <div className="relative">
-                                <img src={getImageUrl(item.image)} className="w-full h-auto object-cover block" loading="lazy" onError={(e) => e.target.src = 'https://placehold.co/400?text=Error'} />
+                                <img src={getImageUrl(item.image)} className="w-full h-auto object-cover block" loading="lazy" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
                                     <button onClick={(e) => copyText(e, item.prompt)} className="self-end p-2 bg-white text-black rounded-full hover:scale-110 transition shadow-lg"><Icon name="copy" size={14} /></button>
                                 </div>
@@ -59,9 +54,8 @@ const GalleryTool = () => {
                 {visible.length < filtered.length && <div className="text-center pb-8"><Button variant="secondary" onClick={() => setVisibleCount(p => p + 12)}>加载更多</Button></div>}
             </div>
 
-            {/* Modal */}
             {selectedItem && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" onClick={() => setSelectedItem(null)}>
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10" onClick={() => setSelectedItem(null)}>
                     <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-md animate-enter"></div>
                     <div className="relative w-full max-w-5xl glass-panel rounded-2xl shadow-2xl flex flex-col md:flex-row overflow-hidden max-h-[85vh] animate-enter" onClick={e => e.stopPropagation()}>
                         <div className="md:w-2/3 bg-black/50 flex items-center justify-center p-4 relative"><img src={getImageUrl(selectedItem.image)} className="max-w-full max-h-full object-contain shadow-2xl" /></div>
