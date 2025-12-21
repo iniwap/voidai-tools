@@ -1,182 +1,199 @@
 const { useState, useEffect, useRef, useCallback } = React;
-const { Icon, Button } = window.SharedComponents;
+const { Icon, Button, SectionTitle } = window.SharedComponents;
 
 const WatermarkTool = () => {
     const [files, setFiles] = useState([]);
     const [masks, setMasks] = useState({ 48: null, 96: null });
-    const [status, setStatus] = useState('loading_assets');
+    const [status, setStatus] = useState('idle');
+    const [selectedFileId, setSelectedFileId] = useState(null);
+    const [isComparing, setIsComparing] = useState(false);
     const fileInputRef = useRef(null);
 
-    // 1. 预加载 Mask
+    // 资源加载
     useEffect(() => {
-        const load = (src) => new Promise((resolve, reject) => {
-            const img = new Image();
-            img.crossOrigin = "Anonymous";
-            img.onload = () => resolve(img);
-            img.onerror = () => reject();
-            img.src = src;
+        const load = (src) => new Promise((resolve) => {
+            const img = new Image(); img.crossOrigin = "Anonymous";
+            img.onload = () => resolve(img); img.onerror = () => resolve(null); img.src = src;
         });
-        Promise.allSettled([load('assets/watermark/bg_48.png'), load('assets/watermark/bg_96.png')])
+        Promise.all([load('assets/watermark/bg_48.png'), load('assets/watermark/bg_96.png')])
             .then(([r48, r96]) => {
                 const m = {};
-                if (r48.status === 'fulfilled') m[48] = r48.value;
-                if (r96.status === 'fulfilled') m[96] = r96.value;
+                if (r48) m[48] = r48; if (r96) m[96] = r96;
                 setMasks(m);
-                setStatus(Object.keys(m).length ? 'ready' : 'error_assets');
+                setStatus(Object.keys(m).length ? 'ready' : 'error');
             });
     }, []);
 
-    // 2. 核心处理 (无损反算)
+    // 核心处理逻辑 (防抖 + 状态管理)
     const processImage = useCallback(async (fileObj) => {
-        // 更新状态为处理中
         setFiles(prev => prev.map(f => f.id === fileObj.id ? { ...f, status: 'processing' } : f));
-
-        // 强制微小延时，让 React 有机会渲染 "处理中" UI
-        await new Promise(r => setTimeout(r, 50));
+        await new Promise(r => setTimeout(r, 100)); // UI 渲染缓冲
 
         try {
             const img = await new Promise((resolve, reject) => {
-                const i = new Image();
-                i.onload = () => resolve(i);
-                i.onerror = reject;
-                i.src = fileObj.original;
+                const i = new Image(); i.onload = () => resolve(i); i.onerror = reject; i.src = fileObj.original;
             });
 
-            const canvas = document.createElement('canvas');
-            canvas.width = img.naturalWidth;
-            canvas.height = img.naturalHeight;
-            const ctx = canvas.getContext('2d', { willReadFrequently: true });
+            const cvs = document.createElement('canvas');
+            cvs.width = img.naturalWidth; cvs.height = img.naturalHeight;
+            const ctx = cvs.getContext('2d', { willReadFrequently: true });
             ctx.drawImage(img, 0, 0);
 
-            // Mask 匹配逻辑
+            // 智能选择 Mask
             let mask = masks[48];
             if (img.naturalWidth > 2048 && masks[96]) mask = masks[96];
             if (!mask && masks[96]) mask = masks[96];
-            if (!mask) throw new Error("Mask asset missing");
+            if (!mask) throw new Error("缺少 Mask 资源");
 
-            const mCanvas = document.createElement('canvas');
-            mCanvas.width = mask.naturalWidth; mCanvas.height = mask.naturalHeight;
-            const mCtx = mCanvas.getContext('2d'); mCtx.drawImage(mask, 0, 0);
-            const mData = mCtx.getImageData(0, 0, mask.naturalWidth, mask.naturalHeight).data;
-            const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            // 绘制 Mask
+            const mCvs = document.createElement('canvas');
+            mCvs.width = mask.naturalWidth; mCvs.height = mask.naturalHeight;
+            const mCtx = mCvs.getContext('2d'); mCtx.drawImage(mask, 0, 0);
+            const mData = mCtx.getImageData(0, 0, mCvs.width, mCvs.height).data;
+            const iData = ctx.getImageData(0, 0, cvs.width, cvs.height);
 
             const pad = 24;
-            const startX = canvas.width - mask.naturalWidth - pad;
-            const startY = canvas.height - mask.naturalHeight - pad;
+            const startX = cvs.width - mCvs.width - pad;
+            const startY = cvs.height - mCvs.height - pad;
 
             // 像素反算
-            for (let y = 0; y < mask.naturalHeight; y++) {
-                for (let x = 0; x < mask.naturalWidth; x++) {
-                    let gX = startX + x, gY = startY + y;
-                    if (gX >= canvas.width || gY >= canvas.height) continue;
-                    const idx = (gY * canvas.width + gX) * 4;
-                    const mIdx = (y * mask.naturalWidth + x) * 4;
+            for (let y = 0; y < mCvs.height; y++) {
+                for (let x = 0; x < mCvs.width; x++) {
+                    let gx = startX + x, gy = startY + y;
+                    if (gx >= cvs.width || gy >= cvs.height) continue;
+                    const idx = (gy * cvs.width + gx) * 4;
+                    const mIdx = (y * mCvs.width + x) * 4;
+
                     let alpha = mData[mIdx + 3] / 255.0;
                     if (alpha < 0.01) continue;
                     if (alpha > 0.95) alpha = 0.95;
+
                     for (let c = 0; c < 3; c++) {
-                        imgData.data[idx + c] = Math.min(255, Math.max(0, (imgData.data[idx + c] - 255 * alpha) / (1 - alpha)));
+                        // Formula: Original = (Composite - Watermark * alpha) / (1 - alpha)
+                        // Assuming watermark is white (255)
+                        iData.data[idx + c] = Math.min(255, Math.max(0, (iData.data[idx + c] - 255 * alpha) / (1 - alpha)));
                     }
                 }
             }
-            ctx.putImageData(imgData, 0, 0);
+            ctx.putImageData(iData, 0, 0);
 
-            canvas.toBlob(blob => {
-                const resultUrl = URL.createObjectURL(blob);
-                setFiles(prev => prev.map(f => f.id === fileObj.id ? { ...f, result: resultUrl, status: 'done' } : f));
+            cvs.toBlob(blob => {
+                const url = URL.createObjectURL(blob);
+                setFiles(prev => prev.map(f => f.id === fileObj.id ? { ...f, result: url, status: 'done' } : f));
+                // 如果是第一张图，自动选中
+                if (!selectedFileId) setSelectedFileId(fileObj.id);
             }, 'image/png');
 
         } catch (e) {
-            console.error("Watermark processing error:", e);
+            console.error(e);
             setFiles(prev => prev.map(f => f.id === fileObj.id ? { ...f, status: 'error' } : f));
         }
-    }, [masks]);
+    }, [masks, selectedFileId]);
 
-    // 3. 文件添加与队列管理
-    const addFiles = useCallback((fileList) => {
-        const newFiles = Array.from(fileList).map(f => ({
+    const handleUpload = (e) => {
+        const newFiles = Array.from(e.target.files).map(f => ({
             id: Math.random().toString(36).substr(2, 9),
             file: f,
             original: URL.createObjectURL(f),
             status: 'pending'
         }));
         setFiles(prev => [...prev, ...newFiles]);
-        newFiles.forEach(f => processImage(f));
-    }, [processImage]);
-
-    // 4. 拖拽事件处理
-    const handleDrop = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
-            addFiles(e.dataTransfer.files);
-        }
+        newFiles.forEach(processImage);
+        if (newFiles.length > 0 && !selectedFileId) setSelectedFileId(newFiles[0].id);
+        e.target.value = ''; // Reset input
     };
 
+    // 当前选中的文件对象
+    const activeFile = files.find(f => f.id === selectedFileId) || files[0];
+
     return (
-        <div
-            className="h-full flex flex-col p-4 md:p-6"
-            onDragOver={(e) => { e.preventDefault(); e.stopPropagation(); }}
-            onDrop={handleDrop}
-        >
-            {/* 上传区域 */}
-            <div className="flex-shrink-0 mb-6">
-                <div
-                    onClick={() => fileInputRef.current.click()}
-                    className="border-2 border-dashed border-void-700 hover:border-blue-500 bg-void-900/50 hover:bg-void-800 transition-all rounded-2xl p-8 text-center cursor-pointer group relative"
-                >
-                    <input ref={fileInputRef} type="file" multiple accept="image/*" className="hidden" onChange={(e) => addFiles(e.target.files)} />
-                    <div className="w-16 h-16 bg-void-800 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg shadow-blue-900/10">
-                        <Icon name="upload-cloud" size={32} className="text-blue-400" />
-                    </div>
-                    <h3 className="text-lg font-bold text-white mb-1">点击或拖拽上传图片</h3>
-                    <p className="text-sm text-void-400">支持批量处理 • 自动识别 Mask • 无损还原</p>
+        <div className="flex h-full gap-6 animate-enter">
+            {/* 左侧：列表与操作 */}
+            <div className="w-80 flex flex-col gap-4 flex-shrink-0">
+                <div className="glass-panel p-4 rounded-2xl flex flex-col gap-3">
+                    <SectionTitle icon="layers" title="任务列表" subtitle={`${files.filter(f => f.status === 'done').length}/${files.length} 完成`} />
 
-                    {status === 'error_assets' && (
-                        <div className="absolute top-4 right-4 text-red-400 text-xs font-mono bg-red-900/20 py-1 px-2 rounded flex items-center gap-1">
-                            <Icon name="alert-triangle" size={12} /> 缺少 assets/watermark/bg_48.png
+                    <div
+                        onClick={() => fileInputRef.current.click()}
+                        className="border-2 border-dashed border-slate-700 hover:border-indigo-500 bg-slate-800/30 hover:bg-slate-800/50 rounded-xl p-6 text-center cursor-pointer transition-all group"
+                    >
+                        <input ref={fileInputRef} type="file" multiple accept="image/*" className="hidden" onChange={handleUpload} />
+                        <div className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform">
+                            <Icon name="plus" className="text-indigo-400" />
                         </div>
-                    )}
-                </div>
-            </div>
+                        <span className="text-xs text-slate-400">点击添加图片</span>
+                    </div>
 
-            {/* 结果网格 */}
-            <div className="flex-1 overflow-y-auto custom-scrollbar min-h-0">
-                {files.length > 0 ? (
-                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 pb-10">
+                    <div className="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-2 min-h-[200px] max-h-[400px]">
                         {files.map(f => (
-                            <div key={f.id} className="relative aspect-square bg-void-800 rounded-xl overflow-hidden border border-void-700 group hover:border-blue-500 transition-colors">
-                                {/* 图片展示 (原图或结果) */}
-                                <img src={f.result || f.original} className="w-full h-full object-cover checkerboard" />
-
-                                {/* 状态角标 */}
-                                <div className="absolute top-2 left-2 z-10">
-                                    {f.status === 'processing' && <span className="bg-blue-600/90 text-white text-[10px] px-2 py-1 rounded-full animate-pulse">处理中...</span>}
-                                    {f.status === 'done' && <span className="bg-green-600/90 text-white text-[10px] px-2 py-1 rounded-full flex items-center gap-1"><Icon name="check" size={10} /> 完成</span>}
-                                    {f.status === 'error' && <span className="bg-red-600/90 text-white text-[10px] px-2 py-1 rounded-full">失败</span>}
+                            <div
+                                key={f.id}
+                                onClick={() => setSelectedFileId(f.id)}
+                                className={`p-2 rounded-lg flex items-center gap-3 cursor-pointer border transition-all ${selectedFileId === f.id ? 'bg-slate-800 border-indigo-500/50' : 'bg-transparent border-transparent hover:bg-slate-800/50'}`}
+                            >
+                                <img src={f.original} className="w-10 h-10 rounded object-cover bg-slate-900" />
+                                <div className="flex-1 min-w-0">
+                                    <p className="text-xs text-slate-300 truncate">{f.file.name}</p>
+                                    <p className="text-[10px] text-slate-500">
+                                        {f.status === 'done' ? <span className="text-green-400">已处理</span> : f.status === 'processing' ? <span className="text-indigo-400">处理中...</span> : '等待中'}
+                                    </p>
                                 </div>
-
-                                {/* 悬停操作层 */}
-                                {f.status === 'done' && (
-                                    <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2 backdrop-blur-[2px]">
-                                        <a
-                                            href={f.result}
-                                            download={`clean_${f.file.name}`}
-                                            onClick={e => e.stopPropagation()}
-                                            className="p-3 bg-white text-black rounded-full hover:scale-110 transition shadow-xl"
-                                            title="下载处理后的图片"
-                                        >
-                                            <Icon name="download" size={20} />
-                                        </a>
-                                    </div>
-                                )}
                             </div>
                         ))}
                     </div>
+                </div>
+            </div>
+
+            {/* 右侧：预览工作台 */}
+            <div className="flex-1 glass-panel rounded-2xl p-6 flex flex-col relative overflow-hidden">
+                {activeFile ? (
+                    <>
+                        <div className="flex justify-between items-center mb-4">
+                            <h3 className="font-bold text-white flex items-center gap-2">
+                                <Icon name="image" size={18} className="text-indigo-400" />
+                                效果预览
+                            </h3>
+                            {activeFile.status === 'done' && (
+                                <div className="flex gap-2">
+                                    <Button
+                                        variant="secondary"
+                                        onMouseDown={() => setIsComparing(true)}
+                                        onMouseUp={() => setIsComparing(false)}
+                                        onMouseLeave={() => setIsComparing(false)}
+                                        icon="eye"
+                                    >按住对比原图</Button>
+                                    <a href={activeFile.result} download={`clean_${activeFile.file.name}`}>
+                                        <Button variant="primary" icon="download">下载图片</Button>
+                                    </a>
+                                </div>
+                            )}
+                        </div>
+
+                        <div className="flex-1 flex items-center justify-center bg-checkerboard rounded-xl overflow-hidden border border-slate-800 relative">
+                            {activeFile.status === 'done' ? (
+                                <img
+                                    src={isComparing ? activeFile.original : activeFile.result}
+                                    className="max-w-full max-h-full object-contain shadow-2xl"
+                                />
+                            ) : (
+                                <div className="flex flex-col items-center text-slate-500">
+                                    <Icon name="loader-2" size={48} className="animate-spin mb-4 text-indigo-500" />
+                                    <span>正在消除水印...</span>
+                                </div>
+                            )}
+
+                            {/* 对比标签 */}
+                            {activeFile.status === 'done' && (
+                                <div className="absolute top-4 left-4 bg-black/70 backdrop-blur px-3 py-1 rounded-full text-xs font-mono text-white border border-white/10">
+                                    {isComparing ? 'Original (原图)' : 'Cleaned (去水印)'}
+                                </div>
+                            )}
+                        </div>
+                    </>
                 ) : (
-                    <div className="h-full flex flex-col items-center justify-center text-void-700 select-none">
-                        <Icon name="images" size={64} className="mb-4 opacity-20" />
-                        <p>暂无图片</p>
+                    <div className="flex-1 flex flex-col items-center justify-center text-slate-600">
+                        <Icon name="layers" size={64} className="mb-4 opacity-20" />
+                        <p>请在左侧上传图片开始处理</p>
                     </div>
                 )}
             </div>
@@ -184,6 +201,5 @@ const WatermarkTool = () => {
     );
 };
 
-// 挂载到全局
 window.Tools = window.Tools || {};
 window.Tools.WatermarkTool = WatermarkTool;
