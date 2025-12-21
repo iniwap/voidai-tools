@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VoidAI Tools - 墨智工坊工具箱</title>
 
-    <!-- [UPDATE] Favicon 设置 -->
+    <!-- 图标设置 -->
     <link rel="icon" href="assets/icons/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/icons/logo.png">
 
+    <!-- 全局样式 -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 核心依赖 (CDN) -->
     <!-- React Core -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -23,7 +27,8 @@
     <script src="./js/libs/jszip.min.js"></script>
     <script src="./js/libs/gif.js"></script>
 
-    <!-- Config -->
+
+    <!-- Tailwind 配置 -->
     <script>
         tailwind.config = {
             theme: {
@@ -43,51 +48,20 @@
             }
         }
     </script>
-    <style>
-        body {
-            background-color: #020617;
-            color: #f8fafc;
-            font-family: 'Segoe UI', system-ui, sans-serif;
-        }
-
-        .glass-card {
-            background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(148, 163, 184, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .glass-card:hover {
-            border-color: rgba(139, 92, 246, 0.5);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .checkerboard {
-            background-image: linear-gradient(45deg, #1e293b 25%, transparent 25%), linear-gradient(-45deg, #1e293b 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #1e293b 75%), linear-gradient(-45deg, transparent 75%, #1e293b 75%);
-            background-size: 20px 20px;
-            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-        }
-
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-    </style>
 </head>
 
-<body>
-    <div id="root"></div>
+<body class="bg-void-950 text-slate-200 font-sans h-screen flex flex-col overflow-hidden selection:bg-blue-500/30">
+    <!-- React 挂载点 -->
+    <div id="root" class="flex-1 flex flex-col h-full"></div>
 
-    <!-- 模块加载顺序 -->
+    <!-- 模块加载 (顺序很重要) -->
+    <!-- 1. 公共组件库 -->
     <script type="text/babel" src="js/components.js"></script>
+    <!-- 2. 业务工具模块 -->
     <script type="text/babel" src="js/tools/watermark.js"></script>
     <script type="text/babel" src="js/tools/memaker.js"></script>
     <script type="text/babel" src="js/tools/gallery.js"></script>
+    <!-- 3. 主程序入口 -->
     <script type="text/babel" src="js/app.js"></script>
 </body>
 
