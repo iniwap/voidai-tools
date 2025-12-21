@@ -1,7 +1,7 @@
 const { useState, useEffect, useRef, useCallback } = React;
 const { Icon, Button, useToast, SectionHeader } = window.SharedComponents;
 
-// === 核心算法  ===
+// === 核心算法 (源自您上传的 watermarkEngine.js + alphaMap.js + blendModes.js) ===
 const WatermarkCore = {
     masks: { 48: null, 96: null },
 
@@ -19,7 +19,7 @@ const WatermarkCore = {
         return ctx.getImageData(0, 0, c.width, c.height);
     },
 
-    // 算法核心：计算 Alpha Map
+    // 算法核心：计算 Alpha Map (alphaMap.js)
     calculateAlphaMap(maskData) {
         const { width, height, data } = maskData;
         const alphaMap = new Float32Array(width * height);
@@ -32,7 +32,7 @@ const WatermarkCore = {
         return alphaMap;
     },
 
-    // 算法核心：反向混合
+    // 算法核心：反向混合 (blendModes.js)
     removeWatermark(imageData, alphaMap, position) {
         const { x, y, width, height } = position;
         const threshold = 0.002;
@@ -138,23 +138,18 @@ const WatermarkTool = () => {
             <div className="w-80 flex flex-col flex-shrink-0 h-full">
                 <div className="glass-panel p-4 rounded-2xl flex flex-col h-full overflow-hidden">
                     <SectionHeader title="任务队列" icon="layers" />
-
-                    <div
-                        onClick={() => fileInputRef.current.click()}
-                        className="border-2 border-dashed border-slate-700 hover:border-indigo-500 bg-slate-800/30 hover:bg-slate-800/50 rounded-xl p-6 text-center cursor-pointer mb-4 transition-all group shrink-0"
-                    >
+                    <div onClick={() => fileInputRef.current.click()} className="border-2 border-dashed border-slate-700 hover:border-indigo-500 bg-slate-800/30 hover:bg-slate-800/50 rounded-xl p-6 text-center cursor-pointer mb-4 transition-all group shrink-0">
                         <input ref={fileInputRef} type="file" multiple accept="image/*" className="hidden" onChange={handleUpload} />
                         <Icon name="upload-cloud" size={28} className="mx-auto mb-2 text-slate-400 group-hover:text-indigo-400" />
                         <p className="text-xs font-bold text-slate-300">点击 / 拖拽上传</p>
                     </div>
-
                     <div className="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-2">
                         {files.map(f => (
                             <div key={f.id} onClick={() => setSelectedId(f.id)} className={`p-3 rounded-lg flex items-center gap-3 cursor-pointer border transition-all ${selectedId === f.id ? 'bg-indigo-600/10 border-indigo-500/50' : 'bg-transparent border-transparent hover:bg-slate-800/50'}`}>
                                 <img src={f.result || f.original} className="w-10 h-10 rounded object-cover bg-slate-900 border border-slate-700" />
                                 <div className="flex-1 min-w-0">
                                     <p className={`text-xs truncate font-medium ${selectedId === f.id ? 'text-white' : 'text-slate-400'}`}>{f.file.name}</p>
-                                    <p className="text-[10px] text-slate-600 mt-0.5">{f.status === 'done' ? '完成' : f.status === 'processing' ? '处理中...' : '等待'}</p>
+                                    <p className="text-[10px] text-slate-500 mt-0.5">{f.status === 'done' ? '完成' : f.status === 'processing' ? '处理中...' : '等待'}</p>
                                 </div>
                                 {f.status === 'done' && <Icon name="check" size={14} className="text-green-400" />}
                             </div>
@@ -170,24 +165,15 @@ const WatermarkTool = () => {
                         <h3 className="text-white font-bold flex items-center gap-2"><Icon name="image" className="text-indigo-400" /> 效果预览</h3>
                         {activeFile?.status === 'done' && (
                             <div className="flex gap-2">
-                                <Button
-                                    variant="secondary"
-                                    onMouseDown={() => setIsComparing(true)}
-                                    onMouseUp={() => setIsComparing(false)}
-                                    onMouseLeave={() => setIsComparing(false)}
-                                    icon="eye"
-                                >按住对比</Button>
-                                <a href={activeFile.result} download={`clean_${activeFile.file.name}`}><Button variant="primary" icon="download">下载结果</Button></a>
+                                <Button variant="secondary" icon="eye" onMouseDown={() => setIsComparing(true)} onMouseUp={() => setIsComparing(false)} onMouseLeave={() => setIsComparing(false)}>按住对比</Button>
+                                <a href={activeFile.result} download={`clean_${activeFile.file.name}`}><Button variant="primary" icon="download">保存</Button></a>
                             </div>
                         )}
                     </div>
                     <div className="flex-1 bg-slate-950/50 rounded-xl border border-slate-800 flex items-center justify-center relative overflow-hidden bg-checkerboard">
                         {activeFile ? (
                             <>
-                                <img
-                                    src={isComparing ? activeFile.original : (activeFile.result || activeFile.original)}
-                                    className="max-w-full max-h-full object-contain shadow-2xl transition-all duration-100"
-                                />
+                                <img src={isComparing ? activeFile.original : (activeFile.result || activeFile.original)} className="max-w-full max-h-full object-contain shadow-2xl transition-all duration-100" />
                                 {activeFile.status === 'done' && <div className="absolute top-4 left-4 bg-black/80 backdrop-blur text-white text-[10px] font-bold px-3 py-1 rounded-full border border-white/10">{isComparing ? '原图' : '去水印结果'}</div>}
                             </>
                         ) : <div className="text-slate-600 flex flex-col items-center"><Icon name="image" size={48} className="mb-4 opacity-20" /><p>请选择图片</p></div>}
