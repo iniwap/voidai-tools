@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoidAI Tools - 墨智工坊</title>
+    <title>VoidAI Tools - 墨智工坊工具箱</title>
 
-    <!-- Favicon -->
+    <!-- 图标设置 -->
     <link rel="icon" href="assets/icons/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/icons/logo.png">
 
-    <!-- Styles -->
-    <script src="./js/libs/tailwindcss.js"></script>
+    <!-- 全局样式 -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Libraries -->
     <!-- 核心依赖 (CDN) -->
     <!-- React Core -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -21,24 +20,29 @@
     <script src="./js/libs/babel.min.js"></script>
 
     <!-- Styling & Icons -->
+    <script src="./js/libs/tailwindcss.js"></script>
     <script src="./js/libs/lucide.min.js"></script>
 
     <!-- Core Libraries (必需) -->
     <script src="./js/libs/jszip.min.js"></script>
     <script src="./js/libs/gif.js"></script>
 
-    <!-- Tailwind Theme Config -->
+
+    <!-- Tailwind 配置 -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        void: { 950: '#020617', 900: '#0f172a', 800: '#1e293b' },
-                        brand: { pink: '#FFB7B2', blue: '#A2E1DB', purple: '#E2F0CB' }
+                        void: { 950: '#020617', 900: '#0f172a', 800: '#1e293b', 700: '#334155', 400: '#94a3b8' }
                     },
-                    fontFamily: {
-                        sans: ['"Segoe UI"', 'system-ui', 'sans-serif'],
-                        mono: ['"Fira Code"', 'monospace']
+                    animation: {
+                        'fade-in': 'fadeIn 0.3s ease-out',
+                        'slide-up': 'slideUp 0.4s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(10px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } }
                     }
                 }
             }
@@ -46,14 +50,18 @@
     </script>
 </head>
 
-<body class="bg-void-950 text-slate-200 h-screen flex flex-col overflow-hidden">
+<body class="bg-void-950 text-slate-200 font-sans h-screen flex flex-col overflow-hidden selection:bg-blue-500/30">
+    <!-- React 挂载点 -->
     <div id="root" class="flex-1 flex flex-col h-full"></div>
 
-    <!-- Scripts (Order Matters) -->
+    <!-- 模块加载 (顺序很重要) -->
+    <!-- 1. 公共组件库 -->
     <script type="text/babel" src="js/components.js"></script>
+    <!-- 2. 业务工具模块 -->
     <script type="text/babel" src="js/tools/watermark.js"></script>
     <script type="text/babel" src="js/tools/memaker.js"></script>
     <script type="text/babel" src="js/tools/gallery.js"></script>
+    <!-- 3. 主程序入口 -->
     <script type="text/babel" src="js/app.js"></script>
 </body>
 
