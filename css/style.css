@@ -1,102 +1,94 @@
 :root {
     --bg-void: #020617;
-    --bg-panel: rgba(15, 23, 42, 0.6);
-    --border-color: rgba(148, 163, 184, 0.1);
+    --bg-panel: rgba(15, 23, 42, 0.7);
+    --border-color: rgba(148, 163, 184, 0.08);
+    /* 更细腻的边框 */
     --accent-primary: #6366f1;
-    /* Indigo 500 */
-    --accent-secondary: #ec4899;
-    /* Pink 500 */
-    --text-main: #f1f5f9;
+    --text-main: #f8fafc;
     --text-muted: #94a3b8;
-    --header-height: 60px;
-    --footer-height: 48px;
 }
 
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     background-color: var(--bg-void);
     background-image:
-        radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 0%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
-    background-attachment: fixed;
+        radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.08), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(236, 72, 153, 0.08), transparent 25%);
     color: var(--text-main);
+    height: 100vh;
     overflow: hidden;
-    /* App-like feel */
 }
 
-/* 玻璃拟态卡片 - 高级质感 */
+/* 高级磨砂面板 */
 .glass-panel {
     background: var(--bg-panel);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--border-color);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.2);
 }
 
-.glass-panel:hover {
-    border-color: rgba(99, 102, 241, 0.3);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+/* 按钮基础 */
+.btn-base {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    user-select: none;
 }
 
-/* 棋盘格背景 (透明图片) */
-.bg-checkerboard {
-    background-color: #1e293b;
-    background-image:
-        linear-gradient(45deg, #334155 25%, transparent 25%),
-        linear-gradient(-45deg, #334155 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, #334155 75%),
-        linear-gradient(-45deg, transparent 75%, #334155 75%);
-    background-size: 16px 16px;
-    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+.btn-base:active {
+    transform: scale(0.98);
 }
 
-/* 自定义滚动条 */
-::-webkit-scrollbar {
+/* 滚动条美化 */
+.custom-scrollbar::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
 
-::-webkit-scrollbar-track {
+.custom-scrollbar::-webkit-scrollbar-track {
     background: transparent;
 }
 
-::-webkit-scrollbar-thumb {
-    background: rgba(148, 163, 184, 0.2);
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 3px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(148, 163, 184, 0.4);
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
-/* 实用工具类 */
-.text-gradient {
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #818cf8, #e879f9);
+/* 16:9 容器 */
+.aspect-16-9-container {
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    position: relative;
 }
 
-.center-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.aspect-16-9-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 /* 动画 */
-@keyframes slideUp {
+@keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(10px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
     }
 }
 
-.animate-enter {
-    animation: slideUp 0.4s ease-out forwards;
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
 }
