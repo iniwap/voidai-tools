@@ -1,14 +1,14 @@
-const { useState, useEffect, useRef } = React;
+const { useState, useEffect, useRef, createContext, useContext } = React;
 
-// 1. Icon 组件 (SVG 字符串注入模式 - 最稳健)
+// --- Icon 组件 (SVG 注入模式 - 修复显示问题) ---
 const Icon = ({ name, size = 18, className = "" }) => {
-    // 获取 SVG 源码字符串
-    const iconNode = window.lucide?.icons[name];
+    // 直接获取 SVG 定义，不依赖 DOM 扫描
+    const iconData = window.lucide?.icons[name];
 
-    if (!iconNode) return null;
+    if (!iconData) return <span className="w-4 h-4 bg-red-500/20 rounded inline-block"></span>;
 
-    // 生成 SVG 字符串
-    const svgString = iconNode.toSvg({
+    // 构建 SVG 字符串
+    const svgContent = iconData.toSvg({
         width: size,
         height: size,
         class: className,
@@ -19,42 +19,54 @@ const Icon = ({ name, size = 18, className = "" }) => {
         fill: "none"
     });
 
-    return <span dangerouslySetInnerHTML={{ __html: svgString }} style={{ display: 'inline-flex' }} />;
+    return <span dangerouslySetInnerHTML={{ __html: svgContent }} style={{ display: 'inline-flex', verticalAlign: 'middle' }} />;
 };
 
-// 2. Button 组件 (样式微调)
-const Button = ({ children, onClick, variant = 'primary', className = '', disabled = false, icon = null, onMouseDown, onMouseUp, onMouseLeave }) => {
-    const base = "h-10 px-4 rounded-lg text-sm cursor-pointer btn-base disabled:opacity-50 disabled:cursor-not-allowed";
-    const styles = {
-        primary: "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/20 border border-transparent",
-        secondary: "bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700",
-        ghost: "bg-transparent hover:bg-slate-800/50 text-slate-400 hover:text-white border border-transparent",
-        outline: "bg-transparent border border-slate-700 text-slate-300 hover:border-slate-500"
+// --- Toast 系统 ---
+const ToastContext = createContext();
+const ToastProvider = ({ children }) => {
+    const [toast, setToast] = useState(null);
+    const show = (msg, type = 'success') => {
+        setToast({ msg, type, id: Date.now() });
+        setTimeout(() => setToast(null), 3000);
     };
-
     return (
-        <button
-            onClick={onClick}
-            disabled={disabled}
-            onMouseDown={onMouseDown}
-            onMouseUp={onMouseUp}
-            onMouseLeave={onMouseLeave}
-            className={`${base} ${styles[variant]} ${className}`}
-        >
+        <ToastContext.Provider value={show}>
+            {children}
+            {toast && (
+                <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[100] flex items-center gap-2 px-4 py-2 bg-slate-800 text-white rounded-full shadow-xl border border-slate-700 animate-enter">
+                    <Icon name={toast.type === 'error' ? 'alert-circle' : 'check-circle'} size={16} className={toast.type === 'error' ? 'text-red-400' : 'text-green-400'} />
+                    <span className="text-sm font-medium">{toast.msg}</span>
+                </div>
+            )}
+        </ToastContext.Provider>
+    );
+};
+const useToast = () => useContext(ToastContext);
+
+// --- Button 组件 ---
+const Button = ({ children, onClick, variant = 'primary', className = '', disabled = false, icon = null, ...props }) => {
+    const base = "h-10 px-4 rounded-lg text-sm font-medium transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 select-none border";
+    const styles = {
+        primary: "bg-indigo-600 hover:bg-indigo-500 text-white border-transparent shadow-lg shadow-indigo-500/20",
+        secondary: "bg-slate-800 hover:bg-slate-700 text-slate-200 border-slate-700",
+        ghost: "bg-transparent hover:bg-slate-800/50 text-slate-400 hover:text-white border-transparent",
+        danger: "bg-red-500/10 text-red-400 border-red-500/20 hover:bg-red-500/20"
+    };
+    return (
+        <button onClick={onClick} disabled={disabled} className={`${base} ${styles[variant]} ${className}`} {...props}>
             {icon && <Icon name={icon} size={16} />}
             {children}
         </button>
     );
 };
 
-// 3. SectionHeader (模块标题)
-const SectionHeader = ({ title, icon, rightAction }) => (
-    <div className="flex items-center justify-between mb-4 pb-2 border-b border-white/5">
-        <h3 className="text-sm font-bold text-white flex items-center gap-2 uppercase tracking-wider">
-            <Icon name={icon} size={16} className="text-indigo-400" /> {title}
-        </h3>
-        {rightAction}
+// --- Section Header ---
+const SectionHeader = ({ title, icon }) => (
+    <div className="flex items-center gap-2 mb-4 pb-2 border-b border-white/5">
+        <span className="p-1 bg-slate-800 rounded text-indigo-400 flex"><Icon name={icon} size={16} /></span>
+        <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
     </div>
 );
 
-window.SharedComponents = { Icon, Button, SectionHeader };
+window.SharedComponents = { Icon, Button, ToastProvider, useToast, SectionHeader };
