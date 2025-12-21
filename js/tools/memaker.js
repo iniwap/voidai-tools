@@ -114,27 +114,41 @@ const MeMakerTool = () => {
             </div>
 
             <div className="flex-1 min-h-0 overflow-hidden flex flex-col">
+                {/* === Mode 1: Prompt === */}
                 {mode === 'prompt' && (
-                    <div className="flex-1 overflow-y-auto custom-scrollbar">
+                    <div className="flex-1 overflow-y-auto custom-scrollbar p-1">
                         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto h-full pb-10">
-                            {['static', 'anim'].map((k, i) => (
-                                <div key={k} className="glass-panel p-6 rounded-2xl flex flex-col h-full">
-                                    <div className="flex justify-between items-center mb-4">
-                                        <h3 className="font-bold text-white text-lg flex items-center gap-2">
-                                            <span className="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-sm font-bold">{i + 1}</span>
-                                            {k === 'static' ? '静态表情包' : '动图序列帧'} Prompt
-                                        </h3>
-                                        <Button variant="ghost" icon="copy" onClick={() => copyText(prompts[k])}>复制</Button>
-                                    </div>
-                                    <div className="flex-1 bg-slate-950 p-4 rounded-xl border border-slate-800 overflow-auto">
-                                        <pre className="text-sm text-slate-300 font-mono whitespace-pre-wrap leading-relaxed select-all">{prompts[k]}</pre>
-                                    </div>
+                            {/* Card 1 */}
+                            <div className="glass-panel p-6 rounded-2xl flex flex-col h-full">
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="font-bold text-white text-lg flex items-center gap-2">
+                                        <span className="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-sm font-bold">1</span>
+                                        静态表情包 Prompt
+                                    </h3>
+                                    <Button variant="ghost" icon="copy" onClick={() => copyText(prompts.static)}>复制</Button>
                                 </div>
-                            ))}
+                                <div className="flex-1 bg-slate-950 p-4 rounded-xl border border-slate-800 overflow-auto">
+                                    <pre className="text-sm text-slate-300 font-mono whitespace-pre-wrap leading-relaxed select-all h-full">{prompts.static}</pre>
+                                </div>
+                            </div>
+                            {/* Card 2 */}
+                            <div className="glass-panel p-6 rounded-2xl flex flex-col h-full">
+                                <div className="flex justify-between items-center mb-4">
+                                    <h3 className="font-bold text-white text-lg flex items-center gap-2">
+                                        <span className="w-8 h-8 rounded-lg bg-pink-500/20 text-pink-400 flex items-center justify-center text-sm font-bold">2</span>
+                                        动图序列帧 Prompt
+                                    </h3>
+                                    <Button variant="ghost" icon="copy" onClick={() => copyText(prompts.anim)}>复制</Button>
+                                </div>
+                                <div className="flex-1 bg-slate-950 p-4 rounded-xl border border-slate-800 overflow-auto">
+                                    <pre className="text-sm text-slate-300 font-mono whitespace-pre-wrap leading-relaxed select-all h-full">{prompts.anim}</pre>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 )}
 
+                {/* === Mode 2 & 3: 50/50 Split === */}
                 {mode !== 'prompt' && (
                     <div className="flex gap-6 h-full">
                         {/* Left: Settings */}

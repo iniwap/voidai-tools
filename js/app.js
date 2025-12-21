@@ -16,7 +16,7 @@ const App = () => {
                 <div className="max-w-6xl mx-auto w-full py-12 px-4 animate-enter overflow-y-auto custom-scrollbar h-full">
                     <div className="text-center mb-12 mt-10">
                         <h1 className="text-5xl font-extrabold text-white mb-4 tracking-tight">
-                            Void<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">AI</span>
+                            Void<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">AI</span> Tools
                         </h1>
                         <p className="text-slate-400">墨智工坊打造的一站式 AI 生产力工具集</p>
                     </div>
@@ -44,18 +44,19 @@ const App = () => {
             <div className="flex flex-col h-full bg-void-950 text-slate-200">
                 <header className="h-[60px] border-b border-slate-800 bg-slate-950/80 backdrop-blur-md flex items-center px-6 justify-between shrink-0 z-50">
                     <div className="flex items-center gap-3 cursor-pointer" onClick={() => setView('home')}>
-                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center text-white font-bold overflow-hidden shadow-lg">
-                            <img src="assets/icons/logo.png" className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'block' }} />
-                            <span className="hidden">V</span>
-                        </div>
-                        <span className="font-bold text-lg text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400">VoidAI</span>
+                        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center text-white font-bold text-lg shadow-lg">V</div>
+                        <span className="font-bold text-lg tracking-tight">VoidAI</span>
                     </div>
                     {view !== 'home' && <button onClick={() => setView('home')} className="text-xs bg-slate-800 px-3 py-1.5 rounded-lg hover:text-white transition">首页</button>}
                 </header>
                 <main className="flex-1 min-h-0 relative z-0 flex flex-col">{renderContent()}</main>
                 <footer className="h-[40px] border-t border-slate-800 bg-slate-950 flex items-center justify-center px-6 shrink-0 z-50 text-[10px] text-slate-600 uppercase tracking-widest gap-4">
                     <span>&copy; 2025 墨智工坊</span>
-                    <a href="https://aiforge.taobao.com/" target="_blank" className="hover:text-indigo-400 transition-colors">淘宝店铺</a>
+                    <span className="text-slate-800">|</span>
+                    <a href="https://aiforge.taobao.com/" target="_blank" className="hover:text-indigo-400 transition-colors flex items-center gap-1">
+                        <Icon name="shopping-bag" size={10} /> 淘宝店铺
+                    </a>
+                    <span className="text-slate-800">|</span>
                     <span className="flex items-center gap-1"><Icon name="message-circle" size={10} className="text-green-500" /> AI夜航员</span>
                 </footer>
             </div>

@@ -10,7 +10,10 @@ const GalleryTool = () => {
     const toast = useToast();
 
     useEffect(() => {
-        fetch('assets/gallery/data.json').then(r => r.json()).then(setItems).catch(() => setItems([]));
+        fetch('assets/gallery/data.json')
+            .then(r => r.json())
+            .then(setItems)
+            .catch(() => setItems([]));
     }, []);
 
     const allTags = useMemo(() => ['全部', ...new Set(items.flatMap(i => i.tags || []))], [items]);
@@ -39,7 +42,7 @@ const GalleryTool = () => {
                     {visible.map(item => (
                         <div key={item.id} onClick={() => setSelectedItem(item)} className="break-inside-avoid glass-panel rounded-xl overflow-hidden hover:border-indigo-500/50 cursor-zoom-in group relative mb-4 transition-all">
                             <div className="relative">
-                                <img src={getImageUrl(item.image)} className="w-full h-auto object-cover block" loading="lazy" />
+                                <img src={getImageUrl(item.image)} className="w-full h-auto object-cover block" loading="lazy" onError={(e) => e.target.src = 'https://placehold.co/400?text=Error'} />
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3">
                                     <button onClick={(e) => copyText(e, item.prompt)} className="self-end p-2 bg-white text-black rounded-full hover:scale-110 transition shadow-lg"><Icon name="copy" size={14} /></button>
                                 </div>
