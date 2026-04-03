@@ -3,6 +3,11 @@ const { Icon, Button, useToast, SectionHeader } = window.SharedComponents;
 
 const GalleryTool = () => {
     const [items, setItems] = useState([]);
+    const [parts, setParts] = useState([]);
+    const [loadedParts, setLoadedParts] = useState(0);
+    const [isLoadingPart, setIsLoadingPart] = useState(false);
+    const [isBootstrapping, setIsBootstrapping] = useState(true);
+    const [loadError, setLoadError] = useState('');
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedTag, setSelectedTag] = useState('全部');
     const [visibleCount, setVisibleCount] = useState(12);
@@ -10,7 +15,50 @@ const GalleryTool = () => {
     const toast = useToast();
 
     useEffect(() => {
-        fetch('assets/gallery/data.json').then(r => r.json()).then(setItems).catch(() => setItems([]));
+        let cancelled = false;
+
+        const bootstrap = async () => {
+            try {
+                const response = await fetch('assets/gallery/index.json');
+                const indexData = await response.json();
+                if (cancelled) {
+                    return;
+                }
+
+                const nextParts = indexData.parts || [];
+                setParts(nextParts);
+
+                if (nextParts.length > 0) {
+                    setIsLoadingPart(true);
+                    const firstResponse = await fetch(`assets/gallery/${nextParts[0].file}`);
+                    const firstPart = await firstResponse.json();
+                    if (cancelled) {
+                        return;
+                    }
+                    setItems(firstPart);
+                    setLoadedParts(1);
+                } else {
+                    setItems([]);
+                    setLoadedParts(0);
+                }
+            } catch (error) {
+                if (!cancelled) {
+                    setLoadError('加载图谱数据失败');
+                    setItems([]);
+                }
+            } finally {
+                if (!cancelled) {
+                    setIsBootstrapping(false);
+                    setIsLoadingPart(false);
+                }
+            }
+        };
+
+        bootstrap();
+
+        return () => {
+            cancelled = true;
+        };
     }, []);
 
     const allTags = useMemo(() => ['全部', ...new Set(items.flatMap(i => i.tags || []))], [items]);
@@ -18,6 +66,50 @@ const GalleryTool = () => {
     const visible = filtered.slice(0, visibleCount);
     const getImageUrl = (url) => url.startsWith('http') ? url : `assets/gallery/images/${String(url).replace(/^\/+/, '')}`;
     const copyText = (e, text) => { if (e) e.stopPropagation(); navigator.clipboard.writeText(text); toast("复制成功"); };
+    const hasMoreParts = loadedParts < parts.length;
+
+    const loadNextPart = async () => {
+        if (isLoadingPart || !hasMoreParts) {
+            return;
+        }
+
+        const nextPart = parts[loadedParts];
+        if (!nextPart) {
+            return;
+        }
+
+        setIsLoadingPart(true);
+        try {
+            const response = await fetch(`assets/gallery/${nextPart.file}`);
+            const payload = await response.json();
+            setItems(prev => [...prev, ...payload]);
+            setLoadedParts(prev => prev + 1);
+        } catch (error) {
+            setLoadError('加载更多数据失败');
+        } finally {
+            setIsLoadingPart(false);
+        }
+    };
+
+    const handleLoadMore = async () => {
+        if (visibleCount + 12 <= items.length) {
+            setVisibleCount(p => p + 12);
+            return;
+        }
+
+        if (hasMoreParts) {
+            await loadNextPart();
+        }
+
+        setVisibleCount(p => p + 12);
+    };
+
+    useEffect(() => {
+        if ((!searchTerm && selectedTag === '全部') || isBootstrapping || isLoadingPart || !hasMoreParts) {
+            return;
+        }
+        loadNextPart();
+    }, [searchTerm, selectedTag, loadedParts, hasMoreParts, isBootstrapping, isLoadingPart]);
 
     return (
         <div className="flex flex-col h-full animate-enter">
@@ -35,6 +127,11 @@ const GalleryTool = () => {
             </div>
 
             <div className="flex-1 overflow-y-auto custom-scrollbar -mr-2 pr-2">
+                {loadError && (
+                    <div className="glass-panel rounded-xl p-3 mb-4 text-sm text-rose-300 border border-rose-500/30">
+                        {loadError}
+                    </div>
+                )}
                 <div className="masonry-grid pb-20">
                     {visible.map(item => (
                         <div key={item.id} onClick={() => setSelectedItem(item)} className="break-inside-avoid glass-panel rounded-xl overflow-hidden hover:border-indigo-500/50 cursor-zoom-in group relative mb-4 transition-all">
@@ -51,7 +148,13 @@ const GalleryTool = () => {
                         </div>
                     ))}
                 </div>
-                {visible.length < filtered.length && <div className="text-center pb-8"><Button variant="secondary" onClick={() => setVisibleCount(p => p + 12)}>加载更多</Button></div>}
+                {(visible.length < filtered.length || hasMoreParts) && (
+                    <div className="text-center pb-8">
+                        <Button variant="secondary" onClick={handleLoadMore}>
+                            {isBootstrapping || isLoadingPart ? '加载中...' : '加载更多'}
+                        </Button>
+                    </div>
+                )}
             </div>
 
             {selectedItem && (

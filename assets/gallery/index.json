@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "total": 3514,
+  "part_size": 300,
+  "parts": [
+    {
+      "name": "part-0001",
+      "file": "parts/part-0001.json",
+      "count": 300,
+      "start": 0,
+      "end": 299
+    },
+    {
+      "name": "part-0002",
+      "file": "parts/part-0002.json",
+      "count": 300,
+      "start": 300,
+      "end": 599
+    },
+    {
+      "name": "part-0003",
+      "file": "parts/part-0003.json",
+      "count": 300,
+      "start": 600,
+      "end": 899
+    },
+    {
+      "name": "part-0004",
+      "file": "parts/part-0004.json",
+      "count": 300,
+      "start": 900,
+      "end": 1199
+    },
+    {
+      "name": "part-0005",
+      "file": "parts/part-0005.json",
+      "count": 300,
+      "start": 1200,
+      "end": 1499
+    },
+    {
+      "name": "part-0006",
+      "file": "parts/part-0006.json",
+      "count": 300,
+      "start": 1500,
+      "end": 1799
+    },
+    {
+      "name": "part-0007",
+      "file": "parts/part-0007.json",
+      "count": 300,
+      "start": 1800,
+      "end": 2099
+    },
+    {
+      "name": "part-0008",
+      "file": "parts/part-0008.json",
+      "count": 300,
+      "start": 2100,
+      "end": 2399
+    },
+    {
+      "name": "part-0009",
+      "file": "parts/part-0009.json",
+      "count": 300,
+      "start": 2400,
+      "end": 2699
+    },
+    {
+      "name": "part-0010",
+      "file": "parts/part-0010.json",
+      "count": 300,
+      "start": 2700,
+      "end": 2999
+    },
+    {
+      "name": "part-0011",
+      "file": "parts/part-0011.json",
+      "count": 300,
+      "start": 3000,
+      "end": 3299
+    },
+    {
+      "name": "part-0012",
+      "file": "parts/part-0012.json",
+      "count": 214,
+      "start": 3300,
+      "end": 3513
+    }
+  ]
+}
