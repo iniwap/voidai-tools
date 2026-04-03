@@ -16,7 +16,7 @@ const GalleryTool = () => {
     const allTags = useMemo(() => ['全部', ...new Set(items.flatMap(i => i.tags || []))], [items]);
     const filtered = items.filter(i => (i.prompt.toLowerCase().includes(searchTerm.toLowerCase())) && (selectedTag === '全部' || i.tags?.includes(selectedTag)));
     const visible = filtered.slice(0, visibleCount);
-    const getImageUrl = (url) => url.startsWith('http') ? url : `assets/gallery/images/${url}`;
+    const getImageUrl = (url) => url.startsWith('http') ? url : `assets/gallery/images/${String(url).replace(/^\/+/, '')}`;
     const copyText = (e, text) => { if (e) e.stopPropagation(); navigator.clipboard.writeText(text); toast("复制成功"); };
 
     return (
