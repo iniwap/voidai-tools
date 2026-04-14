@@ -1,5 +1,624 @@
 [
   {
+    "image": "0008/817.jpeg",
+    "prompt": "{\n  \"image_request\": {\n    \"subject\": {\n      \"demographics\": \"Young woman, fair skin with natural blush, freckle-free nose and cheeks.\",\n      \"hair\": \"Short ash-brown bob, center-parted layer, loose strands falling over face.\",\n      \"facial_features\": \"Light brown eyes, curly eyelashes, soft pouty pink lips (glossy/plump), septum piercing.\",\n      \"expression\": \"Playful, mischievous, cute, winking and sticking out tongue.\",\n      \"tattoos\": \"Preserve subject's original tattoos (visible on skin/face/hands).\"\n    },\n    \"apparel\": {\n      \"upper_body\": \"Black tank top, light blue, white, and black plaid flannel shirt (worn open or draped).\",\n      \"lower_body\": \"Denim miniskirt.\",\n      \"accessories\": \"Small black belt.\"\n    },\n    \"pose_and_action\": {\n      \"posture\": \"Sitting casually on a bar stool.\",\n      \"hands\": \"Left hand relaxed and down, holding a lit cigarette.\"\n    },\n    \"environment\": {\n      \"setting\": \"Dark outdoor/semi-outdoor bar, pub, or nightclub.\",\n      \"furniture\": \"Round tables with stone/metal texture, bar stools.\",\n      \"background_elements\": \"Faintly visible people sitting in the background, nighttime atmosphere.\"\n    },\n    \"props\": {\n      \"table_items\": [\n        \"Glass glasses filled with drinks\",\n        \"Glass pitcher\",\n        \"Cigarette pack (Gudang Garam Surya 16 styling)\"\n      ]\n    },\n    \"technical_specifications\": {\n      \"angle\": \"High Angle Shot (looking down at subject).\",\n      \"lighting\": \"Harsh direct flash, sharp shadows behind subject, skin appears bright/slightly overexposed.\",\n      \"style\": \"Casual snapshot, Y2k aesthetic, streetwear vibe, grunge, flash photography.\",\n      \"resolution\": \"1200x1200px\"\n    }\n  }\n}",
+    "tags": [
+      "时尚",
+      "场景",
+      "自然",
+      "摄影",
+      "像素"
+    ],
+    "id": 234
+  },
+  {
+    "image": "0008/816.jpeg",
+    "prompt": "Tokyo nightlife editorial. Full body shot, low angle looking up slightly. A cool, alluring young woman is resting her lower back against the hood of a modified pink sports car. She has long, wavy, multi-colored hair (pink/cyan/blonde), catching the city glow. Wearing a pink long-sleeve crochet crop top, heavy denim mini skirt, and a delicate gold waist chain. The car creates a foreground frame with its open door. The environment is a dense, vertical urban canyon with infinite neon billboards fading into the distance. Color palette: Cyberpunk pinks, deep purples, and midnight blues. Lighting is soft and diffuse on the face, with dramatic shadows. 85mm portrait photography, f/1.8, high fidelity, candid mood.",
+    "tags": [
+      "场景",
+      "自然",
+      "霓虹",
+      "摄影",
+      "肖像",
+      "科幻",
+      "载具"
+    ],
+    "id": 235
+  },
+  {
+    "image": "0008/815.jpeg",
+    "prompt": "A small, reddish-brown poodle with curly fur and expressive dark eyes is standing on a quiet street, looking into a puddle. In the water’s reflection, he sees a proud, majestic lion with a flowing mane. The reflection is realistically distorted by soft ripples in the puddle, giving the scene a dreamlike, metaphorical quality. The lighting is soft and natural, with a hint of golden hour. The image captures the contrast between Vin’s small size and his inner strength, courage, and determination. --ar 1:1",
+    "tags": [
+      "自然"
+    ],
+    "id": 236
+  },
+  {
+    "image": "0008/814.jpeg",
+    "prompt": "studio shot of [PRODUCT], placed on a [background], surrounded by soft shadows and gradient background, high-key lighting, shallow depth of field, ultra-sharp focus on the object, premium product photography, shot on a DSLR, minimal aesthetic, subtle reflections, commercial lighting setup",
+    "tags": [
+      "极简",
+      "摄影",
+      "产品"
+    ],
+    "id": 237
+  },
+  {
+    "image": "0008/813.jpeg",
+    "prompt": "{\n  \"image_generation_prompt\": {\n    \"subject_details\": {\n      \"description\": \"Young stylish woman with long straight brown hair\",\n      \"expression\": \"Subtle, confident smile\",\n      \"outfit\": {\n        \"top\": \"Soft pink T-shirt under an open black casual jacket\",\n        \"bottom\": \"Fitted dark jeans\",\n        \"shoes\": \"Polished black shoes\"\n      },\n      \"pose\": \"Standing on a street corner facing the camera, pointing with one hand toward a building behind her\"\n    },\n    \"background_scene\": {\n      \"setting\": \"Vibrant modern city at night\",\n      \"key_element\": \"Giant digital billboard on a tall glass building\",\n      \"billboard_content\": {\n        \"visual\": \"Portrait of the same woman in the same outfit, posed like a high-fashion magazine cover\",\n        \"text_headline\": \"VOUGHT STYLE\",\n        \"text_subheading\": \"Smaller indistinct magazine-style text\"\n      },\n      \"atmosphere\": [\n        \"Neon lights\",\n        \"Glowing billboards\",\n        \"Moving cars with motion blur\",\n        \"Wet pavement with reflections\"\n      ]\n    },\n    \"technical_specs\": {\n      \"style\": \"Cinematic, Photorealistic, Urban Night\",\n      \"camera\": \"35mm lens\",\n      \"depth_of_field\": \"Shallow with soft bokeh on city lights\",\n      \"lighting\": \"Mixed neon ambient, directional light from billboard, moody shadows\",\n      \"resolution\": \"8k, high definition\"\n    }\n  }\n}",
+    "tags": [
+      "建筑",
+      "时尚",
+      "场景",
+      "霓虹",
+      "摄影",
+      "肖像",
+      "载具"
+    ],
+    "id": 238
+  },
+  {
+    "image": "0008/812.jpeg",
+    "prompt": "A single, perfectly composed 4:3 cinematic photograph of Shibuya Crossing, Tokyo, shot right after a sudden summer shower.\nThe entire street is covered in a mirror-like sheet of rainwater that reflects everything above it like flawless glass.\nAbove the waterline: hyper-real 2026 Shibuya.\nTowering curved 8K transparent OLED billboards, naked-eye 3D holograms of J-pop idols floating mid-air, salarymen in translucent raincoats and AR monocles, girls in techwear with glowing umbrella drones, cyan-magenta neon bleeding into wet asphalt, thousands of umbrellas blooming in perfect chaos.\nBelow the waterline, perfectly reflected yet terrifyingly real: 1926 Shibuya.\nLow-rise wooden shops with sliding doors, hand-painted kanji signs for sake and kimono stores, rickshaws and early Model-T taxis, women in furisode kimono and braided hair carrying paper parasols, men in haori-hakama and geta sandals, soft gas lamps flickering, everything in warm sepia monochrome.\nAt the exact center where water meets reality, the boundary breaks:\nA 2026 girl in chrome puffer jacket kneels and touches the puddle; her reflection is a 1926 geisha reaching upward; their fingertips meet at the water surface and create perfect concentric ripples that turn into glowing pixels.\nA salaryman looks down and sees his own face aged 100 years staring back in horror.\nA 1926 paper parasol floats upward out of the water and becomes a transparent umbrella drone.\nDroplets fall upward from 1926 into 2026, becoming LED particles that explode into tiny holograms.\nEveryone, past and present, is frozen mid-step, staring into the mirror-realm in pure shock and wonder.\nPhotorealistic octane render, 8K, razor-sharp reflection detail, anamorphic lens, subtle volumetric god rays cutting through rain mist, perfect water physics, colour grade shifts from electric neon above to warm sepia below, maximum emotional intensity.\n--ar 4:3 --stylize 650 --v 6 --q 2",
+    "tags": [
+      "时尚",
+      "霓虹",
+      "纸艺",
+      "摄影",
+      "像素",
+      "载具"
+    ],
+    "id": 239
+  },
+  {
+    "image": "0008/811.jpeg",
+    "prompt": "任务： 海报设计、睡眠数据可视化艺术。 第一步： 分析 [上传的 Apple Watch 睡眠数据截图]，提取清醒、REM、核心、深睡四个阶段的时长比例\n\n画面描述： 画面主体是一个立体的、垂直长方体透明玻璃容器（类似精致的奖杯底座或地质采样管），放置在深邃的纯色背景中。 容器内部由四种不同颜色的微缩景观层层堆叠而成，每一层的垂直厚度必须根据[上传数据]的时长比例来生成（例如：如果核心睡眠时间最长，那么蓝色的层就应该最厚）。\n\n景观分层细节（从上到下）：\n顶层（极薄或根据清醒时长）：清醒层 (Wake - 橙色)\n表现为干燥的沙漠地表或噪点纹理，象征着意识的活跃与纷乱。\n第二层：快速眼动层 (REM - 浅蓝色)\n表现为漂浮着云朵、气泡或超现实物体的梦幻天空层。材质通透轻盈。\n第三层：核心睡眠层 (Core - 深蓝色)\n表现为柔软舒适的海洋球堆积层或层叠的羽绒材质，给人平稳安定的感觉。\n底层：深度睡眠层 (Deep - 紫罗兰色)\n表现为坚硬、厚重的水晶矿洞或发光的能量块堆叠。这是地基，越厚代表睡眠质量越好。\n\n主角（用户形象）： 在玻璃容器的最顶端边缘（瓶口处），坐着一个Q版 3D 小人。\n动作： 小人的双腿自然垂下，悠闲地坐在上面。\n状态： 如果睡眠分数高，小人头顶可以有一个充能满格的绿色电池图标，表情惬意；如果分数低，小人可以是垂头丧气的样子，或者抱着一杯咖啡。\n装备： 小人手腕上必须佩戴着一只微缩的智能手表。\n\n光影与渲染： 使用 C4D 或 Blender 风格的 3D 渲染。强调玻璃容器的折射率和各层材质的物理质感（沙子、云朵、海洋球、水晶）。背景为高级黑或深夜蓝，打光重点突出容器内部的通透感和底层的微光。\n\n底部排版： 简洁的数据展示。\n\n主标题：昨晚的睡眠地质层 (My Sleep Strata)\n\n核心数据：总睡眠时长 | 睡眠评分\n\n图例：用四个对应颜色的小圆点标注每一层的名称和具体时长。",
+    "tags": [
+      "3D",
+      "场景",
+      "自然",
+      "海报",
+      "字体排版"
+    ],
+    "id": 240
+  },
+  {
+    "image": "0008/810.jpeg",
+    "prompt": "A highly realistic, tightly framed scene showing the reflection of a fair-skinned woman with flawless skin on an iPad placed on the airplane’s foldable tray table in front of the subject, with a pair of sunglasses positioned in the foreground as an aesthetic element. Beige/grey cabin seats fill the area surrounding the iPad. On the iPad screen, the subject appears half-reclining on the airplane seat. Her left hand supports her head, fingers gently touching her temple in a relaxed gesture. Her right hand holds an iPhone 16 Pro Max to take the picture, with part of her face visible on the tablet screen. Her expression is soft, eyes slightly looking downward, giving a dreamy and calm feeling.\n\nShe is wearing an oversized beige hoodie made of thick, soft fabric, with the hoodie pulled over her head. Minimalist silver rings. French nail art. Her hair is long, straight with layered cuts and beautiful volume, parted in the middle with soft front bangs covering her forehead and framing her face, in dark brown with subtle highlights. Her skin is bright, fair, and flawless with soft Korean glam makeup. Pink blush on her cheeks. Glossy rosy pink lips. Thin eyeliner and curled lashes.\n\nThe environment visible behind the reflection is minimalistic yet lively: a premium/business class airplane cabin interior. A large airplane window shows soft blue light from the sky outside. The iPad camera UI—shutter button, small icons, and dock—are clearly visible on the screen.\n\nSoft-warm × pastel aesthetic tone. Edited in a “K-aesthetic soft glow” style. 9:16 portrait aspect ratio, HD, high quality. **Do NOT change the face.",
+    "tags": [
+      "美食",
+      "室内",
+      "场景",
+      "极简",
+      "肖像",
+      "界面设计"
+    ],
+    "id": 241
+  },
+  {
+    "image": "0008/809.jpeg",
+    "prompt": "基于主题 [前端工程师的进阶之路]，创作一张3D游戏关卡地图海报。\n\n画面结构： 一条蜿蜒曲折的 3D 道路从画面底部延伸至顶部云端，分为三个主要的“关卡阶段”：\n\n底部：新手村 (Level 1: Noob)\n模型： 简单的草地场景。放置基础工具。\n路标： 插着木牌，写着标题，下方用一段话介绍当前等级的标准。\n\n中部：试炼场 (Level 10: Pro)\n模型： 地形变得复杂（森林或岩石）。放置进阶装备。\n视觉： 道路变得陡峭，象征难度增加。\n路标： 插着木牌，写着标题，下方用一段话介绍当前等级的标准。\n\n顶部：神之殿 (Level 99: Master)\n模型： 漂浮在云端的辉煌神殿或高科技实验室。放置终极神器。\n视觉： 发着金光，有彩虹或宝箱。\n路标： 插着木牌，写着标题，下方用一段话介绍当前等级的标准。\n\n数据与排版：路径线： 虚线连接各个阶段，上面有小脚印。\n\n耗时/成本： 在每个阶段旁边，用游戏 UI 风格的浮窗显示“预计耗时”或“预计金币消耗”。\n\n风格与渲染： 任天堂 (Nintendo) 风格的的粘土风。色彩鲜艳饱和。",
+    "tags": [
+      "黏土",
+      "游戏",
+      "场景",
+      "海报",
+      "字体排版",
+      "界面设计"
+    ],
+    "id": 242
+  },
+  {
+    "image": "0008/808.jpeg",
+    "prompt": "This is a whimsical【 orange-and-green】 fantasy castle crafted from 【Fanta 】bottle labels. The scene includes playful dragons and soda-themed airships — humorous yet surprisingly detailed, radiating an unexpected sense of magic.1080×1080",
+    "tags": [
+      "奇幻",
+      "场景",
+      "载具"
+    ],
+    "id": 243
+  },
+  {
+    "image": "0008/807.jpeg",
+    "prompt": "{\n  \"meta_control\": {\n    \"generation_mode\": \"multi_panel_consistent\",\n    \"priority_stack\": [\"identity_lock\", \"perspective_physics\", \"material_fidelity\", \"environmental_coherence\"],\n    \"quality_target\": \"editorial_print_ready\"\n  },\n  \"intent\": {\n    \"primary\": \"High-fashion streetwear editorial with extreme wide-angle perspective study\",\n    \"secondary\": \"Technical demonstration of foreshortening and forced perspective\",\n    \"publication_context\": \"Double-page spread, fashion magazine collage layout\"\n  },\n  \"frame\": {\n    \"aspect_ratio\": \"3:4\",\n    \"layout\": {\n      \"type\": \"2x2 grid collage\",\n      \"gutter_width\": \"2px white or seamless\",\n      \"panel_uniformity\": \"identical dimensions per panel\"\n    }\n  },\n  \"subject\": {\n    \"type\": \"Human female fashion model\",\n    \"identity_lock\": {\n      \"enforcement_level\": \"strict\",\n      \"anchor_features\": [\"face_geometry\", \"skin_tone\", \"body_proportions\", \"hair_style\"]\n    },\n    \"biometrics\": {\n      \"age_presentation\": \"22-26\",\n      \"height_cm\": 175,\n      \"build\": \"Slender athletic, model proportions\",\n      \"ethnicity_presentation\": \"Northern European features\"\n    },\n    \"facial_signature\": {\n      \"structure\": \"Angular diamond face, high cheekbones, defined jawline\",\n      \"eyes\": \"Sharp almond, steel grey, graphic black winged liner extending 8mm\",\n      \"nose\": \"Refined, straight, small silver hoop piercing on left nostril\",\n      \"lips\": \"Natural shape, matte nude-pink\",\n      \"skin\": \"Fair, visible pores and natural texture, subtle peach fuzz, tiny freckle cluster left cheekbone\",\n      \"expression_default\": \"Cool confidence, intense direct eye contact, composed\"\n    },\n    \"hair\": {\n      \"style\": \"Platinum blonde straight bob, blunt bangs ending at eyebrows\",\n      \"texture\": \"Silky, light-catching, individual strand definition\",\n      \"behavior\": \"Natural movement responding to pose changes\"\n    },\n    \"wardrobe\": {\n      \"jacket\": {\n        \"item\": \"Oversized bomber jacket\",\n        \"material\": \"Ripstop nylon, high gloss\",\n        \"color\": \"Neon orange (vivid, saturated)\",\n        \"state\": \"Unzipped, hanging open\",\n        \"light_behavior\": \"Sharp specular highlights, visible weave texture\"\n      },\n      \"top\": {\n        \"item\": \"Crop top\",\n        \"material\": \"Black synthetic mesh, diamond pattern\",\n        \"fit\": \"Tight, stretched across torso\",\n        \"transparency\": \"Semi-sheer, skin visible through weave\"\n      },\n      \"pants\": {\n        \"item\": \"Tactical cargo pants\",\n        \"material\": \"Heavy cotton twill, matte\",\n        \"color\": \"Charcoal grey\",\n        \"details\": \"Multiple pockets, silver buckles, black nylon straps, baggy fit\"\n      },\n      \"footwear\": {\n        \"item\": \"Platform sneakers\",\n        \"color\": \"White, chunky sole\",\n        \"condition\": \"Clean but worn, realistic sole texture\"\n      }\n    },\n    \"accessories\": {\n      \"neck\": \"Layered heavy silver Cuban link chains, 3 chains varying thickness\",\n      \"hands\": \"Silver rings on index and middle fingers both hands\"\n    }\n  },\n  \"panels\": [\n    {\n      \"id\": 1,\n      \"position\": \"top-left\",\n      \"concept\": \"Extreme low-angle sneaker perspective\",\n      \"camera\": {\n        \"height_cm\": 10,\n        \"distance_cm\": 35,\n        \"angle\": \"Looking up at 75 degrees\"\n      },\n      \"composition\": {\n        \"foreground_dominant\": \"Right sneaker sole filling 40% of frame, laces in sharp focus\",\n        \"midground\": \"Legs receding upward\",\n        \"background\": \"Torso and face small in upper frame, looking down at camera\"\n      },\n      \"subject_pose\": \"Standing, weight back, right foot extended toward lens\",\n      \"expression\": \"Looking down, slight smirk\"\n    },\n    {\n      \"id\": 2,\n      \"position\": \"top-right\",\n      \"concept\": \"Bird's-eye reaching hand\",\n      \"camera\": {\n        \"height_cm\": 200,\n        \"distance_cm\": 60,\n        \"angle\": \"Looking straight down\"\n      },\n      \"composition\": {\n        \"foreground_dominant\": \"Hand reaching up, fingers spread, appearing oversized\",\n        \"midground\": \"Face looking up\",\n        \"background\": \"Body compressed, pavement visible around edges\"\n      },\n      \"subject_pose\": \"Deep squat, one arm reaching directly up to camera\",\n      \"expression\": \"Intense upward eye contact, serious\"\n    },\n    {\n      \"id\": 3,\n      \"position\": \"bottom-left\",\n      \"concept\": \"Fisheye face extreme close-up\",\n      \"camera\": {\n        \"height_cm\": 150,\n        \"distance_cm\": 20,\n        \"angle\": \"Dutch tilt 20 degrees\"\n      },\n      \"composition\": {\n        \"foreground_dominant\": \"Face filling 70% of frame, nose and eyes enlarged by proximity\",\n        \"background\": \"Environment warping and curving at edges, slight motion blur\"\n      },\n      \"subject_pose\": \"Leaning face toward camera, shoulders back\",\n      \"expression\": \"Piercing eye contact, one eyebrow slightly raised, confident\"\n    },\n    {\n      \"id\": 4,\n      \"position\": \"bottom-right\",\n      \"concept\": \"Seated knee-forward perspective\",\n      \"camera\": {\n        \"height_cm\": 40,\n        \"distance_cm\": 50,\n        \"angle\": \"Slight upward looking\"\n      },\n      \"composition\": {\n        \"foreground_dominant\": \"Knees and shins large in frame, cargo pant texture detailed\",\n        \"midground\": \"Torso leaning forward\",\n        \"background\": \"Face in upper third, hands resting on knees\"\n      },\n      \"subject_pose\": \"Seated on pavement, knees up, leaning toward camera\",\n      \"expression\": \"Relaxed confidence, soft direct gaze\"\n    }\n  ],\n  \"environment\": {\n    \"location_type\": \"Urban industrial alleyway\",\n    \"surfaces\": {\n      \"ground\": \"Weathered concrete pavement, cracks, texture, subtle debris\",\n      \"walls\": \"Concrete and brick, metallic rolling security doors, faded graffiti tags\"\n    },\n    \"atmosphere\": \"Gritty urban, authentic street context\",\n    \"consistency_rule\": \"Identical environment visible across all four panels\"\n  },\n  \"lighting\": {\n    \"source\": \"Natural afternoon sunlight\",\n    \"quality\": \"Hard directional light\",\n    \"direction\": \"High side-light, approximately 45 degrees from left\",\n    \"shadow_character\": \"Sharp-edged, deep shadows\",\n    \"color_temperature_kelvin\": 5500,\n    \"fill\": \"Minimal, ambient bounce from pavement only\",\n    \"specular_behavior\": \"Strong highlights on nylon jacket, chain jewelry, sneaker rubber\"\n  },\n  \"camera_global\": {\n    \"lens\": \"Ultra-wide rectilinear, 12-14mm equivalent\",\n    \"aperture\": \"f/8\",\n    \"depth_of_field\": \"Deep, foreground to background sharp\",\n    \"distortion\": \"Barrel distortion, edge stretching, exaggerated foreshortening\",\n    \"sensor\": \"Full-frame, high resolution\"\n  },\n  \"post_processing\": {\n    \"color_grade\": {\n      \"contrast\": \"High\",\n      \"saturation_subject\": \"Vivid, especially neon orange jacket\",\n      \"saturation_background\": \"Slightly desaturated, muted\",\n      \"blacks\": \"Deep, crushed slightly\",\n      \"highlights\": \"Preserved, not blown\"\n    },\n    \"texture\": \"8K resolution equivalent, visible skin texture, fabric weave, material detail\",\n    \"film_treatment\": \"Subtle RAW photo grain, not excessive\"\n  },\n  \"negative_constraints\": {\n    \"style_rejection\": [\"illustration\", \"anime\", \"cartoon\", \"painting\", \"drawing\", \"3d render\", \"CGI\", \"digital art\", \"AI art look\", \"smooth skin filter\", \"beauty filter\"],\n    \"anatomical_rejection\": [\"extra fingers\", \"missing fingers\", \"fused fingers\", \"extra limbs\", \"anatomical errors\", \"broken joints\", \"impossible body positions\"],\n    \"consistency_rejection\": [\"face change between panels\", \"different person\", \"clothing change\", \"hair color change\", \"inconsistent skin tone\", \"different lighting between panels\"],\n    \"technical_rejection\": [\"blur\", \"low resolution\", \"jpeg artifacts\", \"noise\", \"watermark\", \"text\", \"logo\", \"signature\"],\n    \"lens_rejection\": [\"telephoto compression\", \"portrait lens look\", \"85mm aesthetic\", \"no foreshortening\", \"flat perspective\"]\n  }\n}",
+    "tags": [
+      "3D",
+      "卡通",
+      "角色",
+      "时尚",
+      "美食",
+      "插画",
+      "场景",
+      "极简",
+      "自然",
+      "霓虹",
+      "摄影",
+      "肖像",
+      "产品",
+      "载具"
+    ],
+    "id": 244
+  },
+  {
+    "image": "0008/806.jpeg",
+    "prompt": "4K hyper-detailed fashion photograph featuring hyper-realistic rendering. \n\n **Crucial Character Consistency:** The character featured is precisely the same person shown in reference images , \n maintaining consistent facial features, hair style, and body structure across all shots.\n\n{\n  \"core_structure\": {\n    \"description\": \"一张超写实的电影感肖像，描绘了一位身着华丽唐代服装（齐胸襦裙）的年轻女子，手持红色刺绣团扇，在飘雪的黑色背景中回眸。\",\n    \"elements\": [\n      {\n        \"object\": \"人物主体\",\n        \"attributes\": [\"年轻东亚女性\", \"精致唐风妆容(花钿, 面靥)\", \"回眸姿态\", \"优雅\"]\n      },\n      {\n        \"object\": \"服饰 (唐风)\",\n        \"attributes\": [\"唐代齐胸襦裙 (Tang Dynasty Qixiong Ruqun)\", \"袒领/低胸抹胸 (Low-cut bodice)\", \"半透明大袖衫 (Sheer wide sleeves)\", \"飘逸的披帛 (Flowing Pibo ribbon)\", \"红色与金色主调\"]\n      },\n      {\n        \"object\": \"发型\",\n        \"attributes\": [\"唐代高髻 (High bun)\", \"牡丹花发饰\", \"金步摇\", \"华丽发梳\"]\n      },\n      {\n        \"object\": \"道具\",\n        \"attributes\": [\"红色刺绣团扇 (保持不变)\", \"精致流苏\"]\n      },\n      {\n        \"object\": \"环境\",\n        \"attributes\": [\"飘落的雪花 (Falling snow)\", \"黑色背景 (Dark background)\", \"微光氛围\"]\n      }\n    ]\n  },\n  \"style_definition\": {\n    \"primary_style\": \"photorealistic | cinematic | classical Chinese portrait\",\n    \"rendering_quality\": \"8k resolution | ultra-detailed | masterpiece\",\n    \"surface_textures\": [\"silk\", \"lace\", \"skin texture\", \"snow particles\"],\n    \"lighting\": \"rim lighting | soft facial spotlight | moody dark atmosphere\"\n  },\n  \"technical_specifications\": {\n    \"camera_settings\": {\n      \"depth_of_field\": \"shallow depth of field\",\n      \"focal_length\": \"85mm\",\n      \"aperture\": \"f/1.8\",\n      \"exposure\": \"low key with highlight on face\"\n    },\n    \"resolution\": \"professional quality\",\n    \"rendering\": [\"high contrast\", \"sharp focus\"],\n    \"physics_accuracy\": [\"natural fabric flow\", \"frozen snow motion\"]\n  },\n  \"material_properties\": {\n    \"skin_textures\": [\"pale\", \"soft\"],\n    \"fabric_details\": [\"embroidery\", \"sheer gauze (typical for Tang)\", \"layered silk\"],\n    \"surfaces\": [\"matte background\", \"reflective jewelry\"],\n    \"transparency\": [\"translucent outer sleeves\"]\n  },\n  \"environmental_factors\": {\n    \"atmosphere\": [\"cold but romantic\", \"quiet\", \"ethereal\"],\n    \"time_season\": [\"winter night\", \"snowing\"],\n    \"particles\": [\"white snowflakes\", \"cold breath\"]\n  },\n  \"composition_controls\": {\n    \"perspective\": \"eye-level\",\n    \"framing\": \"medium shot | looking back over shoulder\",\n    \"subject_placement\": \"center-right biased\"\n  },\n  \"quality_keywords\": {\n    \"include\": [\"Tang Dynasty fashion\", \"historical accuracy\", \"snowy night\", \"beautiful eyes\"],\n    \"avoid\": [\"high collar (Ming style)\", \"thick clothes\", \"modern makeup\"],\n    \"reference\": [\"Tang Dynasty paintings\", \"cinematic photography\"]\n  }\n}",
+    "tags": [
+      "角色",
+      "时尚",
+      "场景",
+      "自然",
+      "摄影",
+      "肖像"
+    ],
+    "id": 245
+  },
+  {
+    "image": "0008/805.jpeg",
+    "prompt": "A 3x3 grid collage layout featuring the same man in 9 different art styles. The central top image is the original photo (realistic). The other 8 panels show the exact same man (bald, mustache, white t-shirt) in the following distinct styles: 1. Studio Ghibli anime style, 2. Rough pencil sketch, 3. Cinematic movie still, 4. High-fashion editorial photography, 5. Semi-realistic digital painting, 6. Epic fantasy warrior portrait, 7. 3D vinyl toy pop figure, 8. Surreal Salvador Dali style. All images are close-up headshots matching the exact composition, angle, and facial expression of the source image. High contrast, 8k resolution, distinct visual separation between styles.",
+    "tags": [
+      "奇幻",
+      "时尚",
+      "摄影",
+      "肖像",
+      "玩具"
+    ],
+    "id": 246
+  },
+  {
+    "image": "0008/804.jpeg",
+    "prompt": "{\n  \"prompt\": \"A cinematic double-exposure portrait featuring a woman in profile on the left and a man in profile on the right, both turned away from each other. Their silhouettes, including detailed facial features and hair outlines, blend seamlessly into a dense forest landscape with an artistic, modern pattern. The woman's side glows with warm golden autumn hues, while the man's side is illuminated by cool, serene blue tones. Soft rays of sunlight filter through the trees, adding depth, contrast, and emotional atmosphere. Smooth, natural lighting transitions and a clean black backdrop. Modern, artistic, emotionally expressive poster aesthetic. Bold title text at the bottom: 'Ai Queen is Here…'.\",\n  \"style\": [\n    \"cinematic\",\n    \"double exposure\",\n    \"high-detail\",\n    \"artistic poster\",\n    \"emotional\"\n  ],\n  \"settings\": {\n    \"background\": \"clean black backdrop\",\n    \"lighting\": \"soft sun rays, warm vs cool contrast\",\n    \"composition\": \"woman profile left, man profile right, both facing outward\",\n    \"color_palette\": {\n      \"woman_side\": \"warm golden autumn tones\",\n      \"man_side\": \"cool serene blue tones\"\n    }\n  },\n  \"effects\": [\n    \"smooth transitions between silhouettes and forest landscape\",\n    \"high contrast artistic glow\",\n    \"poster-quality finish\"\n  ],\n  \"title_text\": \"Ai Queen is Here…\",\n  \"ratio\": \"3:4\"\n}",
+    "tags": [
+      "场景",
+      "自然",
+      "肖像",
+      "海报"
+    ],
+    "id": 247
+  },
+  {
+    "image": "0008/803.jpeg",
+    "prompt": "{\n  \"subject\": \"reference upload image - maintain exact consistency with uploaded image. Person sitting on bed ledge holding fanned stack of cash, looking upward with exaggerated expression, slightly tongue out\",\n  \"pose\": \"sitting on bed ledge, legs spread, holding fanned A stack of Japanese 10,000 yen bills in both hands at chest level, head tilted back looking upward\",\n  \"character\": {\n    \"face\": \"reference upload image\",\n    \"hair\": \"reference upload image\",\n    \"body_type\": \"reference upload image\",\n    \"skin_tone\": \"reference upload image\"\n  },\n  \"clothing\": \"reference upload image - maintain exact consistency with uploaded image\",\n  \"accessories\": {\n    \"jewelry\": \"reference upload image\",\n    \"props\": \"large stack of cash bills fanned out in hands, scattered A stack of Japanese 10,000 yen bills on surface, yellow designer bag visible in background\"\n  },\n  \"expression\": \"Mouth wide open with a melted, dazed, uncontrollable smile, Eyebrows drooping heavily downward, looking upward with exaggerated expression, mouth open, energetic and celebratory,\n  \"environment\": {\n    \"location\": \"reference upload image\",\n    \"setting\": \"reference upload image\",\n    \"background\": \"reference upload image\",\n    \"surface\": \"reference upload image\"\n  },\n  \"lighting\": {\n    \"type\": \"night photography with camera flash\",\n    \"source\": \"clean white room lights, camera flash\",\n    \"quality\": \"warm artificial lighting mixed with flash, creates contrast and highlights subject\"\n  },\n  \"camera\": {\n    \"angle\": \"low angle, shot from below looking up at subject\",\n    \"perspective\": \"close-up, environmental portrait\",\n    \"technique\": \"flash photography\"\n  },\n  \"style\": {\n    \"aesthetic\": \"luxury lifestyle photography\",\n    \"mood\": \"energetic, celebratory, aspirational\",\n    \"color_palette\": \"warm tones, contrast colors\"\n  },\n  \"consistency_note\": \"Use uploaded reference image for all character features including face, hair, body type, skin tone, facial structure, clothing, and accessories. Maintain strict visual consistency with reference image.\",\n  \"output\": {\n    \"aspect_ratio\": \"9:16\",\n    \"orientation\": \"vertical\"\n  }\n}",
+    "tags": [
+      "角色",
+      "时尚",
+      "室内",
+      "场景",
+      "摄影",
+      "肖像"
+    ],
+    "id": 248
+  },
+  {
+    "image": "0008/802.jpeg",
+    "prompt": "A [SUBJECT] is crouching on the beach, lifting a wave like a carpet to reveal a [OBJECT] lying underneath deep inside. The ocean is calm with a clear blue sky in the background. The scene creates a clever illusion, in a surreal manner, with the wave being lifted as if it is a tangible object",
+    "tags": [
+      "自然",
+      "载具"
+    ],
+    "id": 249
+  },
+  {
+    "image": "0008/801.jpeg",
+    "prompt": "A photo of an everyday scene at a busy cafe serving breakfast. In the foreground is an anime man with blue hair, one of the people is a pencil sketch, another is a claymation person",
+    "tags": [
+      "黏土",
+      "美食",
+      "场景",
+      "摄影",
+      "肖像"
+    ],
+    "id": 250
+  },
+  {
+    "image": "0008/800.jpeg",
+    "prompt": "A highly detailed tilt-shift photography of [LOCATION] captured from a high vantage point at [TIME OF DAY, e.g., golden hour sunset], transforming the iconic structure and surrounding landscape into a whimsical miniature toy model scene, with pinpoint sharp focus on the central elements like buildings, pathways, and key landmarks, gradually blurring into soft bokeh towards the edges and foreground/background for an exaggerated shallow depth of field effect; vibrant color palette featuring [COLOR SCHEME, e.g., warm oranges and deep blues], intricate textures on surfaces such as stone, foliage, or water reflections, subtle atmospheric haze or mist adding depth and realism, photorealistic rendering with high dynamic range lighting casting long dramatic shadows, ultra-high resolution 8K, cinematic composition emphasizing symmetry and leading lines, in the style of professional architectural miniature photography.",
+    "tags": [
+      "建筑",
+      "奇幻",
+      "场景",
+      "标志",
+      "摄影",
+      "玩具"
+    ],
+    "id": 251
+  },
+  {
+    "image": "0007/799.jpeg",
+    "prompt": "Create a captivating poetic visual composition based on this prompt, seamlessly integrating the four lines of the quatrain into a unified masterpiece. Each panel perfectly illustrates one line of the poem, with the corresponding verse and the poem’s title and author elegantly embedded within its respective scene using Chinese characters. Together, these panels form a harmonious and cohesive panoramic artwork. Rendered with rich detail, cinematic lighting, 8K resolution, and highly refined textures. --ar 4:3\n\nPoem Title: 登鹳雀楼",
+    "tags": [
+      "角色"
+    ],
+    "id": 252
+  },
+  {
+    "image": "0007/798.jpeg",
+    "prompt": "让指定角色看起来像是在经纬度 35.63323748316045, 139.88033890258112 处观光。设计一个类似摄影集的精美版面。充分利用 9:16 的比例，为这本日本杂志制作一个专题页面。这将是一个重要的阅读页面，会影响访问量，因此请尽可能多地包含信息。",
+    "tags": [
+      "角色",
+      "摄影"
+    ],
+    "id": 253
+  },
+  {
+    "image": "0007/797.jpeg",
+    "prompt": "{\n  \"prompt_id\": \"aor0093\",\n  \"description\": \"Ultra-realistic HDR cinematic photo using the uploaded face as the only reference, keeping the true facial identity — no transformation, no changes\",\n  \"scene\": {\n    \"location\": \"Attic bedroom\",\n    \"style\": \"Cute minimalist\",\n    \"colors\": [\"orange\", \"pink\", \"blue\", \"purple\", \"green\", \"yellow\", \"white\", \"gray\", \"black\", \"red\"],\n    \"features\": [\n      {\n        \"type\": \"window\",\n        \"color\": \"bright pink\"\n      },\n      {\n        \"type\": \"wallpaper\",\n        \"pattern\": \"vertical stripes\",\n        \"colors\": [\"purple\", \"pink\", \"blue\"],\n        \"style\": \"Dopa Mine Decor\",\n        \"theme\": \"colorful\"\n      }\n    ]\n  }\n}",
+    "tags": [
+      "室内",
+      "场景",
+      "极简",
+      "纸艺",
+      "摄影"
+    ],
+    "id": 254
+  },
+  {
+    "image": "0007/796.jpeg",
+    "prompt": "A cyber-grunge surveillance fashion editorial featuring a cool, edgy young woman in her early 20s with a short chin-length bob haircut, straight with slight texture and casual bangs, partially obscured by thick black sunglasses and holding an iced coffee/chocolate plastic cup with a straw in her left hand and a half-eaten sandwich/pastry in her right hand. She wears an oversized white t-shirt with rust-red raglan sleeves and a small chest logo, tucked loosely into black, baggy carpenter/cargo denim jeans with white stitching details, and burgundy loafers, accessorized with a gold pendant necklace. She is captured in a full body walking stride, relaxed posture, facing slightly off-center with a casual, indifferent expression, head turned slightly to the side, looking downward, frozen mid-stride in an urban paved plaza with grey concrete and tiled pavement under bright sunny late afternoon golden hour light, creating high contrast shadows and long diagonal shadows to the left. The image is in 8K Ultra-HD quality, hyperrealistic, with a 4:5 aspect ratio and 1440x1920 resolution, styled in raw photoreal high fidelity, full color with cool urban tones and vibrant red UI accents, high-contrast daylight. The composition includes a main full body shot with multiple zoom-in crops (face/drink, torso, pants leg) in a fragmented layout, overlaid with tactical CCTV UI elements like red bounding boxes, telemetry data, and digital HUD overlays, simulating high-end surveillance footage with a 'Big Brother' observation vibe, candid urban documentation, and crisp daylight realism mixed with digital graphic design elements. The background is a sharp focus concrete cityscape with harsh shadow lines, and the lighting is natural harsh sunlight from a high angle, creating deep black cast shadows against bright pavement, with digital grain and scanline imperfections. The color grading features neutral urban greys, white, rust-red, denim black, and striking bright crimson red UI elements, with post-processing including high sharpness and red vector graphics overlays such as numbers '19 5 3 21 18 9 20 25', text 'CCWW', 'TR521', timecode '18/02', and bounding boxes with hashtags '#83575//' and '#25747//'. The overall theme is urban surveillance, Y2K streetwear, tactical data visualization, candid fashion moment, and dystopian chic, with a mood of cool detached observation, urban nonchalance, chaotic data stream, and privacy-invasion chic, captured from a high-angle surveillance perspective with a 35mm to 50mm lens, deep focus, and a layout of one main image plus three inset detail crops connected by red tactical line art and crosshairs.",
+    "tags": [
+      "品牌",
+      "数据可视化",
+      "时尚",
+      "场景",
+      "自然",
+      "摄影",
+      "科幻",
+      "界面设计",
+      "载具"
+    ],
+    "id": 255
+  },
+  {
+    "image": "0007/794.jpeg",
+    "prompt": "{\n  \"image_request\": {\n    \"goal\": \"Create a mixed-media reality-bending mirror selfie / blending 2D anime characters into a 3D real-world photo / cozy autumn academia fashion meets otaku dream\",\n    \"meta\": {\n      \"image_type\": \"Mixed Media Composite / Anime in Real Life / Mirror Selfie / Fashion Snapshot\",\n      \"quality\": \"Best Quality, Photorealistic Center Subject, Sharp Anime Lines, Mixed Dimensionality\",\n      \"color_mode\": \"Full Color / Natural Indoor Tones / Warm Beige & Brown Palette\",\n      \"style_mode\": \"raw_photoreal blended with cel-shaded anime\",\n      \"aspect_ratio\": \"3:4\",\n      \"resolution\": \"1080x1920\"\n    },\n    \"creative_style\": \"A playful fusion of dimensions where 2D anime characters seamlessly occupy a real-world space. The photorealistic central figure wears a cozy 'Autumn Academia' outfit, contrasting with the flat, cel-shaded anime characters. The vibe is a casual, dream-like hangout caught in a mirror reflection.\",\n    \"overall_theme\": \"Anime meets reality / Autumn Academia Fashion / Mirror selfie with fictional characters\",\n    \"mood_vibe\": \"Cozy, stylish, playful, surreal, dimensional barrier breaking\",\n    \"style_keywords\": [\n      \"mixed media\",\n      \"mirror selfie\",\n      \"anime in real life\",\n      \"autumn academia\",\n      \"cable knit texture\",\n      \"cel-shaded\",\n      \"photorealistic fashion\",\n      \"hallway reflection\"\n    ],\n    \"subject\": {\n      \"count\": \"3 (1 human female, 2 anime males)\",\n      \"type\": \"human and anime characters\",\n      \"identity\": \"Center: Young woman (Photorealistic). Left: Spiky black-haired anime male (Megumi style). Right: White-haired anime male (Gojo style).\",\n      \"identity_preservation\": {\n        \"description\": \"Center subject is a photorealistic human wearing the specific autumn outfit. Side subjects retain distinct 2D anime art style.\",\n        \"notes\": \"Maintain clear stylistic distinction: Highly detailed texture on the cardigan/skirt vs. bold anime lines for the boys.\"\n      },\n      \"age_appearance\": \"Young adults\",\n      \"skin\": \"Human: Natural texture, soft lighting. Anime: Flat cel-shaded tones.\",\n      \"clothing\": {\n        \"top\": \"Human: White cotton poplin shirt worn under a loose, oversized beige wool cable-knit cardigan. Left Anime: Black long-sleeve shirt. Right Anime: White t-shirt.\",\n        \"bottom\": \"Human: Brown plaid/tartan flannel mini skirt and black knee-high socks. Left Anime: Grey pants. Right Anime: Black pants.\",\n        \"accessories\": \"Human: Smartphone (taking the photo). Right Anime: Sunglasses.\",\n        \"textures\": \"Emphasize the high-depth weave of the beige cardigan and the flannel texture of the skirt on the human subject.\"\n      },\n      \"facial_features\": {\n        \"expression\": \"Human: Obscured by phone or neutral/soft smile. Left Anime: Cool, stoic, arms crossed. Right Anime: Confident, smirk, adjusting glasses.\"\n      },\n      \"hair\": {\n        \"style\": \"Human: Natural styling suitable for an academic look. Left Anime: Spiky energetic black hair. Right Anime: White hair with bangs down.\"\n      }\n    },\n    \"pose_action\": {\n      \"overall_pose\": \"Casual group mirror selfie. Center subject stands straight taking the photo holding phone. Left subject leans casually against the mirror frame. Right subject stands tall.\",\n      \"body_position\": \"Standing, full body visible in mirror reflection to show the skirt and knee-high socks.\",\n      \"hands\": \"Center: Holding phone. Left: Arms crossed. Right: Touching sunglasses/face.\"\n    },\n    \"environment\": {\n      \"setting\": \"Indoor hallway or lobby with high ceilings and reflective surfaces (matches original scene to keep the context).\",\n      \"location\": \"Modern building interior with marble/tiled walls and glass elements.\",\n      \"lighting\": \"Natural daylight filtering in, highlighting the texture of the wool cardigan.\",\n      \"atmosphere\": \"Clean, bright, casual everyday hangout.\"\n    },\n    \"background\": {\n      \"color\": \"Beige, tan, brown (marble stripes) - compliments the beige/brown outfit.\",\n      \"effect\": \"Reflected in mirror, showing a tiled floor and a glass door leading to the outside.\"\n    },\n    \"lighting\": {\n      \"type\": \"Natural diffuse\",\n      \"source\": \"Windows/Doors behind the subjects (reflected)\",\n      \"quality\": \"Soft, even. Creates soft shadows on the cable-knit texture.\",\n      \"tone\": \"Warm neutral.\"\n    },\n    \"camera\": {\n      \"sensor_format\": \"Smartphone Camera\",\n      \"position_angle\": \"Eye-level mirror reflection\",\n      \"framing\": \"Vertical portrait shot capturing full bodies.\",\n      \"composition\": {\n        \"framing\": \"Mirror frame visible with geometric grid lines overlaying the reflection.\",\n        \"depth\": \"Deep depth of field.\"\n      }\n    },\n    \"post_processing\": {\n      \"final_touch\": \"Digital composite look. Ensure the lighting on the photorealistic cardigan matches the environment, while anime characters remain 2D.\"\n    },\n    \"negative\": {\n      \"style\": \"3D render of anime characters, messy drawing, bad anatomy, low resolution\",\n      \"content\": \"distorted faces, extra limbs, human subject looking like a drawing, anime characters looking too realistic\"\n    },\n    \"additional_controls\": {\n      \"special_notes\": \"Focus on the material contrast: Real wool and flannel vs. Anime flat colors.\",\n      \"vibe\": \"Fan edit, OOTD (Outfit of the Day).\"\n    }\n  }\n}",
+    "tags": [
+      "3D",
+      "建筑",
+      "卡通",
+      "角色",
+      "时尚",
+      "毛毡",
+      "室内",
+      "场景",
+      "自然",
+      "摄影",
+      "肖像",
+      "载具"
+    ],
+    "id": 257
+  },
+  {
+    "image": "0007/793.jpeg",
+    "prompt": "A horizontal split-screen cinematic shot of {Scene}, seamlessly blending two different eras: {Era_A} on the left and {Era_B} on the right (default: about 100 years ago vs. present day).\n\nOn the left side ({Era_A}): show era-appropriate architecture, interior or environment design, materials, vehicles, and props that clearly belong to that historical period. People wear authentic clothing from {Era_A}, including hairstyles, accessories, and typical items in their hands (such as books, umbrellas, instruments, letters, newspapers, etc.). The overall mood feels nostalgic and historically accurate.\n\nOn the right side ({Era_B}): show the same {Scene} in the modern era, with updated architecture or renovated structures, contemporary materials (glass, steel, LED screens, modern furniture), modern vehicles or equipment, and current technology (smartphones, laptops, cameras, etc.). People wear contemporary fashion that matches today’s style in this setting.\n\nIn the center: the two eras merge and overlap organically, without a hard dividing line. Elements from {Era_A} and {Era_B} visually interact: people from different times look at each other, walk through each other’s space, or seem surprised by the other era’s technology and objects. Architecture and environment smoothly morph from old to new (for example, stone gates turning into modern campus gates, classical concert hall décor fading into a futuristic stage, old street shops transforming into neon-lit storefronts).\n\nMake sure the scene is not just a simple left/right comparison but a dynamic time-travel interaction where buildings, clothing, props, and human gestures clearly emphasize the contrast and fusion between the two eras. Photorealistic, 8k resolution, cinematic lighting, wide angle, highly detailed textures, rich sense of time-travel storytelling.\n\n---\nSCENE: Times Square, New York\nEra Comparison: 1920s and present day\nAspect Ratio: 4:3",
+    "tags": [
+      "建筑",
+      "时尚",
+      "未来感",
+      "室内",
+      "场景",
+      "霓虹",
+      "纸艺",
+      "摄影",
+      "肖像",
+      "载具"
+    ],
+    "id": 258
+  },
+  {
+    "image": "0007/792.jpeg",
+    "prompt": "Role & Subject: A massive, encyclopedic 16:9 3D infographic poster titled \"THE EVOLUTION OF STARK INDUSTRIES IRON MAN SUITS\". The visual style is a high-end fusion of museum-grade product photography and complex technical engineering blueprints.\n\nThe Hero Lineup (Chronological Core): A complete, linear chronological lineup of 10 historical versions of Iron Man Armors, ranging from the crude, bulky Mark I prototype forged in a cave to the sleek, bleeding-edge Mark LXXXV nanotechnology model. They are arranged with precision on a glowing holographic measurement scale/ruler base running horizontally across the center. Rendering: Hyper-realistic 3D, 8k resolution. Emphasis on the evolution of textures: showing the aging of early crude welded scrap metal, heavy iron, and exposed wiring of the Mk I vs. the pristine, highly-polished hot-rod red and gold plating, and fluid nanotech finish of modern versions like the Mk 50 and Mk 85.\n\nBrand Atmosphere (The Canvas): Background: A deep, rich Hot Rod Red and metallic Gold textured background, resembling an armored plating surface. It is heavily layered with low-opacity watermarks of vintage Stark Industries patent drawings, handwritten engineering notes by Tony Stark (with coffee stains), and newspaper clippings related to the Avengers' history. Header: A prominent, high-contrast STARK INDUSTRIES logo displayed at the top center, with a bold typography title.\n\nThe \"Hyper-Dense\" Information Layer (The PUNCH Style): The layout is overwhelmed with organized information (creating a \"Data aesthetics\" look):\n\nDense Annotation Network: Hundreds of fine white and cyan hairlines connecting specific components (e.g., Arc Reactors, Repulsor Transmitters in palms, Articulated Helmet Faceplates, Micro-missile Compartments, Flight Stabilizers) to compact text blocks, energy output charts, and data tables floating in the volumetric space.\n\nContextual Zones: \"Era Modules\" floating above the suits, representing different phases (e.g., \"AFGHANISTAN ESCAPE,\" \"THE AVENGERS INITIATIVE,\" \"ULTRON OFFENSIVE,\" \"INFINITY WAR NANO-TECH\") with iconographic markers.\n\nMagnifying Inserts: Circular \"Zoom-in\" lenses scattered in empty spaces, showing extreme macro close-ups of texture details like the crude welding on Mark I, the mechanical joint articulation of Mark III, and the fluid nano-particle assembly of Mark LXXXV.\n\nTech Specs Strip: A structured data bar at the very bottom listing precise specifications (Model Number, Weight in tons/kg, Power Source Type, Year of Creation, Primary Material Code).\n\nTechnical Specs: Octane render, Unreal Engine 5 aesthetic, editorial layout, information design masterpiece, cinematic volumetric lighting, sharp focus, professional color grading, blockbuster movie poster vibe. --ar 16:9 --v 6.0 --stylize 350",
+    "tags": [
+      "品牌",
+      "角色",
+      "数据可视化",
+      "信息图",
+      "标志",
+      "纸艺",
+      "摄影",
+      "海报",
+      "产品",
+      "复古",
+      "字体排版"
+    ],
+    "id": 259
+  },
+  {
+    "image": "0007/791.jpeg",
+    "prompt": "需要上传2张照片：1、上传人物照片 2、上传想要在手机上显示的图像，再输入以下提示词\n{\n  \"edit_type\": \"extreme_wide_angle_phone_edit\",\n\n  \"source\": {\n    \"_hint\": \"元画像の人物・服・雰囲気を編集するベース。新キャラ禁止。\",\n    \"mode\": \"EDIT\",\n    \"reference_images\": {\n      \"first\": \"base_photo_person_and_environment\",\n      \"second\": \"screen_content_for_phone\"\n    },\n    \"preserve_from_first\": {\n      \"_hint\": \"顔・髪型・服装は必ず同一人物として扱うための固定。\",\n      \"same_person_or_group\": true,\n      \"same_faces\": true,\n      \"same_hairstyles\": true,\n      \"same_outfits\": true,\n      \"same_environment_style\": true\n    }\n  },\n\n  \"identity\": {\n    \"_hint\": \"表情の統一化。人物のアイデンティティを崩さず保持。\",\n    \"keep_identity_consistent\": true,\n    \"all_people_clearly_recognizable_as_original\": true,\n    \"expression\": \"bright_natural_smile\"\n  },\n\n  \"camera_effect\": {\n    \"_hint\": \"スマホを近づけたときの誇張パースを美しく安定化。\",\n    \"perspective\": \"extreme_wide_angle\",\n    \"style\": \"dynamic_photorealistic\",\n    \"near_objects_appear_large\": true,\n    \"far_objects_recede_dramatically\": true,\n    \"allow_view_from_above_or_below\": true\n  },\n\n  \"pose\": {\n    \"_hint\": \"元画像と同じポーズ禁止。手の動きを強調して破綻防止。\",\n    \"pose_can_change\": true,\n    \"must_be_completely_different_from_reference\": true,\n    \"do_not_replicate_or_approximate_original_pose\": true,\n    \"style_tags\": [\n      \"stylish\",\n      \"complex\",\n      \"fluid\",\n      \"powerful\"\n    ],\n    \"focus_on_expressive_hands\": true,\n    \"avoid_arm_distortion\": true,\n    \"allow_multiple_body_parts_near_lens\": true\n  },\n\n  \"phone\": {\n    \"_hint\": \"スマホ専用領域。持ち方・向き・手元の自然さを定義。\",\n    \"allowed\": true,\n    \"holding_styles\": [\n      \"one_handed\",\n      \"two_handed\",\n      \"low_angle\",\n      \"high_angle\",\n      \"tilted\",\n      \"sideways\",\n      \"near_chest\",\n      \"near_hip\",\n      \"casual_carry\",\n      \"partially_toward_lens\"\n    ],\n    \"rules\": {\n      \"_hint\": \"“レンズに向ける強制”を避け、自然な持ち方で画面が見える構図へ。\",\n      \"each_person_may_hold_one_phone\": true,\n      \"priority_is_natural_and_relaxed_body_structure\": true,\n      \"do_not_force_phone_directly_toward_camera\": true,\n      \"screen_should_be_naturally_visible_when_possible\": true\n    }\n  },\n\n  \"screen_replacement\": {\n    \"_hint\": \"差し替えスクリーン。UIなし・歪みなし・自然な貼り込み。\",\n    \"target\": \"visible_phone_screen\",\n    \"use_second_reference_image_as_content\": true,\n    \"overlay_cleanly_on_visible_screen_area\": true,\n    \"fit_without_distortion\": true,\n    \"respect_screen_shape\": true,\n    \"no_additional_cropping\": true,\n    \"ui_constraints\": {\n      \"_hint\": \"SNSバーやアプリ枠の発生を完全禁止。\",\n      \"no_ui\": true,\n      \"no_icons\": true,\n      \"no_status_bar\": true,\n      \"no_app_frame\": true,\n      \"show_only_content_from_second_reference\": true\n    }\n  },\n\n  \"environment\": {\n    \"_hint\": \"元写真の空気感を保つが、季節や天気には依存しない汎用設計。\",\n    \"preserve_environment_style_from_reference\": true,\n    \"lighting_consistent_with_reference\": true,\n    \"expand_space_for_wide_angle_view\": true,\n    \"keep_texture_and_color_tone_consistent\": true\n  },\n\n  \"composition\": {\n    \"_hint\": \"スマホ近接によるダイナミック構図の安定化。\",\n    \"dynamic_but_readable\": true,\n    \"extreme_depth_emphasis\": true,\n    \"allow_phone_close_to_lens\": true,\n    \"keep_all_people_visually_balanced\": true\n  },\n\n  \"constraints\": {\n    \"_hint\": \"意図せぬ変化を禁止する保護設定。\",\n    \"no_new_characters\": true,\n    \"no_change_in_age_or_gender_presentation\": true,\n    \"no_costume_change\": true,\n    \"no_change_to_reference_location_type\": true,\n    \"respect_original_photographic_style\": true\n  }\n}",
+    "tags": [
+      "角色",
+      "时尚",
+      "场景",
+      "自然",
+      "摄影",
+      "肖像",
+      "界面设计",
+      "载具"
+    ],
+    "id": 260
+  },
+  {
+    "image": "0007/790.jpeg",
+    "prompt": "Role & Subject: A massive, encyclopedic 16:9 3D infographic poster titled \"THE EVOLUTION OF [Product Name]\". The visual style is a high-end fusion of museum-grade product photography and complex technical engineering blueprints.\n\nThe Hero Lineup (Chronological Core): A complete, linear chronological lineup of 8-12 historical versions of [Product Name], ranging from the very first prototype to the latest futuristic model. They are arranged with precision on a measurement scale/ruler base running horizontally across the center. Rendering: Hyper-realistic 3D, 8k resolution. Emphasis on the evolution of textures: showing the aging of early [Material Vibe] vs. the pristine, high-tech finish of modern versions.\n\nBrand Atmosphere (The Canvas): Background: A deep, rich [Brand Color] textured background. It is heavily layered with low-opacity watermarks of vintage patent drawings, handwritten engineering notes, and newspaper clippings related to the brand's history. Header: A prominent, high-contrast brand logo displayed at the top center, with a bold typography title.\n\nThe \"Hyper-Dense\" Information Layer (The PUNCH Style): The layout is overwhelmed with organized information (creating a \"Data aesthetics\" look):\n\nDense Annotation Network: Hundreds of fine white hairlines connecting specific [Key Components] (e.g., curves, buttons, engines) to compact text blocks and data tables floating in the space.\n\nContextual Zones: \"Era Modules\" floating above the products, representing different historical decades with iconographic markers.\n\nMagnifying Inserts: Circular \"Zoom-in\" lenses scattered in empty spaces, showing extreme macro close-ups of texture details and internal mechanisms.\n\nTech Specs Strip: A structured data bar at the very bottom listing precise specifications (weight, dimensions, year, material code).\n\nTechnical Specs: Octane render, Unreal Engine 5 aesthetic, editorial layout, information design masterpiece, volumetric lighting, sharp focus, professional color grading. --ar 16:9 --v 6.0 --stylize 300 「以泡泡玛特发展史为例」",
+    "tags": [
+      "品牌",
+      "角色",
+      "数据可视化",
+      "未来感",
+      "信息图",
+      "纸艺",
+      "摄影",
+      "海报",
+      "产品",
+      "复古",
+      "字体排版"
+    ],
+    "id": 261
+  },
+  {
+    "image": "0007/789.jpeg",
+    "prompt": "{\n  \"image_prompt\": {\n    \"face_preservation\": {\n      \"use_reference_face\": true,\n      \"accuracy\": \"match face exactly from reference image\",\n      \"preserve_details\": [\n        \"face shape\",\n        \"eyebrows and eye structure\",\n        \"natural makeup style\",\n        \"lip shape and color\",\n        \"hairline and hairstyle\"\n      ]\n    },\n\n    \"subject\": {\n      \"gender\": \"female\",\n      \"description\": \"young woman taking a mirror selfie while squatting gracefully indoors\",\n      \"pose\": {\n        \"body_position\": \"squatting low with one knee forward, leaning slightly toward mirror\",\n        \"head\": \"tilted slightly downward while looking at phone screen\",\n        \"hands\": [\n          \"right hand holding phone in front of face\",\n          \"left hand resting on knee\"\n        ],\n        \"expression\": \"soft, calm expression\"\n      },\n      \"hair\": {\n        \"style\": \"long dark brown hair in a half-up ponytail with a small clip\",\n        \"texture\": \"smooth and straight\"\n      },\n      \"attire\": {\n        \"dress\": {\n          \"type\": \"light-colored floral maxi dress with short sleeves\",\n          \"pattern\": \"red and pink small floral print\",\n          \"details\": \"slit exposing leg, soft fabric flow\"\n        },\n        \"shoes\": \"white strappy heels\",\n        \"accessories\": [\n          \"silver necklace\",\n          \"bracelet\",\n          \"rings\"\n        ]\n      }\n    },\n\n    \"environment\": {\n      \"setting\": \"indoor room with soft lighting\",\n      \"background\": \"floor-to-ceiling curtains in dark grey tones\",\n      \"floor\": \"smooth, reflective surface\",\n      \"lighting\": {\n        \"type\": \"soft warm indoor light\",\n        \"effect\": \"even illumination on face and dress\"\n      }\n    },\n\n    \"props\": {\n      \"phone\": {\n        \"type\": \"smartphone\",\n        \"case\": \"glitter silver phone case\",\n        \"position\": \"held vertically towards the mirror\"\n      }\n    },\n\n    \"style\": {\n      \"photography\": \"mirror selfie, social media aesthetic\",\n      \"color_grade\": \"soft warm tones\",\n      \"sharpness\": \"medium-high clarity\",\n      \"mood\": \"feminine, elegant, gentle\"\n    },\n\n    \"composition\": {\n      \"framing\": \"full body squatting pose, centered\",\n      \"angle\": \"eye-level mirror perspective\",\n      \"focus\": \"sharp focus on face and outfit\",\n      \"aspect_ratio\": \"4:5\"\n    },\n\n    \"output\": {\n      \"resolution\": \"8K high quality\",\n      \"negative_prompt\": [\n        \"incorrect face\",\n        \"wrong hairstyle\",\n        \"extra limbs\",\n        \"different dress pattern\",\n        \"distorted proportions\",\n        \"text or watermark\"\n      ]\n    }\n  }\n}",
+    "tags": [
+      "时尚",
+      "室内",
+      "场景",
+      "自然",
+      "摄影"
+    ],
+    "id": 262
+  },
+  {
+    "image": "0007/788.jpeg",
+    "prompt": "Hyper-realistic digital illustration of {Scene}, presented as a single continuous composition showcasing the cycle of seasons. The scene flows seamlessly from left to right in a natural progression: Winter, Spring, Summer, and Autumn. \n\nThe left side features cold snowy winter elements, gradually thawing into the fresh green buds and blooms of spring, then morphing into the lush vibrant vegetation and bright sunlight of summer, and finally transitioning into the golden, orange, and red hues of autumn on the far right. \n\nThere are no visible dividing lines between seasons; the weather, lighting, and vegetation blend smoothly to create a unified and harmonious panorama. Rich in detail, symbolic of the passage of time, cinematic lighting, 8k resolution, highly detailed textures. --ar 4:3",
+    "tags": [
+      "插画",
+      "场景",
+      "自然"
+    ],
+    "id": 263
+  },
+  {
+    "image": "0007/787.jpeg",
+    "prompt": "[The Composition: Dynamic Diagonal Slicing]\n\nHyper-realistic digital art, 8k resolution, a wide cinematic panorama of **{City_Name}** featuring **{Landmark}**.\nThe composition utilizes a \"**Dynamic Diagonal Phase Shift**\" technique. The scene is visually divided into four distinct slanted zones (diagonal cuts flowing from top-right to bottom-left) representing the four seasons. The architecture and landscape maintain perfect structural continuity across these diagonal slices, creating a surreal but cohesive masterpiece.\n\n**[Textual Layout: Clean & Non-Redundant]**\n* **Layer A (Background Watermark - Season Identity):** Behind the main architecture in each diagonal zone, place a large, translucent, artistic calligraphy watermark acting as a graphic element.\n    * Zone 1: \"**{Calligraphy_Winter}**\"\n    * Zone 2: \"**{Calligraphy_Spring}**\"\n    * Zone 3: \"**{Calligraphy_Summer}**\"\n    * Zone 4: \"**{Calligraphy_Autumn}**\"\n* **Layer B (Bottom Edge - Cultural Narrative):** At the very bottom, place strictly the poetic quotes (small, elegant sans-serif font). **DO NOT** repeat the season names here. Just the sentence.\n    * Zone 1 Bottom: \"**{Quote_Winter}**\"\n    * Zone 2 Bottom: \"**{Quote_Spring}**\"\n    * Zone 3 Bottom: \"**{Quote_Summer}**\"\n    * Zone 4 Bottom: \"**{Quote_Autumn}**\"\n\n**[Visual Flow - The Diagonal Gradient]**\n\n* **Zone 1 (Far Left Diagonal - WINTER):** The slice cuts through the left side of **{Landmark}**. The surface is covered in frost/snow.\n    * *Atmosphere:* Cold blue tones, visible breath, sharp air.\n    * *Botany:* **{Botany_Winter}** (bare branches/ice).\n\n* **Zone 2 (Center-Left Diagonal - SPRING):** The next diagonal slice transforms the structure into a wet, blooming environment.\n    * *Atmosphere:* Pastel pinks/greens, soft mist.\n    * *Botany:* **{Botany_Spring}** (bursting flowers/buds).\n\n* **Zone 3 (Center-Right Diagonal - SUMMER):** The diagonal slice reveals the structure under intense vertical sunlight.\n    * *Atmosphere:* High contrast, vibrant saturation, deep blue sky.\n    * *Botany:* **{Botany_Summer}** (lush dark greens/shade).\n\n* **Zone 4 (Far Right Diagonal - AUTUMN):** The final diagonal slice on the right bathes the scene in golden light.\n    * *Atmosphere:* Warm amber glow, long shadows.\n    * *Botany:* **{Botany_Autumn}** (red/gold foliage).\n\n**[Technical Specs]**\nSeamless diagonal transitions, no hard lines but distinct color shifts. The landscape (roads/rivers) connects perfectly through the diagonal cuts. 8k resolution, photorealistic textures. --ar 21:9 --v 6.0 --stylize 300",
+    "tags": [
+      "建筑",
+      "场景",
+      "摄影"
+    ],
+    "id": 264
+  },
+  {
+    "image": "0007/786.jpeg",
+    "prompt": "【核心任务指令】\n你是一个拥有实时网络搜索能力和顶尖数据可视化设计能力的AI专家。请执行以下两个步骤：\n调研阶段：立刻针对用户指定的【2025 中国新能源汽车】进行全面的网络调研。搜集关于该领域内不同子产品、型号或作品的大众口碑、市场热度、专业评测及用户反馈数据。\n\n可视化阶段：基于你的调研结果，设计一张专业的信息图表（Infographic）。你需要将调研到的具体项目，精准地分类填入下面定义的五个“从夯到拉”的视觉等级模块中。\n\n【用户指定目标领域/产品】\n[在此处填写你需要调研的内容，例如：2024年热门智能手机、市面上的无糖茶饮料品牌、近十年的漫威电影、程序员常用的代码编辑器]\n\n【图像设计要求】\n整体风格：\n一张结构清晰、现代感强的模块化信息图表，采用“Bento Grid”（便当盒网格）布局。背景干净简洁，聚焦于内容呈现。视觉上必须体现出从高到低的强烈层级落差感。\n\n等级结构与视觉定义（严格执行以下五级）：\n\n第1级（最高层）：夯 (Hāng)\n调研填充标准：根据调研，该领域内目前公认的“版本之子”、具有统治级热度、无可争议的顶流产品/作品。\n\n视觉表现：占据画面最上方或最大的版面模块。色调为极具爆发力的爆裂红与辉煌金，带有光晕或能量外溢的视觉特效。字体最大、最粗。模块内需展示调研到的代表性产品的名称或高质量图像，并配以极简的赞美短语（如“全网吹爆”、“神作”）。\n\n第2级：顶级\n\n调研填充标准：硬核实力派，虽然热度可能不及“夯”，但口碑极佳，是行家首选的优质项目。\n\n视觉表现：位于第二层。色调为坚实、高级的燃烧橙与金属银。模块设计显得扎实、富有质感。展示代表性实力派产品。\n\n第3级：人上人\n\n调研填充标准：优越之选，品味在线，买了/看了绝对不亏的中坚力量，代表了一定的鉴赏力。\n\n视觉表现：位于中层。色调为明亮、干净的柠檬黄与冷灰。设计风格现代、清爽。展示代表性优质中产产品。\n\n第4级：NPC\n\n调研填充标准：毫无记忆点的大众脸产品，凑数的工业流水线产物，无功无过，容易被遗忘，必须要写上具体的产品或品牌或者人名不要含糊其辞。\n\n视觉表现：位于中下层。色调为平淡乏味的面包色/米色或纸板棕。模块设计显得普通、重复、缺乏个性。展示那些非常平庸的产品。\n\n第5级（最底层）：拉完了\n\n调研填充标准：调研中发现的公认“避雷针”、“智商税”、灾难级失败产品或甚至不如没有的存在，必须要写上具体的产品或品牌或者人名不要含糊其辞。\n\n视觉表现：挤在画面最底部或角落，视觉空间被压缩。色调为绝望黑、惨白，并带有明显的数字故障（Glitch）、破碎或腐烂的视觉效果。展示那些著名的“翻车”产品，并配以警示性短语（如“快逃”、“大冤种”）。",
+    "tags": [
+      "品牌",
+      "信息图",
+      "极简",
+      "纸艺",
+      "产品",
+      "字体排版",
+      "载具"
+    ],
+    "id": 265
+  },
+  {
+    "image": "0007/785.jpeg",
+    "prompt": "在「东京塔」的位置，根据当地当前时间氛围和实时天气制作图片。请让指定的角色在该地点游览，使其融入场景。  \n\n生成画面：\n生成一张画面为竖版3:4比例，单张图固定九宫格布局，三行三列，每个格子为独立镜头。\n\n相机与视角：\n– 使用超广角或鱼眼感的镜头（大约等效全画幅 12–18mm 的观感）\n– 相机角度必须与原图有显著变化，可以使用的夸张机位包括：\n• 从正下方向上看的仰视视角\n• 从正上方向下看的俯视视角\n• 贴近地面的超低机位\n• 从上往下的高机位\n• 倾斜的「荷兰角度」构图\n– 始终营造强烈的透视缩短效果：离镜头最近的身体部位显得巨大，其余身体在透视中向远处延伸\n– 最终效果必须像一张大胆的时尚或街拍照片，完全写实，而不是插画或二次元风格\n\n靠近镜头的身体部位（1–2 个，有时 3 个）：\n– 每一张编辑图中，选择一到两个主要身体部位极度靠近镜头（在更复杂的姿势中，有时可以是三个）\n– 在不同图像之间要变化这些部位，不要总是同一个地方靠近镜头\n– 可以靠近镜头的身体部位包括：\n• 一只或两只手 / 手指向镜头伸出\n• 一只或两只脚 / 鞋子 / 靴子贴近镜头\n• 膝盖或大腿\n• 脸部非常靠近镜头\n• 在前倾姿态中靠近镜头的肩膀或胸部\n– 选中的身体部位应当极度接近镜头，几乎要碰到镜头，可清晰看到皮肤纹理、布料纹理和真实的广角畸变\n\n姿势与整体身体（复杂且多变）：\n– 创造与极端视角相匹配的强烈、酷炫、充满动感的姿势\n– 随机使用不同类型的姿态，包括：\n• 站立姿势中，一条腿或一只手朝镜头伸出\n• 蹲下或贴地半蹲\n• 坐在地面上或坐在物体上\n• 平躺在地面上，腿或脚朝向镜头\n• 身体大幅向前探向镜头\n• 扭转躯干、交叉双腿或弓起背部，形成更具动感的身体线条\n– 允许使用复杂姿势，例如：\n• 两只手都靠近镜头，摆出手势（比耶、三角形、用手指做画框、指向观者等）\n• 双脚都朝向镜头\n• 一只手和一只脚同时作为前景的大型元素\n• 脸部靠近镜头，同时手或脚也在透视关系中出现\n– 即使在极端透视缩短下，也要保持合理可信的人体结构\n\n机位与态度（随机化）：\n– 随机改变相机角度与方向（朝上、朝下、侧向、倾斜构图），同时保持画面构图视觉上平衡、有冲击力\n– 气质保持酷、从容，自信，偏向时尚大片或街头风格，具体依照原始穿搭气质\n– 面部表情可以变化（严肃、俏皮、自信、神秘等），但必须始终看起来是同一个人\n\n光线与画面渲染：\n– 保持真实的阴影以及与地面 / 地板的接触关系\n– 高分辨率与清晰细节，能看到皮肤纹理、布料纹理以及材质高光\n\n变化与随机性：\n– 每一张小图都应当与其他小图有明显区别，在以下方面保持多样化：\n• 相机角度\n• 姿势类型\n• 哪些身体部位最靠近镜头\n• 构图方向（正向、倾斜、俯视、仰视等）\n– 避免一再重复完全相同的「单脚贴近镜头」构图，要呈现丰富多样的动态姿势和机位变化\n\n严格规则：\n– 不要把人物换成别人\n– 不要改变服装类型；只能通过姿势、视角以及衣物的自然运动来改变表现方式\n– 不要把场景移动到指定经纬度以外的地点；始终保持在指定经纬度地点的合理延展范围内\n– 不要添加文字、标志、水印或图形设计元素\n– 不要改成油画、插画或动漫风格；必须保持照片级写实效果",
+    "tags": [
+      "角色",
+      "时尚",
+      "插画",
+      "场景",
+      "标志",
+      "自然",
+      "肖像"
+    ],
+    "id": 266
+  },
+  {
+    "image": "0007/784.jpeg",
+    "prompt": "Transform the subject into a stylized 3D character with soft clay-like materials, rounded sculptural forms, exaggerated facial features, pastel + vibrant color palette, smooth subsurface scattering skin, large cartoon eyes, simplified anatomy. Render against a bold blue studio background with soft frontal lighting and subtle shadows. Playful, surreal, polished character-design aesthetic similar to modern stylized 3D illustration. Keep the original photo’s composition and framing.",
+    "tags": [
+      "卡通",
+      "角色",
+      "黏土",
+      "插画",
+      "摄影",
+      "雕塑",
+      "载具"
+    ],
+    "id": 267
+  },
+  {
+    "image": "0007/783.jpeg",
+    "prompt": "{\n  \"image_request\": {\n    \"goal\": \"Create a Gen Z anime-core streetwear mirror selfie blending [UPLOADED IMAGE] with 2D anime illustration elements\",\n    \"meta\": {\n      \"image_type\": \"Mixed Media Mirror Selfie / Anime-Core Fashion Editorial\",\n      \"quality\": \"Best Quality, Ultra-Detailed, Mixed Reality, Smartphone Photography\",\n      \"color_mode\": \"Full Color / Vibrant Accents\",\n      \"style_mode\": \"raw_photoreal with 2D overlay\",\n      \"aspect_ratio\": \"4:5\",\n      \"resolution\": \"1080x1350\"\n    },\n    \"creative_style\": \"Playful Gen Z streetwear fashion mixed with 2D anime overlay, casual 'fit check' vibe, juxtaposition of cute styling with gothic anime horror elements, vibrant eclectic footwear, indoor mirror selfie aesthetic\",\n    \"overall_theme\": \"anime culture/streetwear fashion / mixed reality / playful casual\",\n    \"mood_vibe\": \"playful confident / otaku chic / quirky / casual cool\",\n    \"style_keywords\": [\n      \"mirror selfie\",\n      \"streetwear\",\n      \"anime overlay\",\n      \"mixed media\",\n      \"Gen Z fashion\",\n      \"casual\",\n      \"playful\"\n    ],\n    \"subject\": {\n      \"count\": \"2 (1 human female [UPLOADED IMAGE] + 1 anime character overlay)\",\n      \"type\": \"female / 2D character overlay\",\n      \"identity\": \"[UPLOADED IMAGE]\",\n      \"identity_preservation\": {\n        \"description\": \"Strictly preserve facial features, hair, and body structure from [UPLOADED IMAGE]\",\n        \"notes\": \"Use [UPLOADED IMAGE] as the reference for the main subject.\"\n      },\n      \"age_appearance\": \"Derived from [UPLOADED IMAGE]\",\n      \"skin\": \"Derived from [UPLOADED IMAGE]\",\n      \"makeup\": {\n        \"lips\": \"Derived from [UPLOADED IMAGE]\",\n        \"eyes\": \"Derived from [UPLOADED IMAGE]\",\n        \"general\": \"Derived from [UPLOADED IMAGE].\"\n      },\n      \"facial_features\": {\n        \"expression\": \"Derived from [UPLOADED IMAGE]\",\n        \"eyes\": {\n          \"gaze\": \"Derived from [UPLOADED IMAGE]\",\n          \"intensity\": \"Derived from [UPLOADED IMAGE]\"\n        },\n        \"lips\": {\n          \"gesture\": \"Derived from [UPLOADED IMAGE]\"\n        }\n      },\n      \"hair\": {\n        \"length\": \"Derived from [UPLOADED IMAGE]\",\n        \"texture\": \"Derived from [UPLOADED IMAGE]\",\n        \"style\": \"Derived from [UPLOADED IMAGE]\",\n        \"lighting_interaction\": {\n          \"light\": \"soft indoor overhead reflection\",\n          \"shadow_play\": \"minimal\"\n        }\n      },\n      \"clothing\": {\n        \"top\": \"oversized beige knit sweater with distressed hem, featuring large black-and-white manga girl portrait graphic and smiley face print (OR retain clothing from [UPLOADED IMAGE] if preferred)\",\n        \"bottom\": \"sheer black thigh-high stockings (OR retain clothing from [UPLOADED IMAGE])\",\n        \"full_description\": \"Subject from [UPLOADED IMAGE] styled in Gen Z anime-core fashion\",\n        \"accessories\": \"layered pearl and chain necklaces, rings, quirky phone case with text stickers\"\n      },\n      \"props\": {\n        \"bouquet\": \"N/A\",\n        \"wine_glass\": \"N/A\",\n        \"other\": \"Smartphone with sticker-covered case held in both hands\"\n      }\n    },\n    \"pose_action\": {\n      \"description\": \"Standing full-body mirror selfie matching [UPLOADED IMAGE]\",\n      \"overall_pose\": \"Derived from [UPLOADED IMAGE]\",\n      \"head_turn\": \"Derived from [UPLOADED IMAGE]\",\n      \"gaze\": \"Derived from [UPLOADED IMAGE]\",\n      \"body_position\": \"Derived from [UPLOADED IMAGE]\",\n      \"hands\": \"holding smartphone at chest level to take a photo\",\n      \"movement\": \"static pose\"\n    },\n    \"multiple_frames_expressions\": [],\n    \"environment\": {\n      \"setting\": \"Indoor hallway or hotel room entrance\",\n      \"location\": \"in front of full-length mirror\",\n      \"weather\": \"N/A (indoor)\",\n      \"time_of_day\": \"indoor artificial light\",\n      \"atmosphere\": \"casual/domestic/playful\"\n    },\n    \"background\": {\n      \"color\": \"neutral tones/wood door / white walls\",\n      \"effect\": \"standard depth of field, clear background with looming anime figure overlay\"\n    },\n    \"lighting\": {\n      \"type\": \"Indoor overhead lighting\",\n      \"position\": \"overhead\",\n      \"direction\": \"top-down\",\n      \"intensity\": \"moderate / even\",\n      \"focus\": \"on [UPLOADED IMAGE] subject\",\n      \"falloff\": \"gradual\",\n      \"light_quality\": \"diffused artificial\",\n      \"source\": \"ceiling fixture\",\n      \"tone\": \"neutral to slightly warm\",\n      \"mood\": \"casual daily life\",\n      \"subject_lighting\": \"even illumination on [UPLOADED IMAGE]\",\n      \"environment_lighting\": \"ambient indoor\",\n      \"color_temperature\": \"3500K-4000K\",\n      \"contrast_shadow\": \"soft shadows behind subject\",\n      \"shadow_quality\": \"diffused\",\n      \"imperfections\": [\"smartphone reflection\", \"indoor lighting glare\"]\n    },\n    \"camera\": {\n      \"sensor_format\": \"Smartphone Camera\",\n      \"lens\": \"Wide angle main lens (approx 24-26mm eq)\",\n      \"position_angle\": \"eye-level (reflection)\",\n      \"distance\": \"arm's length / approx 1.5 meters from mirror\",\n      \"framing\": \"full body portrait 9:16\",\n      \"depth_of_field\": \"deep (everything mostly in focus)\",\n      \"composition\": {\n        \"framing\": \"[UPLOADED IMAGE] centered, mirror frame visible on edges\",\n        \"depth\": \"flat layering of 2D character behind 3D [UPLOADED IMAGE] subject\",\n        \"emphasis\": \"outfit details and the juxtaposition of the anime character\",\n        \"angle\": \"straight on\"\n      }\n    },\n    \"photobooth_collage_specific\": {\n      \"frame_count_per_strip\": \"N/A\",\n      \"total_prints\": \"N/A\",\n      \"layout\": \"N/A\",\n      \"border\": \"N/A\",\n      \"tonality_texture\": \"N/A\",\n      \"highlight_behavior\": \"N/A\"\n    },\n    \"color_grading\": {\n      \"palette\": \"Beige, Black, Yellow, Red, White\",\n      \"lut\": \"Standard Smartphone / True to Life\",\n      \"mood\": \"casual vivid\"\n    },\n    \"post_processing\": {\n      \"sharpening\": \"standard\",\n      \"final_touch\": \"Composite overlay of large 2D anime 'Shinigami' (death god) character looming behind [UPLOADED IMAGE]—spiky blue/black hair, skeletal face, yellow eyes, dark feathery wings/shoulders (Ryuk style).\"\n    },\n    \"negative\": {\n      \"style\": \"blurry, low res, painting, 3D render of girl (girl must be photoreal), distorted hands\",\n      \"content\": \"cluttered background, bad lighting, cropped feet\",\n      \"artifacts\": \"warped phone, extra fingers\"\n    },\n    \"additional_controls\": {\n      \"focus_emphasis\": \"The [UPLOADED IMAGE] subject and the anime character overlay\",\n      \"grounding\": \"feet firmly planted\",\n      \"special_notes\": \"The image features a distinct 'mixed reality' style where a 2D anime illustration is superimposed behind [UPLOADED IMAGE] in a mirror selfie.\",\n      \"vibe\": \"playful anime fan\",\n      \"final_output_goal\": \"A realistic mirror selfie of [UPLOADED IMAGE] with a convincing 2D anime character integration.\"\n    }\n  }\n}",
+    "tags": [
+      "3D",
+      "角色",
+      "时尚",
+      "插画",
+      "室内",
+      "场景",
+      "极简",
+      "自然",
+      "纸艺",
+      "摄影",
+      "肖像"
+    ],
+    "id": 268
+  },
+  {
+    "image": "0007/782.jpeg",
+    "prompt": "Present a clear, 45° top-down isometric miniature 3D cartoon scene of the iconic scene [SCENE NAME] from [MOVIE/SHOW], with soft refined textures, realistic PBR materials, and gentle lifelike lighting.\nCreate a small raised diorama-style base that includes the most recognizable elements of this scene, along with tiny stylized characters if needed (no facial details).\nUse a clean solid [BACKGROUND COLOR] background.\n\nAt the top-center, display [MOVIE/SHOW] in large bold text, directly beneath it show [SCENE NAME] in medium text, and place the official logo associated with [MOVIE/SHOW] below the subtext.\nAll text must automatically match the background contrast (white or black).\n\nComposition: perfectly centered layout, square 1080x1080, ultra-clean, high-clarity diorama aesthetic.",
+    "tags": [
+      "3D",
+      "卡通",
+      "角色",
+      "场景",
+      "标志",
+      "肖像",
+      "字体排版",
+      "载具"
+    ],
+    "id": 269
+  },
+  {
+    "image": "0007/781.jpeg",
+    "prompt": "A whimsical handmade paper artwork on a wooden desk: a hand-drawn cartoon 【dog】 cut from the paper and folded into a small standing 3D figure. The dog is 【sticking out its tongue and wagging its tail, looking happy and excited】. Next to it is the empty silhouette where it was cut out. The text “You created me?” is written below. Soft natural lighting, shallow depth of field, realistic photography, magical and playful mood.",
+    "tags": [
+      "3D",
+      "卡通",
+      "自然",
+      "纸艺",
+      "摄影",
+      "载具"
+    ],
+    "id": 270
+  },
+  {
+    "image": "0007/780.jpeg",
+    "prompt": "\"A soft beauty still life inside a miniature world handcrafted entirely from yarn, wool, and plush textiles. Two knitted night cream jars float gently above a pastel pink felt backdrop. \nThe hero jar is fully sculpted from thick knitted stitches wrapped around a felted cylinder, with embroidered gold lettering mimicking the original label. \nThe open jar below reveals a swirl of dense, glossy cream crafted from smooth white felt and layered wool fibers, shaped into soft peaks with stitched contour details.\nA curved backdrop piece appears as a plush, padded woolen shape, adding dimension to the gentle pink environment. Everything in the scene, the jars, the cream, the surfaces, is made from yarn, crochet loops, and felted wool, giving the impression of a handcrafted beauty world.",
+    "tags": [
+      "毛毡",
+      "场景",
+      "字体排版"
+    ],
+    "id": 271
+  },
+  {
+    "image": "0007/779.jpeg",
+    "prompt": "{\n    \"shot_type\": \"Medium Full Shot (kneeling)\",\n    \"composition\": \"Central composition with low horizon line\",\n    \"angle\": \"Eye-level to slightly low angle\"\n  },\n  \"subject\": {\n    \"subject_type\": \"Human\",\n    \"identity_summary\": \"A young woman with long, dark, windblown hair kneeling in a field.\",\n    \"visual_signature\": {\n      \"facial_signature\": {\n        \"face_shape\": \"Defined jawline, prominent cheekbones, side profile view\",\n        \"eye_details\": \"Closed, relaxed eyelids with dark lashes\",\n        \"nose_details\": \"Straight, slightly upturned tip\",\n        \"lip_details\": \"Natural shape, closed, relaxed mouth\",\n        \"cheek_and_jaw\": \"Sculpted features highlighted by hard sunlight\",\n        \"unique_features\": \"Serene expression, head tilted back slightly\"\n      },\n      \"body_signature\": {\n        \"build\": \"Slender, fit physique\",\n        \"proportions\": \"Natural\",\n        \"skin_tone_and_texture\": \"Tanned, smooth skin, sun-kissed\",\n        \"height_estimation_cm\": 170\n      }\n    },\n    \"pose_and_action\": {\n      \"description\": \"Kneeling on the ground, soaking up the sun and wind\",\n      \"body_position\": \"Kneeling (seiza-style or similar), torso upright, back slightly arched, head tilted back and turned to the side towards the light source\",\n      \"limb_positions\": \"Arms resting relaxed on thighs/lap, legs folded underneath\",\n      \"hand_gestures\": \"Relaxed fingers resting on legs\",\n      \"facial_expression\": \"Serene, peaceful, enjoying the moment, eyes closed\"\n    },\n    \"inventory\": {\n      \"wardrobe\": \"Black mini dress with red polka dots, off-the-shoulder ruffled sleeves, sweetheart neckline\",\n      \"accessories\": \"Thin gold chain necklace, rings on fingers\",\n      \"held_objects\": \"None\",\n      \"hair_style\": \"Long, dark brown/brunette, wavy texture, blowing dynamically in the wind towards the right\"\n    }\n  },\n  \"environment\": {\n    \"setting\": \"Wildflower field\",\n    \"ground_elements\": \"Dense field of vibrant blue wildflowers (e.g., bluebells, cornflowers, nemophila), green grass visible near roots\",\n    \"background_elements\": \"Rolling brown hills/mountains in the distance\",\n    \"sky_condition\": \"Blue sky with wispy, streaky cirrus clouds\",\n    \"weather\": \"Sunny, windy\"\n  },\n  \"lighting\": {\n    \"type\": \"Natural hard sunlight\",\n    \"direction\": \"Side lighting (from the left)\",\n    \"quality\": \"High contrast, creating distinct shadows on the face and neck, illuminating the profile\",\n    \"color_temperature\": \"Daylight balanced (approx 5500K)\"\n  },\n  \"camera\": {\n    \"lens_focal_length\": \"50mm or 85mm (Portrait)\",\n    \"aperture\": \"f/2.8 to f/4 (Subject sharp, background slightly softened)\",\n    \"shutter_speed\": \"Fast (to freeze the hair motion)\",\n    \"film_grain\": \"Fine grain, digital photography style\"\n  },\n  \"post_processing\": {\n    \"color_grading\": \"Natural, cool tones in the shadows (blues) contrasted with warm highlights (skin), slight contrast boost\",\n    \"contrast\": \"Medium-High\",\n    \"saturation\": \"Natural to Vibrant\"\n  },\n  \"negative\": {\n    \"artifact_suppression\": \"white dots, white polka dots, orange flowers, orange poppies, yellow flowers, open eyes, standing, straight hair, static hair, indoor, studio lighting, distorted hands, extra fingers, cartoon, illustration, sketch, low resolution, blurry face, different person\",\n    \"conceptual_suppression\": \"sadness, rain, night, urban setting\"\n  }\n}",
+    "tags": [
+      "卡通",
+      "插画",
+      "室内",
+      "场景",
+      "自然",
+      "摄影",
+      "肖像",
+      "载具"
+    ],
+    "id": 272
+  },
+  {
+    "image": "0007/778.jpeg",
+    "prompt": "保持人物面部特征和发型。夏日多巴胺清新风格，竖版拼贴画。模特穿着明亮的泳装或沙滩装，头戴彩色发卡，手持一片鲜红的西瓜或一杯气泡冰饮。脸上贴着“水滴”和“太阳”形状的可爱贴纸。背景是清新的泳池蓝色瓷砖，带有波光粼粼的水面效果。手绘涂鸦包括游泳圈、棕榈树和太阳眼镜。周围环绕着几张胶卷底片边框的照片。阳光明媚的自然光，高清晰度，清爽活力感。",
+    "tags": [
+      "自然",
+      "纸艺",
+      "肖像"
+    ],
+    "id": 273
+  },
+  {
+    "image": "0007/777.jpeg",
+    "prompt": "基于[上传人物图片]并严苛保持面部特征不变，生成一张极具时尚感和网络热门度的3x3九宫格拼贴照片，九个独立画面分别展示该人物身着：酷飒街头风黑色Oversized卫衣配工装裤（涂鸦霓虹后巷背景）、清纯性感风白色丝绸吊带睡裙外搭针织衫（柔光慵懒卧室窗边背景）、紧身塑形时尚瑜伽套装（高端采光健身房背景）、复古Y2K辣妹短T恤配低腰牛仔裙（千禧风彩色充满CD的房间背景）、华丽黑色高开叉亮片晚礼服（城市天际线天台酒吧夜景背景）、前卫赛博朋克机能风束带装束（未来感雨夜街道蓝紫光背景）、都市摩登风廓形西装内搭露脐装（极简高级艺术馆背景）、热辣度假风比基尼配透明防晒罩衫（奢华海景泳池日落背景）以及静奢老钱风粗花呢小香风外套套装（古典欧式庄园庭院背景），整体画面追求高级杂志大片质感、光影迷人且富有潮流张力。",
+    "tags": [
+      "时尚",
+      "未来感",
+      "极简",
+      "自然",
+      "霓虹",
+      "肖像",
+      "复古"
+    ],
+    "id": 274
+  },
+  {
+    "image": "0007/776.jpeg",
+    "prompt": "将原始照片转化为一个戏剧性的、逼真的、超广角镜头，具有极端的相机角度（包括从正下方或正上方的视角），其中一个或多个身体部位紧挨着镜头并且看起来巨大，身体的其余部分在透视中后退，并且同一个人在原始环境的一致的、扩展的版本中摆出一个时尚的、复杂的、有力的姿势。",
+    "tags": [
+      "创意"
+    ],
+    "id": 275
+  },
+  {
+    "image": "0007/775.jpeg",
+    "prompt": "第1格：中国水墨动画风格\n\n中国水墨动画风格，朱迪警官穿着警服在田野边看着一只绵羊农夫坐在大树桩旁发呆，光线明亮，皮毛质感逼真，画面中有一个对话气泡，里面精准地写着中文字：“朱迪看见一个农夫坐在树桩旁发呆”\n\n第2格：吉卜力手绘风\n\n宫崎骏吉卜力工作室手绘动画风格，清新的水彩质感，绿色的草地和蓝天，朱迪正在询问，绵羊农夫兴奋地指着树桩解释，画面治愈，画面中有一个对话气泡，里面精准地写着中文字：“农夫说：'昨天有只兔子撞死在这，我在等下一只。'”\n\n第3格：1930s复古橡皮管风\n\n1930年代复古橡皮管动画风格，黑白胶片质感，类似于《茶杯头》风格，朱迪大惊失色，身体夸张地后仰，耳朵竖得笔直且拉得很长，眼睛瞪得像碟子一样大，表情不可置信，带锯齿边的复古对话气泡里精准地写着中文字：“朱迪大惊失色：'什么？竟然指望这种偶然？'”\n\n第4格：蜘蛛侠平行宇宙美漫风\n\n《蜘蛛侠：平行宇宙》美漫波普艺术风格，半调网点效果，色差故障艺术，尼克慢悠悠地走过来，戴着墨镜，手里拿着一根爪爪冰棍，一脸坏笑，背景有动态涂鸦线条，漫画风格对话气泡里精准地写着中文字：“尼克慢悠悠地走过来，一脸坏笑”\n\n第5格：阿德曼黏土动画风\n\n阿德曼工作室黏土动画风格，定格动画，类似于《小鸡快跑》的质感，能看到橡皮泥上的指纹细节，尼克摘下墨镜指着绵羊农夫对朱迪解释，尼克有标志性的宽嘴大牙，表情滑稽，黏土质感的对话气泡里精准地写着中文字：“尼克说：'萝卜头，这叫守株待兔，他在做白日梦呢。'”\n\n第6格：16位像素游戏风\n\n16位复古像素艺术风格，超级任天堂游戏画面，鲜艳的像素色块，朱迪无奈地拉着绵羊农夫去劳动，尼克在后面摊手耸肩，像RPG游戏的过关画面，游戏对话框里精准地写着中文字：“朱迪拉走农夫去干活，尼克无奈地摊手”",
+    "tags": [
+      "游戏",
+      "标志",
+      "像素",
+      "复古"
+    ],
+    "id": 276
+  },
+  {
+    "image": "0007/774.jpeg",
+    "prompt": "基于[上传人物图片]并保持其面部特征绝对不变，生成一张高质量的3x3九宫格拼贴照片，九个独立画面分别展示该人物身着：飘逸粉蓝唐代汉服（古典园林背景）、干练深蓝空姐制服配丝巾（现代机场航站楼背景）、墨绿刺绣丝绸旗袍（复古上海风情室内背景）、威武黑金锦衣卫飞鱼服配绣春刀（黄昏故宫背景）、洁白现代护士服（明亮温馨医院背景）、典雅酒红织锦唐装（传统茶楼庭院背景）、青春海军蓝JK制服百褶裙（樱花盛开校园背景）、帅气皮革飞行员夹克制服戴墨镜（机库飞机旁背景）以及时尚米色风衣休闲装（现代都市街景背景），整体画面要求电影感光影、细节精致且色彩和谐统一。宽高比9:16",
+    "tags": [
+      "时尚",
+      "室内",
+      "自然",
+      "肖像",
+      "复古"
+    ],
+    "id": 277
+  },
+  {
+    "image": "0007/773.jpeg",
+    "prompt": "生成Labubu的一张高质量的3x3九宫格拼贴照片，九个独立画面分别展示该人物身着：飘逸粉蓝唐代汉服（古典园林背景）、干练深蓝空姐制服配丝巾（现代机场航站楼背景）、墨绿刺绣丝绸旗袍（复古上海风情室内背景）、威武黑金锦衣卫飞鱼服配绣春刀（黄昏故宫背景）、洁白现代护士服（明亮温馨医院背景）、典雅酒红织锦唐装（传统茶楼庭院背景）、青春海军蓝JK制服百褶裙（樱花盛开校园背景）、帅气皮革飞行员夹克制服戴墨镜（机库飞机旁背景）以及时尚米色风衣休闲装（现代都市街景背景），整体画面要求电影感光影、细节精致且色彩和谐统一。宽高比9:16",
+    "tags": [
+      "室内",
+      "自然",
+      "肖像",
+      "复古"
+    ],
+    "id": 278
+  },
+  {
+    "image": "0007/772.jpeg",
+    "prompt": "保持人物面部特征和发型。Y2K千禧年复古时尚风格，竖版拼贴画。模特穿着鲜艳的短款上衣，戴着彩色串珠项链，手持一个带闪钻的复古翻盖手机自拍。脸上装饰着复古的像素风贴纸（如像素爱心、吃豆人）。背景是全息镭射材质的纹理，散落着CD光盘和旧电脑窗口弹窗的图案。周围有3-4个拍立得风格的照片框展示不同角度。高饱和度色彩，迷幻电子感，时尚杂志封面感。",
+    "tags": [
+      "纸艺",
+      "像素",
+      "肖像",
+      "复古"
+    ],
+    "id": 279
+  },
+  {
+    "image": "0007/771.jpeg",
+    "prompt": "Recreate the character's appearance from the uploaded photo, accurately preserving hairstyle, facial details, and expression. Present it as a bright, fresh, and youthful fashion portrait in a vertical collage format.\n\nShe wears trendy youthful clothing, holding a red lollipop near her lips. Her face is playfully decorated with cute colorful stickers shaped like hearts, strawberries, and stars, creating a lively, stylish atmosphere. Her eyes are expressive, makeup is soft and natural, and her face shows a dreamy expression.\n\nThe background features a corkboard covered with colorful sticky notes and memo papers, creating a campus and journaling vibe. Hand-drawn doodles of stars, arrows, and similar elements add to the cute, magazine-style aesthetic. Surrounding the main subject are ～4 scrapbook-style photo frames in various shapes, showcasing different outfits and poses of the same person.\n\nOverall, the image should utilize soft studio lighting, high-definition details, a clean-cut scrapbook aesthetic, Korean fashion-magazine style, and vibrant colors.\n\nAspect ratio: 9:16.",
+    "tags": [
+      "角色",
+      "时尚",
+      "自然",
+      "纸艺",
+      "摄影",
+      "肖像"
+    ],
+    "id": 280
+  },
+  {
+    "image": "0007/770.jpeg",
+    "prompt": "{\n  \"description\": \"Aesthetic cozy mirror selfie of a young woman sitting casually on a chair, wearing a dark oversized hoodie and blue jeans. She holds a professional camera in one hand while resting her face gently on the other with a soft, dreamy smile. The background is warm beige with soft studio lighting and a minimal modern interior. Cute cartoon-style doodles float around her, including a smiling sunflower character, a hand-drawn yellow sun, and playful white sketch lines around the camera. A handwritten romantic quote appears on the wall: 'Love feels a lot like… I saw this and thought of you!'. The overall style mixes photorealism with illustrated sticker overlays, creating a cozy, romantic Instagram aesthetic.\",\n  \"style\": {\n    \"tones\": \"soft warm tones, cozy romantic vibe\",\n    \"lighting\": \"soft studio lighting, warm and diffused\",\n    \"aesthetic\": \"Instagram aesthetic with cinematic depth of field\",\n    \"texture\": \"natural skin texture, ultra-detailed\"\n  },\n  \"visual_elements\": {\n    \"subject\": {\n      \"gender\": \"female\",\n      \"pose\": \"sitting casually on a chair, taking a mirror selfie\",\n      \"clothing\": \"dark oversized hoodie and blue jeans\",\n      \"expression\": \"soft dreamy smile\"\n    },\n    \"environment\": {\n      \"background\": \"warm beige indoor setting, minimal modern interior\",\n      \"lighting\": \"soft warm shadows\"\n    },\n    \"overlays\": [\n      \"cute smiling sunflower doodle\",\n      \"hand-drawn yellow sun\",\n      \"white sketch lines around the camera\",\n      \"handwritten romantic quote on the wall\"\n    ]\n  },\n  \"quality\": {\n    \"resolution\": \"4K ultra-detailed\",\n    \"render\": \"photorealistic with illustrated sticker overlay\"\n  },\n  \"format\": {\n    \"ratio\": \"3:4\"\n  }\n}",
+    "tags": [
+      "卡通",
+      "角色",
+      "时尚",
+      "插画",
+      "室内",
+      "场景",
+      "极简",
+      "自然",
+      "纸艺",
+      "摄影",
+      "载具"
+    ],
+    "id": 281
+  },
+  {
+    "image": "0007/769.jpeg",
+    "prompt": "A complete screenshot of the MacOS Photo Booth application interface, with the top title bar displaying \"Photo Booth\". The main window has a 9-grid layout, and each grid shows a user-uploaded person with different funny effects applied. At the bottom of each grid, there are white Chinese subtitles: First row: Alien, Crooked Nose, Chipmunk; Second row: Madly in Love, Normal, Dizzy; Third row: Fool, Big Eyes, Frog. At the bottom is a gray control bar with left and right arrows, four navigation dots (the first one is blue), and an \"Effects\" button. The background is dark and blurred.",
+    "tags": [
+      "自然",
+      "摄影",
+      "肖像",
+      "界面设计"
+    ],
+    "id": 282
+  },
+  {
     "image": "0007/768.jpeg",
     "prompt": "{\n  \"style\": {\n    \"type\": \"hand-drawn caricature\",\n    \"technique\": \"cross-hatching, fine ink lines\",\n    \"mood\": \"serious, slightly exaggerated expression\",\n    \"medium\": \"black and white sketch\"\n  },\n  \"subject\": {\n    \"type\": \"male figure\",\n    \"age\": \"middle-aged\",\n    \"skin_texture\": \"detailed line work with emphasized shading\",\n    \"hair\": {\n      \"style\": \"short, tightly curled\",\n      \"texture\": \"dense linework\"\n    },\n    \"facial_features\": {\n      \"eyes\": \"narrow, expressive, slightly squinting\",\n      \"eyebrows\": \"furrowed, showing intensity\",\n      \"nose\": \"long and defined with accentuated shading\",\n      \"mouth\": \"exaggerated downward curve, caricatured pout\",\n      \"ears\": \"large and prominently exaggerated\",\n      \"jawline\": \"elongated and structured with sharp lines\"\n    }\n  },\n  \"composition\": {\n    \"pose\": \"straightforward headshot with slight tilt\",\n    \"framing\": \"upper torso visible, suit collar included\",\n    \"background\": \"clean white, no elements\"\n  },\n  \"clothing\": {\n    \"attire\": \"formal suit\",\n    \"details\": \"sharp collar lines with textured shading\"\n  },\n  \"notes\": {\n    \"emphasis\": \"hyper-exaggeration of facial structure\",\n    \"aesthetic\": \"editorial political-cartoon style\"\n  }\n}",
     "tags": [
@@ -2948,498 +3567,5 @@
       "肖像"
     ],
     "id": 541
-  },
-  {
-    "image": "0005/508.jpeg",
-    "prompt": "A young woman standing on the beach at dusk, captured in a soft emotional film-style portrait. \nHer dark hair is messy from the sea breeze, strands blowing across her face. \nShe has natural, slightly flushed skin with a subtle grainy texture. \nWearing a white spaghetti-strap top and denim bottoms. \nThe background shows dark ocean waves and a moody sky with soft sunset colors—dusty pink, blue-gray, and muted lavender. \nThe overall image features a low-saturation, cool-toned cinematic film filter with soft contrast, slight grain, and a hazy atmosphere. \nClose-up portrait, melancholic mood, natural lighting, realistic details, 8K.",
-    "tags": [
-      "自然",
-      "肖像"
-    ],
-    "id": 543
-  },
-  {
-    "image": "0005/507.jpeg",
-    "prompt": "帮我生成超长的竖图，内容是中国各朝代的时间推进介绍信息图。确保朝代都完整。",
-    "tags": [
-      "信息图"
-    ],
-    "id": 544
-  },
-  {
-    "image": "0005/506.jpeg",
-    "prompt": "Generate a 9-image ‘photo dump’ grid of this person’s weekend: a mirror selfie, a café shot, friends at dinner, a blurry party photo, a walking shot, a laptop/coffee work shot, a pet moment, a sunset, and a candid laugh.",
-    "tags": [
-      "美食",
-      "摄影"
-    ],
-    "id": 545
-  },
-  {
-    "image": "0005/505.jpeg",
-    "prompt": "画一张草稿纸，上面是这道题的解法",
-    "tags": [
-      "纸艺"
-    ],
-    "id": 546
-  },
-  {
-    "image": "0005/504.jpeg",
-    "prompt": "画幅比例16:9，官方游戏联动海报，杰作，充满活力的《绝区零》动漫风格。  场景: 四位时尚的动漫角色（一位黑夹克粉发女孩是视觉中心，一位银发女孩，一位白发男孩，一位黑发男孩）在未来城市夜晚上摆姿势，每人都拿着一杯可乐。  环境: 这是一个未来城市的夜间街道，整个场景  被巨大、发光的霓虹灯招牌所主导。  一个以风格化的“ZZZ”标志为特色的、巨大且不容错过的霓虹灯招牌，是背景的绝对视觉焦点，在主角们身后闪耀着明亮的光芒。 其他写着“可口可乐”的霓虹灯也同样醒目，将整个场景沐浴在鲜艳的紫色和蓝色光线中。  特殊效果: 草莓和柠檬等水果被包裹在透明气泡中漂浮，发光的粉色和蓝色能量漩涡贯穿画面。  文字元素:  左上角: 显示“绝区零”和“可乐”的Logo，由“X”连接。  底部中央: 一大块醒目的中文文字“绝区零 X 可乐：异能觉醒，双倍快乐！”。字体为粗体、风格化的艺术字，白色填充，带有厚重的紫粉渐变描边。  中文下方: 黑色矩形框内有白色大写英文“LIMITED COLLAB”。  艺术风格: 高度细节，线条干净，来自巨型霓虹灯的电影级光效，动态构图。  负面提示词: 模糊, 低质量, 人体结构崩坏, 手部畸形, 丑陋, 水印, 签名, 乱码文字, 字母变形",
-    "tags": [
-      "品牌",
-      "角色",
-      "未来感",
-      "游戏",
-      "场景",
-      "标志",
-      "霓虹",
-      "海报",
-      "字体排版"
-    ],
-    "id": 547
-  },
-  {
-    "image": "0005/503.jpeg",
-    "prompt": "平抛运动轨迹与速度位移分解图",
-    "tags": [
-      "创意"
-    ],
-    "id": 548
-  },
-  {
-    "image": "0005/502.jpeg",
-    "prompt": "画幅比例16:9，一幅关于精妙含蓄与视觉智慧的杰作。一幅老北京城市肌理的无人机鸟瞰图。核心概念是汉字“衚”**完美无缝地**融入了整个城市景观。\n\n**字体与建筑的融合 (终极的精妙之处):**\n- **无物理高差:** “衚”字不是一个独立的、高耸的或庞大的结构。构成其笔画的墙体，与周围所有的胡同、四合院的墙体，在**高度、材质和风格上完全一致**。它身处肌理之中，而非凌驾其上。\n- **“光影雕刻”:** 汉字的形态并非由结构来凸显，而是由**大师级的、富有氛围感的光影**来呈现。一束低角度的午后斜阳（Raking Light）横扫整个场景。光线刚好捕捉到构成“衚”字形态的墙体的边缘，使其微妙地变亮，同时在其“笔画”（即胡同）内部投下深刻而轮廓分明的阴影。这个字，是被光所揭示，而非被水泥所建造。\n- **“氛围透视”:** 一层纤薄的、贴地的晨雾或霭气，弥漫在周边的庭院和巷陌中，使边缘的细节略微柔化。然而，构成“衚”字形态的那些路径和庭院，则**微妙地更加清晰、对比度更高**，由此形成一个自然的视觉焦点，让隐藏的形状在凝视者的眼中浮现。\n\n**优雅的字体排版布局:**\n保留精致且艺术化的字体设计。\n- **主标题:** 标题“字里京城”被排成一个强有力的单列竖排，位于右侧。背景区域被巧妙地处理成半透明的微妙褪色效果，以确保文字的可读性而不突兀。字体是优雅的“新宋体”风格。一条极细的竖线与文字平行。\n- **信息标签:** 标签文字（“灰瓦”、“国槐”）采用小号、精致的手写体。它们通过一条铅笔在图纸上画出般的、针尖般纤细的手绘曲线连接到物体。**不要有方框，不要有发光效果。**\n\n**美学:**\n整体基调是宁静、引人深思且意境深远的。色调是考究的“高级灰”，以饱和度低的色彩为主，唯一的色彩点缀来自阳光温暖的轻抚。画面拥有一种“众目睽睽下的秘密”般的气质，回报着观者的耐心与洞察力。它是一次具有深刻绘画感和哲学氛围的超写实渲染。\n\n**负面提示词:**\n高耸的墙壁, 雕塑般的汉字, 庞大的结构, 过于明显的汉字形状, 平均的光照, 平光, 发光方框, 未来感UI, 无衬线字体, 抽象, 2D, 色彩鲜艳, 卡通, 糟糕的书法, 水印。",
-    "tags": [
-      "建筑",
-      "卡通",
-      "未来感",
-      "场景",
-      "自然",
-      "纸艺",
-      "雕塑",
-      "字体排版",
-      "界面设计"
-    ],
-    "id": 549
-  },
-  {
-    "image": "0005/501.jpeg",
-    "prompt": "画幅比例16:9，一幅令人叹为观止的插画地图学杰作，描绘了唐代首都长安的地图。整个画面以唐代仕女画的精致风格呈现，令人联想到绘画大师周昉的作品。媒材是在陈旧、细腻的绢本上使用工笔重彩。\n\n**构图与透视:**\n地图采用“散点透视”的长卷形式。城市感觉更像一幅生动的织锦，而非僵硬的蓝图。朱雀大街作为画面的中轴线。\n\n**插画与字体细节:**\n- **作为微型场景的地标:** 关键地点是小巧、精致的叙事场景：\n- **大明宫:** 宫廷仕女在园林中演奏乐器。\n- **西市:** 粟特商人与贵族妇女交易丝绸。\n- **曲江池:** 仕女们正在进行“曲水流觞”。\n- **作为地图元素的优雅人物:** 优雅的唐代仕女被用作装饰元素，她们的姿态和袖带引导着观众的视线。\n\n**一百零八坊 - 高级指令:**\n一百零八坊由一个个优雅的手绘长方形印章来代表。核心目标是用貌似可信的、具有历史感的文字填充这些印章。\n- **指令:** AI不必尝试渲染全部108个独一无二的坊名，而是必须从提供的“样本集”中学习，并用相似的、合理的、不重复的双字坊名去填充每一个印章。\n- **著名坊名样本集 (用于风格参考):**\n“平康坊”、“崇仁坊”、“兴庆坊”、“道政坊”、“长兴坊”、“永崇坊”、“亲仁坊”、“永宁坊”、“怀远坊”、“延康坊”、“金城坊”、“布政坊”。\n- **风格强制要求:** 所有印章内的文字必须是优美、纤细、典雅的“小篆”字体。结构应为“[某][某]坊”。\n\n**主标题与标签:**\n- **主标题:** “大唐长安”以雄浑大气的隶书，竖排书写在右上角。\n- **标签:** 街道（“朱雀大街”）和河流（“渭水”）的名称，以娟秀的行书直接写在绢本背景上，并顺着路径的曲线流动。\n\n**美学与氛围:**\n调色板丰富而华丽（朱砂、石绿、石青、金箔）。线条如“游丝描”般细劲流畅。整体氛围是一种繁华、诗意、优雅的感觉。\n\n**负面提示词:**\n英文, 罗马字母, 3D, 现代地图, 网格布局, 几何形状, 电脑字体, 西方艺术风格, 卡通, 简单, 极简, 空白区域, 水印, 糟糕的书法, 乱码。",
-    "tags": [
-      "卡通",
-      "插画",
-      "场景",
-      "极简",
-      "肖像",
-      "字体排版"
-    ],
-    "id": 550
-  },
-  {
-    "image": "0005/500.jpeg",
-    "prompt": "画幅比例16:9，一张为美团设计的、超级复杂的商业海报，风格是未来主义的道家黄历或符箓图。\n布局与风格: 整张海报是一个密集的、复杂的网格，充满了文字和图标，模仿在泛黄旧纸上的中国传统木版画。所有文字都采用经典的木刻风格楷体或宋体，从右到左竖排。\n中心神像: 中央是一位“外卖神君”，以古版画风格描绘。他身穿黄帝袍，头戴袋鼠耳神冠，一手托着显示美团App的手机，另一手托着外卖餐盒。\n复杂文字网格:\n顶部标题: 在一个华丽的画框中，从右到左写着主标题：“赛博黄历·万事皆宜”。\n环绕网格: 中心神像被代表十二时辰（子、丑、寅…）的网格包围。每个时辰下都有一列竖排文字描述宜忌，例如“宜：點宵夜”和“忌：空腹眠”。\n角落元素: 四角是八卦卦象，每个卦象都与一项美团业务和一个小版画图标相关联（例如，机械马代表共享单车）。\n细节: 海报上装饰着几个红色的、篆书风格的方形印章。整体氛围是古代神秘主义与现代日常生活的融合，一种“赛博道教”美学。杰作，高信息密度。\n负面提示词: 3D, 照片, 现代字体, 横排文字, 极简, 简单, 模糊, 丑陋, 畸形, 糟糕的书法, 水印。",
-    "tags": [
-      "美食",
-      "未来感",
-      "极简",
-      "纸艺",
-      "海报",
-      "字体排版",
-      "载具"
-    ],
-    "id": 551
-  },
-  {
-    "image": "0004/499.jpeg",
-    "prompt": "画幅比例16:9，一张迷人而精致的成都手绘旅游地图，具有吉卜力工作室艺术设定集般的风格。整个画面是在一张有纹理的、陈旧的羊皮纸上的水彩和钢笔淡彩插画。整体美学风格异想天开、充满活力和生活气息。\n\n地图布局与风格:\n地图以风格化的等轴测视角，展示了成都的核心地标，这些地标被描绘成可爱、精细的微缩建筑和图标（例如，熊猫基地的熊猫、锦里的灯笼、人民公园的茶馆）。布局是有机的、自由流动的，而非基于僵硬的网格。\n\n至关重要的字体排版挑战 (高难度部分):\n所有文字必须以一种优美的、略带不完美感的手写书法风格（行楷）呈现，看起来就像是用绘制插图的同一支钢笔写出来的。\n1.  **主标题:** 主标题“成都慢行图”被艺术性地写在顶部一条飘逸的缎带上。\n2.  **带角度的趣味标签:** 每个地标图标旁边，都以俏皮的、略带倾斜的方式写着它的名字（例如：“宽窄巷子”、“武侯祠”、“杜甫草堂”）。文字需要感觉是有机放置的，而不是死板的水平线。\n3.  **沿路径弯曲的文字:** 一条风格化的锦江贯穿地图。河流的名字“锦江”二字，需要沿着河流的弯曲路径优雅地书写。这是一个关键测试点。\n4.  **融合性的注释:** 地图上散布着小小的、异想天开的注释，这些注释结合了文字和图标。例如：\n    - 一条写着“吃火锅!”的注释，旁边画着一个小小的红辣椒。\n    - 一个“喝茶咯!”的标签，旁边有一个冒着热气的微型茶杯图标。\n    - 区域名称“锦江区”被写在一个手绘的云朵形状里。\n5.  **手绘图例:** 在一个角落，有一个手绘的“图例”方框，里面有小图标（如茶杯、熊猫脸、寺庙屋顶）和它们对应的手写标签。\n6.  **印章:** 一枚红色的、仿佛手工篆刻风格的印章，印着“蓉”字（成都的简称），被盖在角落，并与边框有轻微的重叠。\n\n美学:\n一幅插画地图学的杰作。文字和插图的融合必须天衣无缝。水彩效果要柔和，有可见的水渍和纹理，而钢笔线条则要自信而生动。整体感觉温暖、诱人，充满个性。\n\n负面提示词:\n电脑字体, 计算机生成的文字, 直线, 僵硬的网格, 完美对齐, 只有水平文字, 文字浮层, 照片, 3D, 极简, 通用图标, 拼写错误, 乱码, 水印。",
-    "tags": [
-      "建筑",
-      "插画",
-      "极简",
-      "纸艺",
-      "字体排版"
-    ],
-    "id": 552
-  },
-  {
-    "image": "0004/498.jpeg",
-    "prompt": "创作一幅高度精细的微缩超现实场景，场景中微小的人物与附图所示的[此处插入品牌和产品名称]产品进行逼真的互动。这些人物应表现得仿佛产品就是他们的整个世界，所有视觉元素都应自然而然地适应产品的形态和特性，没有任何预设的前提。确保人物与产品之间的互动能够巧妙而连贯地体现品牌的形象和预期用途，并采用简洁的视觉构图和极简的背景。运用电影级的灯光、清晰的阴影和锐利的摄影技巧，将[品牌名称]的标志无缝融入场景，并添加一句能够自动适应产品语境的简短标语。要求：1:1 – 超精细 – 照片级写实 – 简洁专业的制作。",
-    "tags": [
-      "品牌",
-      "场景",
-      "标志",
-      "极简",
-      "自然",
-      "摄影",
-      "肖像",
-      "产品"
-    ],
-    "id": 553
-  },
-  {
-    "image": "0004/497.jpeg",
-    "prompt": "{\n  \"image_generation_prompt\": {\n    \"full_text\": \"An ultra-realistic 8K UHD photograph of a rainy night scene at a rural Japanese bus stop. A person (based on the attached photos, with a normal build) is standing, holding a small red umbrella, wearing a red jumpsuit, blue boots, and a yellow t-shirt, looking to the side with an expression of apprehension and curiosity. Beside him, a gigantic, realistic Totoro creature, with wet fur and a leaf on its head, waits in the rain. The setting includes an aged bus stop sign, dense wet forest trees in the background, and the lighting comes from a dim lamppost and the moon, with realistic rain reflections on the wet asphalt. Wide shot. The face must be sharp and expressive.\",\n    \"technical_specs\": {\n      \"medium\": \"Photograph\",\n      \"resolution\": \"8K UHD\",\n      \"style\": \"Ultra-realistic\",\n      \"composition\": \"Wide shot\",\n      \"focus\": \"Sharp and expressive face\"\n    },\n    \"lighting\": {\n      \"sources\": [\"Dim lamppost\", \"Moon\"],\n      \"effects\": [\"Realistic rain reflections on wet asphalt\"]\n    },\n    \"environment\": {\n      \"location\": \"Rural Japanese bus stop\",\n      \"weather\": \"Rainy night\",\n      \"background\": \"Dense wet forest trees\",\n      \"props\": [\"Aged bus stop sign\"]\n    },\n    \"subjects\": [\n      {\n        \"type\": \"Human\",\n        \"reference_source\": \"Attached photos\",\n        \"build\": \"Normal\",\n        \"attire\": {\n          \"clothing\": \"Red jumpsuit, yellow t-shirt\",\n          \"footwear\": \"Blue boots\",\n          \"accessories\": \"Small red umbrella\"\n        },\n        \"pose\": \"Standing, looking to the side\",\n        \"expression\": \"Apprehension and curiosity\"\n      },\n      {\n        \"type\": \"Creature\",\n        \"identity\": \"Gigantic realistic Totoro\",\n        \"details\": [\"Wet fur\", \"Leaf on head\"],\n        \"action\": \"Waiting in the rain\"\n      }\n    ]\n  }\n}",
-    "tags": [
-      "动物",
-      "时尚",
-      "场景",
-      "摄影",
-      "载具"
-    ],
-    "id": 554
-  },
-  {
-    "image": "0004/496.jpeg",
-    "prompt": "(full body shot, wide angle view:1.2), [A woman], in a dynamic pose with arm outstretched, wearing a spectacular conceptual avant-garde gown. The bodice is a fitted (colorful patterned patchwork tapestry fabric:1.3). The skirt is NOT fabric and NOT simple ribbons. The skirt is constructed entirely from (GIANT, MASSIVE 3D PERSIAN CALLIGRAPHY STROKES cut from matte paper:1.6). (A violent wind effect blows the calligraphy structure upwards and outwards to the left:1.5), creating a huge swirling anti-gravity vortex of letters that billows like smoke high into the air. The right side of the skirt anchors to the floor. Dramatic color gradient: The floating strokes on the left are (fiery orange and bright red:1.4), transitioning smoothly across the body to (deep teal, emerald green, and dark blue strokes on the bottom right:1.4). White minimalist studio background with (distinctive patterned gobo shadows cast on the wall:1.3). Cinematic lighting, hyper-detailed paper texture, masterpiece, 8k. (simple ribbons with writing on them:1.6), (thin paper strips:1.5), (small text:1.4), standard fabric skirt, normal dress, metallic texture, shiny plastic, glossy finish, wire mesh, angel wings, feathers attached to back, symmetrical skirt, messy background, low quality, blurry.",
-    "tags": [
-      "极简",
-      "纸艺"
-    ],
-    "id": 555
-  },
-  {
-    "image": "0004/495.jpeg",
-    "prompt": "A photorealistic ESC keycap scene shows a miniature cozy living room setup. Inside: a glowing red Netflix screen, a plush red couch, popcorn bowl, and throw blanket. A small figure lounges with feet up, watching content. The red “N” logo glows from behind like mood lighting. Outside: cool tech-blue reflections on F1, Shift, and Q keys. The word “ESC” is subtly present in a glassy fog on top of the cap.",
-    "tags": [
-      "室内",
-      "场景",
-      "标志",
-      "自然",
-      "摄影"
-    ],
-    "id": 556
-  },
-  {
-    "image": "0004/494.jpeg",
-    "prompt": "Place Monkey D. Luffy next to the man, smiling widely with his straw hat tilted. Use a Thousand Sunny deck background with bright blue sky. Keep the selfie composition intact and integrate both characters naturally.",
-    "tags": [
-      "角色",
-      "自然",
-      "肖像"
-    ],
-    "id": 557
-  },
-  {
-    "image": "0004/493.jpeg",
-    "prompt": "A two-panel technical blueprint diagram in clean monochrome line-art, matching the exact layout of the provided PlayStation 1 schematic. On the left side, draw a full, intact Sony PlayStation 5 console in precise thin line-art on a white background. On the right side, draw a highly detailed, vertically exploded-view diagram of the PS5 showing each internal component separated into layers: outer shell panels, faceplates, cooling fan, heatsink tower, Blu-ray drive, motherboard, SSD module, power supply, internal frame, ports, vents, base stand, screws. Use consistent thin grey line-weight with no shading. Add numbered circular labels around each part, and include a matching numbered parts list at the bottom just like the reference blueprint. Place the SONY logo, PlayStation logo, and “PlayStation 5” text in the top left in the exact same position and style as the uploaded reference image. The entire artwork should mirror the composition, spacing, typography, and minimalist engineering-ma",
-    "tags": [
-      "信息图",
-      "标志",
-      "极简",
-      "字体排版"
-    ],
-    "id": 558
-  },
-  {
-    "image": "0004/492.jpeg",
-    "prompt": "生成坐标 36.4602° N, 25.3730° E 的日落图像",
-    "tags": [
-      "创意"
-    ],
-    "id": 559
-  },
-  {
-    "image": "0004/491.jpeg",
-    "prompt": "Create a grid of 10 different hairstyles for this women. List the name of each hairstyle and the brief history about the hairstyle. They can be from any era.",
-    "tags": [
-      "创意"
-    ],
-    "id": 560
-  },
-  {
-    "image": "0004/490.jpeg",
-    "prompt": "A high-resolution, full outdoor shot of a young East Asian woman with a radiant smile, captured from the chest up. She stands under bright, direct sunlight, casting strong, defined shadows from the brick building behind her. Her dark, wavy, and voluminous hair is styled with subtle curls, and a pair of white-framed round sunglasses are pushed up onto her head. She has fair, smooth skin, bright, upturned dark eyes, a delicate nose, and a wide, open-mouthed smile revealing her upper teeth. Her lips are a natural, soft pink. She wears a fitted, red scoop-neck tank top that is slightly cropped, revealing a hint of her midriff and navel. A delicate silver chain with a small cross pendant adorns her neck. A black strap from a backpack or shoulder bag is visible over her left shoulder. Her right hand, with slender fingers and light nail polish, holds a vibrant, glossy red spherical object, resembling a cherry or lollipop. The background features a reddish-brown brick building with repetitive architectural columns or pilasters, topped with light-colored caps, creating strong vertical shadows. The setting is a sunny urban sidewalk with light-colored paving. The overall aesthetic is cheerful, vibrant, and natural with a focus on sharp detail and warm lighting.",
-    "tags": [
-      "建筑",
-      "场景",
-      "自然"
-    ],
-    "id": 561
-  },
-  {
-    "image": "0004/489.jpeg",
-    "prompt": "Create an image of this person as an artist painting a tiny miniature figurine version of themselves. The person is wearing their most iconic signature outfit, looking directly at the camera with a confident expression while holding a tiny paintbrush in one hand. The small action figure-sized version of themselves is prominently placed on a clean workbench in front of them - make the miniature slightly larger and more visible than realistic scale so it clearly stands out. The miniature figure is also wearing the same iconic outfit in a signature pose. Minimal art supplies on the workbench to avoid clutter - just 2-3 small paint bottles and one extra brush, keeping the focus on the person and their miniature. Soft neutral white background, professional studio lighting, shallow depth of field. The composition emphasizes the person’s face looking at camera and the miniature figure they’re working on. Clean, uncluttered, photorealistic style with high detail on both figures",
-    "tags": [
-      "时尚",
-      "标志",
-      "极简",
-      "自然",
-      "摄影",
-      "肖像",
-      "玩具"
-    ],
-    "id": 562
-  },
-  {
-    "image": "0004/488.jpeg",
-    "prompt": "A [subject] in a minimalist children's drawing style, using thick white lines and glowing contours. The background is softly blurred with [environment details]. Floating elements like [floating details] add a whimsical touch. Full-body view, warm and simple aesthetic.",
-    "tags": [
-      "奇幻",
-      "场景",
-      "极简",
-      "肖像"
-    ],
-    "id": 563
-  },
-  {
-    "image": "0004/487.jpeg",
-    "prompt": "Create 8 different initial sketches leading to this final character.",
-    "tags": [
-      "角色"
-    ],
-    "id": 564
-  },
-  {
-    "image": "0004/486.jpeg",
-    "prompt": "Create a detailed visual chart showing the full evolution of “Super Saiyan–style transformations”, using an original Saiyan-inspired warrior , depicted in multiple stages from base form to divine transformations",
-    "tags": [
-      "创意"
-    ],
-    "id": 565
-  },
-  {
-    "image": "0004/485.jpeg",
-    "prompt": "为我生成图中角色的绘制 Q 版的，LINE 风格的半身像表情包，注意头饰要正确\n彩色手绘风格，使用 4x6 布局，涵盖各种各样的常用聊天语句，或是一些有关的娱乐 meme\n其他需求：不要原图复制。所有标注为手写简体中文。\n生成的图片需为 4K 分辨率 16:9",
-    "tags": [
-      "角色",
-      "表情符号"
-    ],
-    "id": 566
-  },
-  {
-    "image": "0004/484.jpeg",
-    "prompt": "Make a 4×4 grid starting with the 1880s. In each section, I should appear styled according to that decade (clothing, hairstyle, facial hair, accessories). Use colors, background, & film style accordingly.",
-    "tags": [
-      "时尚"
-    ],
-    "id": 567
-  },
-  {
-    "image": "0004/483.jpeg",
-    "prompt": "请创建诸葛连弩的复古风格工程爆炸图，里面的文字是中文",
-    "tags": [
-      "复古"
-    ],
-    "id": 568
-  },
-  {
-    "image": "0004/482.jpeg",
-    "prompt": "A traditional Chinese Gongbi ink and color painting on aged, textured rice paper. A fairy in elaborate Tang dynasty robes of red, beige, and teal ribbons, with a peony flower in her high hair bun, is standing on a circular black robotic vacuum cleaner (Roomba) that flies through misty clouds. \n\nShe is eating a vanilla ice cream cone held in her right hand. In her left hand, she holds a brown Louis Vuitton monogram handbag. Below her, a small owl flies with a green frog holding a lotus leaf umbrella on its back. The background is a wash of ink clouds and distant mountains. \n\nIn the top left corner, there is calligraphy and a red rectangular artist seal that reads \"寶玉\".",
-    "tags": [
-      "室内",
-      "自然",
-      "纸艺"
-    ],
-    "id": 569
-  },
-  {
-    "image": "0004/481.jpeg",
-    "prompt": "A traditional Chinese Gongbi-style ink painting. The scene humorously depicts a giant turtle swimming calmly through a turbulent river, carrying a playful and anachronistic tableau on its shell:\nAt the turtle’s forefront, Tang Sanzang and the Queen of the Women's Kingdom amusingly reenact the iconic scene from the movie Titanic. The Queen stands serenely with arms outstretched like Rose, while Tang Sanzang tenderly embraces her waist from behind like Jack, immersed in romantic sentiment. \nBehind them, Sha Wujing (Sha Monk) leisurely sits cross-legged, casually holding a fishing rod with a cigarette dangling from his lips, completely relaxed as he fishes. Beside him, Zhu Bajie humorously stands on the turtle’s shell, comically relieving himself into the river, with an exaggeratedly proud expression. Further back, Sun Wukong rides energetically on a surfboard amidst the rolling waves, carrying a modern rocket launcher aimed confidently at a mysterious UFO hovering above.\nTraditional Chinese calligraphy adorns one side of the painting, accompanied by a classic red artist’s seal inscribed \"寶玉印\". The artwork cleverly blends classical aesthetics with contemporary humor, creating a playful and satirical fusion across eras.",
-    "tags": [
-      "场景",
-      "雕塑",
-      "载具"
-    ],
-    "id": 570
-  },
-  {
-    "image": "0004/480.jpeg",
-    "prompt": "你是一个擅长中文的日本漫画家，有着强烈的个人手绘风格。《鬼灭之刃》的原始草稿手绘图，你是作者之一。  \n\n请使用你擅长的个人漫画线稿图风格, 调用Nano Banana Pro 将如下内容，基于你的理解，生成你的分格漫画手稿图！  \n\n不要输出分析内容，直接输出分格漫画图片，图中使用中文表达。\n ────────────────  \n\n{你提供的待分析内容在此}",
-    "tags": [
-      "创意"
-    ],
-    "id": 571
-  },
-  {
-    "image": "0004/479.jpeg",
-    "prompt": "Create an OOTD collage image.价格你随便填\n\n【构图要求】\n- 左侧放置全身或半身照片的主角（时尚街拍风）\n- 右侧以白底排版列出所有单品\n- 每件单品包含：物品图、品牌名、中文品名、价格\n- 布局整洁、有呼吸感，时尚杂志风格\n\n【视觉风格】\n- 明亮自然街拍光线\n- 真实质感的衣物贴图，呈现清晰材质\n- 右侧采用电商风格白底商品照\n- 字体干净现代（类似无衬线字体）\n- 整体专业、极简、精致\n\n【人物说明】\n- 女性角色，时髦、有气质\n- 穿着：灰色短款针织、条纹衬衫、牛仔外套、深蓝短裙、黑色单鞋（可替换）\n- 造型自然，像真人街拍\n\n【单品列表排版】\n- 以独立小模块方式呈现每件单品\n- 每件单品包括：\n  - 商品照（剪影风）\n  - 品牌名（英文或中文）\n  - 品名（中文）\n  - 价格（人民币）\n\n【整体风格方向】\n- 像小红书/微博时尚博主常用的 OOTD 拼贴\n- 风格年轻、日常、好看、实用\n- 色调统一且具有品牌感",
-    "tags": [
-      "品牌",
-      "角色",
-      "极简",
-      "自然",
-      "肖像",
-      "产品",
-      "字体排版"
-    ],
-    "id": 572
-  },
-  {
-    "image": "0004/478.jpeg",
-    "prompt": "Role (角色设定)\n你是一位顶尖的游戏与动漫概念美术设计大师 (Concept Artist)，擅长制作详尽的角色设定图（Character Sheet）。你具备“像素级拆解”的能力，能够透视角色的穿着层级、捕捉微表情变化，并将与其相关的物品进行具象化还原。你特别擅长通过女性角色的私密物品、随身物件和生活细节来侧面丰满人物性格与背景故事。\nTask (任务目标)\n根据用户上传或描述的主体形象，生成一张**“全景式角色深度概念分解图”**。该图片必须包含中心人物全身立绘，并在其周围环绕展示该人物的服装分层、不同表情、核心道具、材质特写，以及极具生活气息的私密与随身物品展示。\nVisual Guidelines (视觉规范)\n1. 构图布局 (Layout):\n• 中心位 (Center): 放置角色的全身立绘或主要动态姿势，作为视觉锚点。\n• 环绕位 (Surroundings): 在中心人物四周空白处，有序排列拆解后的元素。\n• 视觉引导 (Connectors): 使用手绘箭头或引导线，将周边的拆解物品与中心人物的对应部位或所属区域（如包包连接手部）连接起来。\n2. 拆解内容 (Deconstruction Details) —— 核心迭代区域:\n• 服装分层 (Clothing Layers) [加强版]:\n• 将角色的服装拆分为单品展示。如果是多层穿搭，需展示脱下外套后的内层状态。\n• 新增：私密内着拆解 (Intimate Apparel): 独立展示角色的内层衣物，重点突出设计感与材质。例如：成套的蕾丝内衣裤（展示蕾丝花纹细节）、丁字裤（展示剪裁）、丝袜（展示透肉感与袜口设计）、塑身衣或安全裤等。\n• 表情集 (Expression Sheet):\n• 在角落绘制 3-4 个不同的头部特写，展示不同的情绪（如：冷漠、害羞、惊讶、失神、或涂口红时的专注神态）。\n• 材质特写 (Texture & Zoom) [加强版]:\n• 选取 1-2 个关键部位进行放大特写。例如：布料的褶皱、皮肤的纹理、手部细节。\n• 新增：物品质感特写: 增加对小物件材质的描绘，例如：口红膏体的润泽感、皮革包包的颗粒纹理、化妆品粉质的细腻感。\n• 关联物品 (Related Items) [深度迭代版]:\n• 此处不再局限于大型道具，需增加展示角色的“生活切片”。\n• 随身包袋与内容物 (Bag & Contents): 绘制角色的日常通勤包或手拿包，并将其“打开”，展示散落在旁的物品。\n• 美妆与护理 (Beauty & Grooming): 展示其常用的化妆品组合（如：特定色号的口红/唇釉特写、带镜子的粉饼盒、香水瓶设计、护手霜）。\n• 私密生活物件 (Lifestyle & Intimate Items): 具象化角色隐藏面的物品。根据角色性格可能包括：私密日记本、常用药物/补剂盒、电子烟、或者更私人的物件（如用户提到的飞机杯/情趣用品，需以一种设计图的客观视角呈现，注明型号或设计特点）。\n3. 风格与注释 (Style & Annotations):\n• 画风: 保持高质量的 2D 插画风格或概念设计草图风格，线条干净利落。\n• 背景: 使用米黄色、羊皮纸或浅灰色纹理背景，营造设计手稿的氛围。\n• 文字说明: 在每个拆解元素旁模拟手写注释，简要说明材质（如“柔软蕾丝”、“磨砂皮革”）或品牌/型号暗示（如“常用色号#520”、“定制款”）。\nWorkflow (执行逻辑)\n当用户提供一张图片或描述时：\n1. 分析主体的核心特征、穿着风格及潜在性格。\n2. 提取可拆解的一级元素（外套、鞋子、大表情）。\n3. 脑补并设计二级深度元素（她内衣穿什么风格？她包里会装什么口红？她独处时会用什么物品？）。\n4. 生成一张包含所有这些元素的组合图，确保透视准确，光影统一，注释清晰。\n5. 使用中文：英文标记，高清4K HD 输出",
-    "tags": [
-      "品牌",
-      "角色",
-      "时尚",
-      "游戏",
-      "插画",
-      "室内",
-      "自然",
-      "纸艺",
-      "像素",
-      "肖像"
-    ],
-    "id": 573
-  },
-  {
-    "image": "0004/477.jpeg",
-    "prompt": "请绘制一张 红烧肉 的制作流程图，搭配简要说明、食材克数，并加入一个特朗普作为角色。整体采用 日本流行杂志风格的页面结构，但视觉上融合 《进击的巨人》画风，呈现彩色漫画般的强烈表现力与动感。",
-    "tags": [
-      "角色",
-      "美食"
-    ],
-    "id": 574
-  },
-  {
-    "image": "0004/476.jpeg",
-    "prompt": "创作一张 9:16 竖版 的 《番茄炒蛋》手绘风格教学食谱信息图。\n\n整体风格要求：\n\t•\t由专业厨师写给普通人的教学食谱\n\t•\t使用 Z 字形动线排版（左上 → 右上 → 左下），阅读顺畅\n\t•\t彩色水彩笔速写风格，搭配 细腻墨线轮廓\n\t•\t采用 2025 主流插画配色与笔触\n\t•\t米色纸张纹理背景，温暖、质朴、亲切\n\t•\t插图必须让人“看了就想做”\n\n⸻\n\n内容结构（通用）\n\n1. 顶部标题（醒目）\n\n《{菜名}》\n\n⸻\n\n2. 步骤区块（Z 动线排版，3–5 步）\n\n每个步骤包含：\n\t•\t手绘步骤插图（彩色水彩＋墨线）\n\t•\t简短图文说明\n\t•\t厨师秘技\n\t•\t小心得或提示\n\n⸻\n\n步骤模板（通用，可被模型自动填充）\n\n步骤 1：准备食材\n（自动根据菜名生成相关食材）\n插图：整齐摆放的主要食材和调味料。\n说明：列出并处理该菜的基本材料。\n秘技：告诉用户如何提升风味或口感。\n心得：提供简单经验或提醒。\n\n⸻\n\n步骤 2：调味 / 腌制 / 前置处理\n插图：调制酱汁、腌肉、处理主料的小碗或砧板画面。\n说明：展示关键基础步骤。\n秘技：比例、小技巧、避免失败要点。\n心得：轻松风格的小提示。\n\n⸻\n\n步骤 3：炒制 / 烹调关键步骤\n插图：锅中食材的烹调场景，水彩烟气柔和。\n说明：大火、小火、顺序、重要动作。\n秘技：保持火候、控制时间、提升香气的办法。\n心得：强调料理灵魂所在。\n\n⸻\n\n步骤 4：合味 / 出锅前步骤\n插图：加入酱汁、调味、配料混合的场景。\n说明：整体收汁、调味到位。\n秘技：亮油、保持口感或香味的小技巧。\n心得：此步决定成败。\n\n⸻\n\n步骤 5：点缀 / 完成步骤\n插图：撒香料、加入坚果、盛盘等动作。\n说明：最后调整味道或摆盘。\n秘技：保持脆感、避免过熟等技巧。\n心得：成品风味描述。\n\n⸻\n\n底部成品插图\n\t•\t一份精致、色香俱全的 《{菜名}》\n\t•\t水彩质感强烈、油亮、鲜嫩、诱人\n\t•\t让读者看了就想做\n\n⸻\n\n底部中央署名\n\n@木马人 AI",
-    "tags": [
-      "美食",
-      "插画",
-      "信息图",
-      "场景",
-      "纸艺",
-      "字体排版"
-    ],
-    "id": 575
-  },
-  {
-    "image": "0004/475.jpeg",
-    "prompt": "绘制一幅古今混搭幽默水墨插画，主题为《三英飙车战吕布》：\n\n画面为黄昏时分，天空云霞绚丽，大片留白凸显意境；\n刘备、关羽、张飞三人乘坐一辆疾驰的红色双排座宝马轿车在尘土飞扬的古代战场急转漂移——\n\n刘备坐在驾驶位，双手紧握方向盘，神情专注严肃；\n关羽坐在副驾驶，神情悠然，手持梳子对着后视镜悠闲梳理垂胸长髯，胡须飘逸夸张；\n张飞在后排表情嚣张，朝身后追赶者从窗户竖起中指，姿势夸张，喜剧效果明显；\n宝马轿车的车体与轮胎透视夸张拉伸，明显体现高速飘逸带来的强烈动感；\n\n后方远处吕布头戴雉翎金冠、身穿古代铠甲，头盔飘带飞扬，骑着一辆复古红色哈雷摩托，奋力追赶宝马车，高举方天画戟怒吼，动作与神情极为夸张，充满戏剧冲突；\n\n整体采用传统写意水墨笔触配合淡彩晕染，颜色柔和典雅，墨色层次丰富细腻；\n保留传统朱印（“寶玉印”）题款于画面适当位置，结合适度的留白处理，营造出强烈的古典幽默感与现代元素的奇妙融合效果。",
-    "tags": [
-      "插画",
-      "复古",
-      "载具"
-    ],
-    "id": 576
-  },
-  {
-    "image": "0004/474.jpeg",
-    "prompt": "绘制任天堂明星大乱斗游戏海报全家福，风格与游戏保持一致性。aspect 9:16 2k",
-    "tags": [
-      "游戏",
-      "海报"
-    ],
-    "id": 577
-  },
-  {
-    "image": "0004/473.jpeg",
-    "prompt": "{\n  \"image_metadata\": {\n    \"title\": \"Candid Charm: The Playful Gaze\",\n    \"category\": \"Hyper-realistic Lifestyle Photography\",\n    \"tone\": \"Charming, Raw, Youthful, Candid\"\n  },\n  \"prompt_elements\": {\n    \"subject\": {\n      \"description\": \"Young Asian woman with a cute, soft, round face shape and pale, porcelain skin. Her skin texture is natural and dewy with a soft glow.\",\n      \"face_detail\": \"Distinctive large, dark, round eyes with prominent 'aegyo-sal' (charming under-eye fullness), looking up sideways at the camera with a mischievous, innocent doe-eyed gaze. Her mouth is posed in a specific tight-lipped, suppressed smile (lips pressed together firmly in a thin line), creating a shy, playful, and quirky expression.\",\n      \"pose\": \"Crouched low in a full squat, knees bent, body turned away but head turned sharply back over her shoulder to face the lens.\",\n      \"action\": \"One arm extended straight out in a long sleeve to interact with a ginger cat.\"\n    },\n    \"fashion\": {\n      \"garment_top\": \"Sage-green ribbed knit shrug/top with very long sleeves covering the hands, open back with thin crisscross straps.\",\n      \"garment_bottom\": \"Denim shorts.\",\n      \"footwear\": \"Bare feet in tan sandals.\"\n    },\n    \"environment\": {\n      \"setting\": \"Rustic open-air patio.\",\n      \"props\": \"Wooden table with a pink tribal/geometric patterned runner.\",\n      \"ground\": \"Rough concrete floor.\"\n    },\n    \"technical_specs\": {\n      \"style\": \"Candid smartphone photography aesthetic, high angle shot.\",\n      \"lighting\": \"Natural daylight, soft shadows, capturing the gleam in the eyes.\",\n      \"focus\": \"Sharp focus on the eyes and the quirky mouth expression.\"\n    }\n  },\n  \"full_prompt_string\": \"A hyper-realistic candid photo from a high angle showing a young Asian woman squatting on a concrete patio. She is looking back over her shoulder and up at the camera with a very specific expression: her lips are pressed together in a tight, shy, suppressed smile, and her eyes are wide, dark, and round with prominent aegyo-sal (under-eye fullness), giving a cute, mischievous doe-eyed look. She has pale, glowing skin. She wears a sage-green open-back knit top with long sleeves covering her hands, and denim shorts. She is extending a hand toward an orange tabby cat on a leash near a wooden table with a pink patterned cloth. 8k resolution, raw style.\",\n  \"negative_prompt\": \"open mouth, teeth showing, laughing, lipstick, heavy makeup, western features, distorted eyes, bad hands, extra fingers, low resolution, blur.\"\n}",
-    "tags": [
-      "数据可视化",
-      "时尚",
-      "场景",
-      "摄影"
-    ],
-    "id": 578
-  },
-  {
-    "image": "0004/472.jpeg",
-    "prompt": "A cinematic, 21:9, ultra-high-definition (8K) wide-shot photograph capturing the electrifying grand finale of the fictional TV show \"Earth Got Talent.\" The setting is a massive, sold-out Las Vegas-style arena at night. The stage floor is glossy black and highly reflective. The backdrop is a colossal, curved LED screen displaying the glittering golden logo \"EARTH GOT TALENT\" around a mesmerizing, photorealistic CGI animation of a spinning planet Earth.\nLighting and Atmosphere:\nDynamic professional studio lighting. Volumetric spotlights (stark white) isolate the main subjects. Intersecting beams of saturated color (ruby red, sapphire blue, and vibrant gold) cut through a light atmospheric haze, adding depth. Golden confetti is actively raining down from the ceiling.\nCharacter Composition:\n• The Host (Center Stage): Kim Jong Un stands proudly at a sparkling crystal podium. He is wearing his signature, perfectly tailored black Mao suit (emphasize the wool texture) adorned with detailed, shining medals. He is beaming, holding a gold-plated microphone, and gesturing dramatically toward the contestant.\n• The Judges (Stage Left): Seated at a long, polished mahogany judges' desk with integrated lighting, nameplates, and large golden buzzers.\n• Donald Trump (Far Left): In a dark navy suit and bright red silk tie. He leans forward intensely, scowling, his hand hovering millimeters above a large, illuminated red buzzer.\n• Vladimir Putin (Middle): Dressed sharply in a black cashmere turtleneck and tailored dark suit. Arms crossed, observing the stage with a stern, calculating smirk.\n• Xi Jinping (Right): In a crisp black Mao suit, sitting with impeccable posture, hands folded neatly, offering a calm, enigmatic smile.\n• The Contestant (Front and Center): Elon Musk stands confidently on the contestant mark, bathed in a high-intensity spotlight. He wears a sleek, black SpaceX leather flight jacket and black trousers. He smirks at the judges, presenting a detailed miniature model of the Tesla Cybertruck in one hand and a faintly pulsing Neuralink brain-chip implant (with visible circuitry) in the other.\nTechnical Specifications:\nCaptured with a professional cinema camera (e.g., Arri Alexa LF) using a 35mm prime lens at f/2.8. This creates a shallow depth of field, rendering the massive cheering audience in the background as a pleasing bokeh. Impeccable photorealism, accurate facial likenesses and skin textures, and dramatic cinematic color grading with deep shadows and vibrant highlights.",
-    "tags": [
-      "角色",
-      "毛毡",
-      "自然",
-      "摄影",
-      "科幻"
-    ],
-    "id": 579
-  },
-  {
-    "image": "0004/471.jpeg",
-    "prompt": "Generate leaked photo BTS from KPOP Demon Hunters live action movie set",
-    "tags": [
-      "摄影"
-    ],
-    "id": 580
-  },
-  {
-    "image": "0004/470.jpeg",
-    "prompt": "add sketch annotations on top of this image explaining the camera movement. I want it to crane up and the look down as an aerial shot",
-    "tags": [
-      "创意"
-    ],
-    "id": 581
-  },
-  {
-    "image": "0004/469.jpeg",
-    "prompt": "1:1变真人",
-    "tags": [
-      "创意"
-    ],
-    "id": 582
-  },
-  {
-    "image": "0004/468.jpeg",
-    "prompt": "帮我生成一帧抖音竖屏短视频截图，内容是厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具",
-    "tags": [
-      "美食"
-    ],
-    "id": 583
-  },
-  {
-    "image": "0004/467.jpeg",
-    "prompt": "Create a hyper-realistic, ultra-sharp, full-color large-format image featuring a massive group of celebrities from different eras, all standing together in a single wide cinematic frame. The image must look like a perfectly photographed editorial cover with impeccable lighting, lifelike skin texture, micro-details of hair, pores, reflections, and fabric fibers.GENERAL STYLE & MOOD\n\nPhotorealistic, 8k, shallow depth of field, soft natural fill light + strong golden rim light\n\nHigh dynamic range, calibrated color grading\n\nSkin tones perfectly accurate\n\nCrisp fabric detail with individual threads visible\n\nBalanced composition, slightly wide-angle lens (35mm), center-weighted\n\nAll celebrities interacting naturally, smiling, posing, or conversing\n\nMinimal background noise, but with enough world-building to feel realTHE ENVIRONMENT\n\nA luxurious open-air rooftop terrace at sunset overlooking a modern city skyline.\n\nElements include:Warm golden light wrapping around silhouettes\n\nPolished marbl",
-    "tags": [
-      "建筑",
-      "场景",
-      "极简",
-      "摄影"
-    ],
-    "id": 584
-  },
-  {
-    "image": "0004/466.jpeg",
-    "prompt": "A medium shot of the 14 fluffy characters sitting squeezed together side-by-side on a worn beige fabric sofa and on the floor. They are all facing forwards, watching a vintage, wooden-boxed television set placed on a low wooden table in front of the sofa. The room is dimly lit, with warm light from a window on the left and the glow from the TV illuminating the creatures' faces and fluffy textures. The background is a cozy, slightly cluttered living room with a braided rug, a bookshelf with old books, and rustic kitchen elements in the background. The overall atmosphere is warm, cozy, and amused.",
-    "tags": [
-      "动物",
-      "角色",
-      "美食",
-      "室内",
-      "复古"
-    ],
-    "id": 585
-  },
-  {
-    "image": "0004/465.jpeg",
-    "prompt": "Generate the holiday photo of this person through the ages up to 80 years old",
-    "tags": [
-      "摄影"
-    ],
-    "id": 586
-  },
-  {
-    "image": "0004/464.jpeg",
-    "prompt": "使用 rick and morty 画风，非常详细地介绍xxxxx",
-    "tags": [
-      "创意"
-    ],
-    "id": 587
-  },
-  {
-    "image": "0004/463.jpeg",
-    "prompt": "一张宽的名人金句卡，棕色背景，衬线体浅金色 “保持饥饿, 保持愚蠢” 小字“——Steve Jobs”，文字前面带一个大的淡淡的引号，人物头像在左边，文字在右边，文字占画面比例2/3，人物占1/3，人物有点渐变过渡的感觉",
-    "tags": [
-      "肖像"
-    ],
-    "id": 588
-  },
-  {
-    "image": "0004/462.jpeg",
-    "prompt": "根据文字生成一张照片：一个宏大的苹果发布会现场，现场很多观众，场景很暗，有绚丽的灯光，镜头聚焦在很宽的大屏幕，弧形屏幕，文字和屏幕一样有一定的透视感，很小的人物剪影站在舞台上，紫色到蓝色弥散背景上，白色文字有一些渐变，像是现场实拍，高级感 16:9",
-    "tags": [
-      "场景",
-      "肖像"
-    ],
-    "id": 589
-  },
-  {
-    "image": "0004/461.jpeg",
-    "prompt": "生成一张3:4的图片，画面上方用书法写着一首完整的《茅屋秋风所破歌》，内容是\n\n“八月秋高风怒号，卷我屋上三重茅。茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。\n南村群童欺我老无力，忍能对面为盗贼。公然抱茅入竹去，唇焦口燥呼不得，归来倚杖自叹息。\n俄顷风定云墨色，秋天漠漠向昏黑。布衾多年冷似铁，娇儿恶卧踏里裂。床头屋漏无干处，雨脚如麻未断绝。自经丧乱少睡眠，长夜沾湿何由彻！\n安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！“，\n\n每个字上方都要标注上汉语拼音，同时画面内容主要用水墨画的形式展示这首诗所表达的情景。",
-    "tags": [
-      "创意"
-    ],
-    "id": 590
   }
 ]
