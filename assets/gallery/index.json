@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total": 5658,
+  "total": 5926,
   "part_size": 300,
   "parts": [
     {
@@ -132,9 +132,16 @@
     {
       "name": "part-0019",
       "file": "parts/part-0019.json",
-      "count": 258,
+      "count": 300,
       "start": 5400,
-      "end": 5657
+      "end": 5699
+    },
+    {
+      "name": "part-0020",
+      "file": "parts/part-0020.json",
+      "count": 226,
+      "start": 5700,
+      "end": 5925
     }
   ]
 }
