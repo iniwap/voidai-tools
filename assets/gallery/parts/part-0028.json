@@ -1,5 +1,545 @@
 [
   {
+    "image": "0129/13946.jpeg",
+    "prompt": "一张为“The North Face”打造的高定电影感品牌概念海报。场景中有一位女性，站在一个风格化的摄影棚里。她穿着前卫、超大的城市街头服饰：一件深橄榄绿绗缝羽绒飞行员夹克，叠加穿着黑色和棕褐色做旧工装短裤（及膝长度），以及白色鞋底的黑款运动鞋。这个人在胯部位置持有一个经典的橙色篮球。在背景中，一个巨大的、粗体红色的“THE NORTH FACE”标志及其标志性的半穹顶符号垂直堆叠并居中，占据画面的上半部分。在拍摄主体右侧，有一个小的白色风格化涂鸦风格签名。光线情绪化且富有戏剧性，以青色调的氛围为特色，一束温暖的轮廓光打在拍摄主体的右侧。地板是深色、光滑的摄影棚表面，向前投射出柔和的阴影。整体美学粗犷、充满未来感且高对比度，带有浓重的胶片颗粒纹理。",
+    "tags": [
+      "高定",
+      "电影感",
+      "街头风",
+      "未来感",
+      "胶片风"
+    ],
+    "id": 7639
+  },
+  {
+    "image": "0129/13949.jpeg",
+    "prompt": "一张高度逼真的韩式拍立得相纸，带有可爱的装饰性四宫格布局（2x2），设计得像真实的打印大头贴卡片。柔和的粉彩粉背景，俏皮的涂鸦（小星星、闪光、花朵），以及干净的白边框环绕着所有四张照片。这对情侣基于“附带的脸部参考图像”，保留了准确的面部特征和相似度。他们穿着协调的休闲装（黑色上衣和浅色下装），造型自然。 柔和的影棚灯光，自然的皮肤纹理，逼真的阴影，高细节，抓拍的大头贴感觉。 每一帧都有独特、俏皮、非基础的情侣姿势，最多使用1-2个道具：左上：两人都向镜头倾斜，带有夸张的震惊表情（睁大眼睛，张开嘴巴）。女孩抓住男孩的手臂，而他戏剧性地摆出框脸的姿势。他们戴着美观的透明眼镜。 右上：男孩使用一把 Supreme 钱枪，以动态姿势向镜头射击假钞。女孩戏剧性地反应——大笑着俏皮地掩护自己。 充满活力和混乱的画面。 左下：女孩俏皮地捏男孩的脸颊 而他反应过度。两人都戴着可爱的毛绒/动物帽子，创造了一个有趣、混乱的情侣时刻。 右下：两人紧挨着摆姿势，带着 假装严肃的表情，鼻子下面拿着假胡子道具，假装他们是优雅的成年人。带点态度但仍然俏皮。 表情：傻气、丰富、戏弄、甜蜜、带点迷人的笨拙——真实的大头贴情侣氛围。 构图：紧凑的大头贴取景，一致的相机角度，每帧略有变化，带有细白边框的均匀间距网格，垂直照片条布局。风格：超写实摄影，韩式大头贴美学，高分辨率，没有卡通或插画。 Prompt 2: 高度逼真的 1:1 大头贴风格四宫格（2×2）布局，带有细边框，柔和的间距，略带圆角。真实的摊位感：紧凑的取景，轻微的镜头畸变，直射闪光，微妙的打印纹理，微小的瑕疵（模糊，曝光不均，轻微错位）。外框：米白色纸张，带有极简时尚的涂鸦（细黑线，星星，箭头，浅涂鸦）。 场景：室内摊位，中性纹理的米白色/奶油色背景。 灯光：直射大头贴闪光，明快的高光，柔和的阴影，自然的皮肤纹理。 人物：两名印尼年轻男女，男性和女性（匹配参考图像中的面部），穿着富有表现力的街头服饰（叠穿，宽松，吸睛配饰）。 氛围：俏皮-混乱，年轻，略带亲密。 道具：墨镜，小相机，风格化的棒球棒，玩具钱枪（在各个画面中使用，不是一次性全部使用）。 画面（从左到右，从上到下）： 左上：极端的特写畸变；女孩将相机对准镜头，男孩在下方探出脸，表情夸张。 右上：男孩拿着钱枪蹲下，向上看；女孩戴着墨镜站在上方，自信，偏离中心。 左下：女孩俏皮地向侧面挥动/指着棒球棒；男孩向后倾斜躲避，运动模糊。 右下：紧挨着坐在一起；女孩面对镜头调整墨镜，男孩看着她，大腿上放着相机。 风格：超写实的大头贴美学，抓拍互动，富有表现力的构图，自然闪光，可见的皮肤纹理，平衡的混乱与控制。",
+    "tags": [
+      "大头贴",
+      "情侣合照",
+      "韩式街拍",
+      "四宫格",
+      "搞怪姿势"
+    ],
+    "id": 7640
+  },
+  {
+    "image": "0129/13948.jpeg",
+    "prompt": "一位年轻女性在极简现代的家中拍镜子自拍，穿着全套黑色的休闲装，斜挎着一个包，头上戴着太阳镜。她周围是可爱的Q版迷你版自己，摆出各种俏皮的姿势（跳跃、坐着、比耶、喝珍珠奶茶），有着明亮闪亮的大眼睛和柔和的卡通风格。背景包括一盆盆栽、木桌、中性色调的装饰和带框艺术品。柔和的自然光线，舒适的氛围美学，白色的涂鸦闪光和爱心，现实主义与可爱的3D卡通风格的混合，高细节。",
+    "tags": [
+      "自拍",
+      "Q版",
+      "极简风",
+      "俏皮",
+      "卡通"
+    ],
+    "id": 7641
+  },
+  {
+    "image": "0129/13950.jpeg",
+    "prompt": "为阿迪达斯原创（Adidas Originals）创建一个高端时尚广告。 Scene: 一个现代建筑户外场景，拥有柔和的自然光和唯美的阴影。极简主义、高端的都市背景，带有暖色调和干净的构图。 Models: 一个自信的男模特（轮廓分明的下颌线，经过造型的头发）呈蹲姿 一个优雅的女模特（柔和的五官，长发）站在他身旁 两人看起来时尚且自信，目光略微偏离镜头 Outfits: 男模特：黑色阿迪达斯运动套装，带有白色三条纹，白色运动鞋 女模特：米色/奶油色阿迪达斯短款卫衣，搭配同色系慢跑裤，白色运动鞋 可见的阿迪达斯标志和标志性条纹 Composition: 电影感角度（略微低角度以展现强大的气场） 平衡的取景，带有用于放置文字的留白 专业灯光，柔和阴影，高细节，超写实 Text Elements: “35% OFF” 粗体且干净的排版（左上角） 阿迪达斯标志在其下方 “ADIDAS ORIGINALS COLLECTION”（右上角，极简字体） 广告语：“MOVE YOUR WORLD. WEAR YOUR CONFIDENCE.” 底部中心的CTA按钮：“SHOP NOW” Style: 奢华，杂志大片风，超写实，高对比度，清晰对焦，4K，商业广告风格。",
+    "tags": [
+      "阿迪",
+      "时尚",
+      "极简风",
+      "超写实",
+      "情侣装"
+    ],
+    "id": 7642
+  },
+  {
+    "image": "0129/13951.jpeg",
+    "prompt": "一张标题为“INPUT NAME”的角色宣传海报，采用电影感的垂直主视觉构图（9:16）。上半部分是一个大型、柔和发光的动漫女孩脸部剪影，由流动的风和樱花粒子组成。这个剪影感觉梦幻、精致且略带透明感。 下半部分展示全身角色以平静的姿态温柔地站立，穿着优雅的现代受和服启发的服装，带有轻盈的布料飘动。 在剪影内部，使用双重曝光叙事：漂浮的樱花、记忆碎片、柔和的天空渐变、充满情感的特写瞬间，以及与水彩薄雾融合的微妙自然元素。 左侧包含温暖的粉色调和花卉能量，而右侧则使用冷调的天空蓝以保持平衡。一条细长的发光微风线将顶部的剪影与下方的角色连接起来。 边缘柔和、具有绘画感，并淡入白色的负空间中，呈现出空灵的动漫美学。",
+    "tags": [
+      "樱花雨",
+      "重曝光",
+      "电影感",
+      "空灵风",
+      "和服女"
+    ],
+    "id": 7643
+  },
+  {
+    "image": "0129/13952.jpeg",
+    "prompt": "为“杰克·雷恩：幽灵战争”创作一张电影感海报，这是一部亚马逊 Prime 全新的原创动作电影。 在前景中，左侧是克里斯·派恩饰演杰克·雷恩的大型戏剧性特写，表情严肃，神情强烈且坚定，脸上布满汗水、污垢，额头和脸颊上有小割伤/擦伤。 在他的右侧，伊德瑞斯·艾尔巴神情严峻且专注，穿着深色战术夹克。在他们下方，西耶娜·米勒金发扎成凌乱的发髻，穿着黑色皮夹克，神情严肃且坚定。在右下角，是约翰·马尔科维奇较小的肖像，光头，表情严肃。 背景以黄昏时分充满戏剧性的迪拜城市景观为特色，哈利法塔醒目可见，现代摩天大楼林立，左下角有一架军用直升机在飞行。右下角展示了激烈的动作场面，有巨大的橙色爆炸、火焰和黑烟。 整体氛围黑暗、粗犷且充满高风险，具有电影感的调色——青色和橙色调，充满戏剧性的光照，以及贯穿始终的烟雾效果。 在顶部，演员名字以白色文本显示：CHRIS PINE, IDRIS ELBA, SIENNA MILLER, JOHN MALKOVICH。 底部中心是巨大的做旧标题：“JACK RYAN”采用大号白色裂纹字体，下方是粗体橙色的“GHOST WAR”。 底部文本：“BASED ON THE CHARACTERS CREATED BY TOM CLANCY”，“prime”标志，“NEW ORIGINAL MOVIE JUNE 21”，“AMAZON MGM STUDIOS”，以及一个 PG-13 评级框。 高度详细，史诗般的构图，写实，电影感光照，电影海报风格，戏剧性和强烈的氛围。",
+    "tags": [
+      "海报",
+      "动作片",
+      "迪拜",
+      "爆炸",
+      "电影感"
+    ],
+    "id": 7644
+  },
+  {
+    "image": "0129/13953.jpeg",
+    "prompt": "生成一张「乐高积木字体概念海报」。 请根据主题设计一套原创积木风格字体，不使用官方 LEGO 标志。主标题由真实塑料积木模块拼成，带凸点、厚度、阴影和拼接结构。根据主题含义自动生成一个核心视觉隐喻，并把它做成高级设计展海报：干净留白、网格排版、信息图逻辑、概念板结构。画面包含主标题、概念图形、字体样本、模块结构、颜色图例和细线标注。整体高级、克制、现代、有收藏级海报感，不像儿童玩具广告。比例根据主题自动选择。 主题：【在这里输入主题】 你的其他要求：",
+    "tags": [
+      "积木字",
+      "概念板",
+      "网格版",
+      "极简风",
+      "结构图"
+    ],
+    "id": 7645
+  },
+  {
+    "image": "0129/13955.jpeg",
+    "prompt": "编辑图像，同时保持原始照片完全不变——包括人物、脸部、身体、姿势、灯光和健身房背景。 在图像周围添加多个小巧可爱的 Q 版“迷你版本”的她。每个迷你角色都应该有一个大头，富有表现力的面部特征，并且与她的发型和服装相匹配。 描绘每个迷你版本做不同的健身房相关活动： 一个举起双臂欢呼 一个穿着跑鞋跑步 一个在喝摇摇杯里的水 一个戴着运动跑步眼镜 一个在她腿边攀爬 用俏皮的手绘涂鸦和白色与粉色墨水的笔迹，以剪贴簿风格增强图像。包括箭头、星星、爱心、闪光和草图线条等元素。 添加可爱的手写健身房主题励志短语： “强力举铁” “每次重复都更强” “没有痛苦就没有收获” “现在流汗，以后闪耀” “进步胜过完美” “努力训练，保持温柔” 整体氛围应该感觉有趣、充满活力且充满女性魅力。",
+    "tags": [
+      "Q版",
+      "涂鸦",
+      "健身",
+      "手绘",
+      "少女"
+    ],
+    "id": 7646
+  },
+  {
+    "image": "0129/13957.jpeg",
+    "prompt": "基于此照片创建一个干净、极简、高端的气场报告。使用白底黑字设计，搭配细线条、圆角卡片和奢华美学。布局：照片在左侧，右侧将主要气场类型显示为优雅的大标题（例如：沉默力量、阿尔法、磁性、远见者、保护者），其下方显著显示一个满分为100的总气场分数——这个数字应是顶部区域的视觉锚点，符合奢华数据报告的层级。在照片和分数区域下方，在三个等大的卡片中显示三个分数：魅力、存在感和强度，满分均为100。然后包含面部信号分解，包括眼神强度、下颌能量、眉毛表情和整体面部紧张度——每项都有一个满分100的分数、一个图标和一行观察说明。以气场解读结尾——用3-4行斜体字对主体的能量进行简短、诗意、有力的总结。保持数据驱动、神秘但高级且视觉精致。2:3比例。",
+    "tags": [
+      "气场图",
+      "极简风",
+      "奢华感",
+      "数据图",
+      "能量场"
+    ],
+    "id": 7647
+  },
+  {
+    "image": "0129/13959.jpeg",
+    "prompt": "生成一张高完成度「乐高字体概念海报」。 核心任务： 根据用户输入的【主题/文字】，设计一套原创“乐高积木感字体”，并把主题做成一张概念逻辑清晰的海报。 画面要求： - 以主题文字为核心，使用积木颗粒、凸点、拼接模块构成主标题 - 不使用任何官方 LEGO 标志或品牌元素，只做“积木风格” - 字体要像真实塑料积木拼出来：模块化、几何、厚度清晰、有凸点、有阴影 - 根据主题含义自动生成一个核心视觉隐喻 - 画面要同时展示：主标题、概念图形、字体系统、模块结构、局部样张 - 可加入小型字形样本、拼装步骤、模块说明、颜色图例、细线标注 - 整体像一张设计展海报 / 字体研究海报 / 概念板，而不是儿童玩具广告 视觉风格： 高级、干净、留白多、网格排版、信息图逻辑、现代设计感。 背景以米白、浅灰、暖白为主。 主色根据主题自动选择，可使用红、黄、蓝、绿、黑等积木色。 灯光柔和，塑料质感真实，阴影干净，细节精致。 构图： 根据主题自动选择横版或竖版。 主标题必须醒目，占画面视觉中心。 概念图形与字体互相呼应。 底部或侧边展示字体样本与模块系统。 整体排版清晰、有秩序、有收藏级海报感。 文字处理： 如果主题是中文，重点字可以做成积木字体，其余文字可用现代黑体辅助。 如果主题较长，自动提炼核心关键词，突出最有画面张力的部分。 海报中文字要少而准，不要堆满。 【主题】 这里输入：旺铺出租 比例2:1",
+    "tags": [
+      "积木字",
+      "概念海报",
+      "排版设计",
+      "旺铺出租",
+      "模块化"
+    ],
+    "id": 7648
+  },
+  {
+    "image": "0129/13961.jpeg",
+    "prompt": "[产品/主体]的高端广告插画, 充满活力的优质色彩调色板, 干净的构图, 柔和的影棚灯光, 现代商业风格, 极度精致, 极简却富有冲击力, 专注于品牌的视觉效果。",
+    "tags": [
+      "广告图",
+      "极简风",
+      "高质感",
+      "品牌感",
+      "影棚光"
+    ],
+    "id": 7649
+  },
+  {
+    "image": "0129/13962.jpeg",
+    "prompt": "请创作一张高完成度的「风味汽水沉浸主视觉海报 / Flavor Immersion Soda Hero Poster」。 【用户输入】 风味主题：【风味主题】 包装类型：【包装类型，如 slim can / standard can / glass bottle / retro glass soda bottle；如未填写则默认 slim can】 品牌名：【品牌名；如未填写则自动生成】 产品名：【产品名；如未填写则根据主题自动生成】 主色调：【主色调；如未填写则根据风味主题自动匹配】 画幅比例：【画幅比例，如 4:5、3:4、1:1；如未填写则默认竖版 4:5】 请根据以上信息，生成一张品牌级、高完成度、高冲击力的汽水主视觉海报。整张图必须明确表现为“汽水 / sparkling soda / carbonated soft drink”的商业广告视觉，而不是果汁、奶茶、smoothie、厚重果饮或普通静物摆拍。 【整体定位】 这不是普通产品摆拍，也不是传统平面海报，而是一张以风味汽水为核心主角、以对应风味元素构建沉浸式环境的高端品牌主视觉图。整体应具有强烈的商业摄影感、品牌广告感、冰镇清爽感和视觉冲击力，适合用于新品推广、品牌海报、电商首图、社交媒体封面和广告KV。 【中央主角】 画面中央必须出现一款非常突出的【包装类型】风味汽水产品。该产品应沿画面中轴线摆放，成为绝对视觉核心，完整、清晰、精致、有体积感、质感真实。包装设计要高级、简洁、像真实存在的商业汽水品牌。包装上需体现【品牌名】与【产品名】，文字不宜过多，但要具备清楚的品牌识别度。产品必须比背景和周围风味元素更清晰、更突出、更有存在感。 【风味沉浸环境】 围绕中央汽水产品，构建一个与【风味主题】高度相关的沉浸式风味环境。若是水果口味，则使用相应水果；若是茶感、花香、草本、香料、复合口味等主题，则使用与该风味有关的真实元素、原料或意象。它们应大量铺陈并包围中央产品，形成高密度的前景、中景、背景层次，营造强烈的风味氛围与视觉包裹感。元素之间要自然衔接，丰富但不杂乱，辅助氛围必须服务于汽水主体，而不能喧宾夺主。 【汽水属性强化】 必须明显强化“汽水”的视觉识别，而非普通饮料。请重点表现： - 冰镇冷饮感 - 细腻丰富的冷凝水珠 - 微小的碳酸气泡 / fizz - 清爽、通透、轻微爆发感 - 刚从冰箱拿出的新鲜冰爽状态 产品表面必须有高质量、细节丰富的水珠，质感逼真；必要时可加入轻微冷雾感、气泡感、飞溅感，但整体要克制，不要过度夸张。 【摄影与构图】 采用【画幅比例】构图，优先保持竖版品牌广告的主视觉逻辑。整体构图为居中英雄式构图，中央产品最清晰，风味元素在四周构建空间层次。可以有少量前景虚化元素增强纵深感，中景围绕产品形成清晰包裹，背景浓郁饱满并自然过渡。使用高端商业摄影语言：浅景深、微距细节、真实镜头虚化、通透高光、细腻反射、专业棚拍光影。画面应拥有极强的视觉吸引力。 【色彩策略】 整体色彩围绕【主色调】展开，如未指定则根据【风味主题】自动匹配。色彩需要统一、鲜明、有记忆点，并能快速传达该汽水的风味印象。可以适当使用深色阴影、局部高光与少量点缀色增强层次，但不能显得杂乱。整体颜色应浓郁、诱人、高级、有品牌质感。 【风格方向】 整体风格应为： premium, refreshing, immersive, bold, high-end commercial photography, soda brand key visual。 它要比普通产品图更强、更美、更完整，既有很强的视觉冲击力，又保持品牌级的精致和高级感。 【适用感】 最终效果应像一张真正的官方汽水品牌主视觉海报，可直接用于品牌传播、产品推广、社媒封面、电商主图和广告展示。 【避免】 不要生成普通果汁广告感； 不要弱化中央汽水主体； 不要让水果或原料比产品更抢戏； 不要做成插画风、廉价海报风或低质拼贴感； 不要有过多文案、杂乱图标和复杂说明； 不要让包装严重变形或文字过于混乱； 不要缺少冷凝水珠、冰镇感和汽水的碳酸气泡氛围。",
+    "tags": [],
+    "id": 7650
+  },
+  {
+    "image": "0129/13963.jpeg",
+    "prompt": "你是一个旅行美食推荐系统 + 高食欲感海报生成系统。 你的任务是： 根据用户输入的「旅游城市名称」或「具体旅游景点名称」， 自动生成一张 9:16 竖版「五一旅行美食推荐海报」。 用户输入： {城市名称 / 景点名称} 一、地点识别逻辑 如果用户输入的是城市： 直接围绕该城市推荐当地代表性美食。 如果用户输入的是景点： 先自动判断该景点所在城市或区域， 再推荐该景点周边或该城市最值得游客尝试的本地美食。 二、内容生成要求 至少推荐 6 种美食。 每种美食必须包含： 1. 美食名称 2. 一句话推荐理由 3. 一个实用小 Tip 4. 一张高食欲感美食照片 推荐的 6 种美食应覆盖不同类型： 1. 本地招牌菜 2. 经典小吃 3. 早餐 / 早茶 / 主食 4. 甜品 / 饮品 5. 夜宵 / 烟火气美食 6. 本地隐藏体验型美食 三、Tip 要求 每个 Tip 必须短小、实用、有旅行价值。 避免空泛表达。 例如： 白切鸡：蘸姜葱蓉更香 肠粉：趁热吃口感最好 烧鹅：优先选皮脆肉嫩款 双皮奶：冷吃更清爽 牛杂：可加萝卜更入味 云吞面：先喝汤更地道 四、视觉风格 生成一张明亮、干净、色彩丰富、让人有食欲的美食推荐海报。 整体风格： 现代旅行信息卡片海报 高食欲感美食摄影 小红书 / 朋友圈 / 公众号封面风 明亮、通透、整齐、好收藏 背景： 暖白色、奶油色或浅米色背景 轻微纸张纹理或柔和渐变 不要暗黑背景 不要杂乱餐厅环境 五、版式结构 画面比例：9:16 竖版 顶部： 大标题： 五一去「{城市 / 景点}」吃什么？ 副标题： 6 款本地美食推荐，一张图收藏 右上角小标签： May Day Food Guide 中部： 使用 2 列 × 3 行美食卡片布局。 每张卡片有轻微圆角、柔和阴影、清晰边距。 每张卡片上半部分是美食照片，下半部分是文字信息。 每张卡片文字结构： 美食名称 一句话推荐理由 Tip：实用小建议 底部： 添加一句收藏引导文案： 第一次来这里，按这张图吃不容易踩雷。 六、美食照片要求 每张美食照片必须真实、有食欲、色彩丰富。 使用高质量商业美食摄影风格： 45 度近景拍摄 自然柔光 食物纹理清晰 酱汁、油光、蒸汽、焦香感明显 色彩鲜艳但真实 构图干净 突出主食物 背景不过度抢眼 避免： 食物变形 错误食材 文字乱码 过度油腻 画面昏暗 低清晰度 塑料质感 菜单式排版 信息拥挤 七、整体效果 这张海报要让用户一眼知道： 去这个城市应该吃什么。 同时具备： 食欲感 收藏价值 旅行实用性 整齐排版 社交传播感",
+    "tags": [],
+    "id": 7651
+  },
+  {
+    "image": "0129/13964.jpeg",
+    "prompt": "Using the uploaded logo, generate a highly detailed, premium brand identity system poster. GOAL: Create a complete, visually rich brand kit that looks like it was made by a top design agency. This must feel like a real professional brand guideline board, not a simple mockup. --- CORE RULE: Everything must be derived from the uploaded logo: - colors - style - tone - personality No generic outputs. --- STRUCTURE (VERY IMPORTANT): Vertical 4:5 poster Multi-layered grid system Dense but clean composition --- TOP SECTION: - Brand name (clean typography) - Short brand statement (max 6 words) - 3-word brand identity (e.g. “Modern / Bold / Minimal”) --- COLOR SYSTEM (ADVANCED): - Primary palette (3–5 colors) - Secondary palette (3–5 colors) - Accent colors For each: - large color blocks - HEX codes (short) - usage indicators (primary / highlight / background) Add: - gradient examples - color combinations --- TYPOGRAPHY SYSTEM: - Headline font style - Subheadline style - Body text style Show: - real text examples (short phrases) - hierarchy clearly visible --- VISUAL LANGUAGE: Define: - image style (editorial, cinematic, minimal, etc.) - lighting direction - texture / material inspiration Show: - 3–5 visual tiles (image-style previews) --- BRAND APPLICATIONS (VERY IMPORTANT): Show multiple realistic mockups: - product packaging - website hero section - mobile UI screen - social media posts (3 variations) - business card - billboard or ad Each must feel consistent with the brand. --- LAYOUT SYSTEM: - UI blocks - card components - spacing system Show: - buttons, cards, layout examples --- ICONOGRAPHY: - 6–10 icons in brand style - consistent line / fill style --- PATTERNS & ELEMENTS: - background patterns - decorative shapes - visual motifs derived from logo --- MICRO DETAILS (TO SHOW POWER): - shadows - material textures - reflections - depth layers --- VISUAL STYLE (CRITICAL): - modern editorial + tech design hybrid - extremely clean but information-rich - layered composition - strong hierarchy Typography: - bold titles - clean supporting text --- DEPTH: - 30–50 visual elements total - mix of large + small components - dense but organized --- IMPORTANT RULES: - no empty space - no generic placeholders - everything must feel intentional - all elements must visually connect --- FINAL FEEL: Like: - a Behance top project - a real agency brand guideline board - something clients would pay for NOT: - basic - minimal - template-like",
+    "tags": [],
+    "id": 7652
+  },
+  {
+    "image": "0129/13965.jpeg",
+    "prompt": "FORMAT:4:5 vertical premium poster, 8K, bold commercial layout × surreal realism 🧠 CORE IDEA: “YOUR COFFEE IS A WORLD.” 🎬 LAYOUT (INSPIRED BY SOURCE): BACKGROUND BLOCK: Large rounded rectangle in deep Starbucks green GIANT TYPOGRAPHY: “STAR” bold, cropped, sitting behind subject 👤 SUBJECT: Young adult holding Starbucks cup toward camera same perspective as reference (foreground dominance) calm expression, slight curiosity ☕ PRODUCT + SURREAL TWIST: Starbucks cup in hand → Inside the cup: - miniature forest ecosystem - tiny waterfall of coffee flowing - mist rising into sky Steam morphs into clouds above subject ✨ GRAPHIC ELEMENTS: - sparkle icons ✦ - soft fog layers - floating leaves ✍️ TEXT SYSTEM: Top pill: “Starbucks Coffee” Small text: “Signature Roast” BOTTOM FEATURE STRIP: - Ethically Sourced - Fresh Brewed - Rich Aroma - Crafted Daily FORMAT: 4:5 vertical, 8K 🧠 CORE IDEA: “COFFEE BUILDS YOUR DAY.” 🎬 LAYOUT: BACKGROUND: Costa deep red rounded block TYPOGRAPHY: “COSTA” huge, cropped, layered behind subject 👤 SUBJECT: Young professional holding Costa cup forward ☕ SURREAL ELEMENT: Coffee pouring out of cup → Transforms into: - city skyline - roads made of espresso streams - cars moving on liquid paths City grows outward from cup ✨ ELEMENTS: - steam forming clouds - glowing windows in buildings ✍️ TEXT: Top: Costa Coffee CENTER: “BUILT ON COFFEE.” BOTTOM FEATURES: - Barista Crafted - Smooth Blend - Daily Energy FORMAT: 4:5 vertical, 8K 🧠 CORE IDEA: “STEP INTO WARMTH.” 🎬 LAYOUT: BACKGROUND: Soft beige + red rounded block TYPOGRAPHY: “WARM” huge, soft, behind subject 👤 SUBJECT: Person in winter jacket holding Tim Hortons cup forward ☕ SURREAL ELEMENT: Cup opening like a doorway → Inside: - cozy cabin - fireplace glowing - warm light spilling out Outside: snow particles floating ✨ ELEMENTS: - snowflakes turning into steam - warm glow spilling onto subject ✍️ TEXT: Top: Tim Hortons CENTER: “HOME IN EVERY CUP.” BOTTOM FEATURES: - Fresh Brew - Comfort Blend - Always Warm FORMAT: 4:5 vertical, 8K 🧠 CORE IDEA: “START LOUD.” 🎬 LAYOUT: BACKGROUND: Bright orange + pink rounded block TYPOGRAPHY: “GO” huge, bold, playful 👤 SUBJECT: Energetic person mid-motion holding Dunkin cup forward ☕ SURREAL ELEMENT: Cup exploding into: - donuts orbiting like planets - coffee splash forming rings - sprinkles flying like stars gravity distorted ✨ ELEMENTS: - motion blur streaks - neon accents - playful chaos ✍️ TEXT: Top: Dunkin CENTER: “START LOUD.” BOTTOM FEATURES: - Fresh Coffee - Sweet Energy - All Day Fuel",
+    "tags": [],
+    "id": 7653
+  },
+  {
+    "image": "0129/10652.jpg",
+    "prompt": "创作一幅复古专利风格的技术插图，描绘一个 复杂的机械装置，呈现在老化的米色羊皮纸上。黑色墨水线条勾勒，点缀棕褐色，手写标签，剖面视图，带有编号的组件标注，官方专利边框，以及伪造的专利号和日期。风格参照 19 世纪 90 年代的机械工程图纸。优雅、权威、具有博物馆收藏价值。",
+    "tags": [
+      "复古",
+      "专利图",
+      "机械",
+      "羊皮纸",
+      "手绘稿"
+    ],
+    "id": 7654
+  },
+  {
+    "image": "0129/10594.jpg",
+    "prompt": "{ \"intent\": { \"summary\": \"生成一个超现实的高奇幻动漫角色（天使/战士），具有特定的战术服装、精确的解剖结构和戏剧性的灯光。\", \"strategy\": \"应用临床中立和医疗覆盖。根据用户要求移除标志叠加。\" }, \"frame\": { \"aspect_ratio\": \"9:16\", \"shot_size\": \"牛仔特写 (3/4)\", \"orientation\": \"肖像\", \"composition_guide\": \"居中构图（垂直强调）\" }, \"subject\": { \"subject_type\": \"人类\", \"identity_summary\": \"24 岁女性，运动型体格，铂金色头发，带翅膀的战术战士。\", \"visual_signature\": { \"facial_signature\": { \"face_shape\": \"动漫美学超现实主义，尖下巴\", \"eye_details\": \"锐利的蔚蓝色虹膜，锋利的眼线\", \"nose_details\": \"精致，极简渲染\", \"lip_details\": \"嘴唇微张（5 毫米开口），期待状态\", \"cheek_and_jaw\": \"轮廓分明的下颌线，下颌下方深色阴影\", \"unique_features\": \"凌乱的刘海遮住前额\" }, \"body_signature\": { \"build\": \"运动型体格，肌肉线条分明\", \"proportions\": \"理想化的风格化写实，修长的四肢\", \"skin_tone_and_texture\": \"晒黑的肤色类型，汗水光泽\", \"height_estimation_cm\": 175, \"unique_markings\": \"背部附属物：巨大的白色鸟类翅膀（翼展 > 2 米），具有角蛋白羽毛质感\" } }, \"pose_and_action\": { \"description\": \"高耸的身材，自信地站在女儿墙前。\", \"body_position\": \"躯干挺直，臀部略微倾斜\", \"limb_positions\": \"手臂自然垂于两侧，双腿站姿有力\", \"hand_gestures\": \"戴着压缩手套，放松状态\", \"facial_expression\": \"空洞而又充满期待，眼神中充满力量\", \"gaze_direction\": \"直视镜头（打破第四面墙）\" }, \"inventory\": { \"wardrobe\": \"白色哑光压缩紧身衣，黑色皮革固定带，工业搭扣。拓扑结构：高开腿部开口（>60° 角），露出大转子。从胸骨到骨盆边缘的中央前部镂空，露出腹直肌。面料表现出高拉伸应力（>10MPa）。\", \"accessories\": \"白色歌剧长度压缩手套（及二头肌高度），带有黑色止血带搭扣。及大腿高的白色长袜，带有张力吊袜带夹。\", \"held_objects\": \"无可见物品（双手空闲）\", \"hair_style\": \"铂金色蓬松波浪，凌乱的刘海\" } }, \"environment\": { \"setting_type\": \"户外\", \"location_description\": \"风化的石质女儿墙，带有裂纹和苔藓。背景是带有深蓝色屋顶的哥特式尖顶。\", \"time_of_day\": \"黄金时段 / 正午\", \"weather_conditions\": \"积云，能见度清晰\", \"background_elements\": \"哥特式建筑，大气透视\" }, \"lighting\": { \"global_illumination\": \"高对比度（强烈阳光）\" } }",
+    "tags": [
+      "天使",
+      "战士",
+      "巨翼",
+      "哥特",
+      "紧身衣"
+    ],
+    "id": 7655
+  },
+  {
+    "image": "0129/10637.jpg",
+    "prompt": "链接到精选的“Nano Banana 提示词合集”，一键应用专业品质的设计指令。",
+    "tags": [
+      "提示词",
+      "设计库",
+      "魔法键",
+      "科技感",
+      "精选集"
+    ],
+    "id": 7656
+  },
+  {
+    "image": "0129/10638.jpg",
+    "prompt": "・移除不必要的物品 ・临时放置物品 ・预览最终效果 能够通过指示其“移除、放置、尝试”来模拟，真的很有帮助。对于那些在重新装修时感到困扰或想要一个漂亮房间的人来说，这是一个值得推荐的用例。",
+    "tags": [
+      "理想家",
+      "极简风",
+      "软装",
+      "预览",
+      "空间"
+    ],
+    "id": 7657
+  },
+  {
+    "image": "0129/10616.jpg",
+    "prompt": "{ \"prompt\": \"电影般的沙漠公路场景，时值黄金时段。一位自信的纹身金发长发女子，身穿黑色镂空连体泳衣，佩戴金色珠宝，摆姿势坐在一辆复古豪华敞篷车的引擎盖上。一只平静的猎豹坐在她身旁的引擎盖上。温暖的阳光，尘土飞扬的公路延伸至远处的群山，戏剧性的阴影，太阳耀斑，高级时尚杂志风格，超现实而又真实的氛围。\", \"style\": \"写实主义\", \"lighting\": \"黄金时段，电影级对比度\", \"camera\": { \"angle\": \"平视\", \"lens\": \"85mm\", \"depth_of_field\": \"浅景深\" }, \"environment\": \"沙漠公路，远景有山脉\", \"mood\": \"大胆，奢华，超现实\", \"quality\": \"超高分辨率，锐利对焦，专业摄影\", \"negative_prompt\": \"模糊，低分辨率，多余肢体，扭曲解剖结构，卡通，插画，水印，文字\" }",
+    "tags": [
+      "猎豹",
+      "敞篷车",
+      "高级感",
+      "沙漠风",
+      "纹身"
+    ],
+    "id": 7658
+  },
+  {
+    "image": "0129/10641.jpg",
+    "prompt": "{ \"images\": [ { \"setting\": \"健身房内部，有器械架、镜子和酷炫的灯光。\", \"subjects\": [ { \"ref\": \"{argument name=\\\"celebrity 1\\\" default=\\\"Sabrina Carpenter\\\"}\", \"look\": \"金色凌乱发髻，米色三角运动文胸和配套短裤，香汗淋漓，浅浅微笑。\" }, { \"ref\": \"{argument name=\\\"celebrity 2\\\" default=\\\"Selena Gomez\\\"}\", \"look\": \"深色波浪散发，深灰色圆领运动文胸和短裤，身体前倾。\" } ] }, { \"setting\": \"明亮的健身房，有拉索器械，半身镜面照。\", \"subjects\": [ { \"ref\": \"Victoria Justice\", \"look\": \"长直深色头发，炭灰色深 V 运动套装，面带微笑。\" }, { \"ref\": \"Sabrina Carpenter\", \"look\": \"金色中分波浪发，米色运动套装，汗水闪耀。\" }, { \"ref\": \"Selena Gomez\", \"look\": \"湿发造型，灰褐色文胸，橄榄绿短裤，侧身站立。\" } ] }, { \"setting\": \"健身房特写，背景是哑铃架。\", \"subjects\": [ { \"ref\": \"Billie Eilish\", \"look\": \"黑色刘海盘发，全黑深圆领运动套装，正在看手机。\" }, { \"ref\": \"Sabrina Carpenter\", \"look\": \"金色盘发，米色三角运动套装，面带微笑。\" }, { \"ref\": \"Olivia Rodrigo\", \"look\": \"深色马尾辫，橄榄绿运动套装，身体前倾。\" } ] } ] }",
+    "tags": [
+      "健身房",
+      "辣妹",
+      "运动风",
+      "欧美",
+      "汗水"
+    ],
+    "id": 7659
+  },
+  {
+    "image": "0129/10593.jpg",
+    "prompt": "[ { \"file_name\": \"20260201_135528.jpg\", \"subject_details\": { \"hair\": \"鲜艳的姜红色/红色头发，凌乱而时尚地散落在引擎盖上\", \"outfit\": \"柔软的粉色氨纶连体衣，胸前有“Melisa”字样刺绣\", \"pose\": \"仰卧姿势，右臂遮挡眼睛以避开阳光直射\", \"expression\": \"宁静，面部肌肉放松\" }, \"vehicle_details\": { \"make_model\": \"复古保时捷 911 Carrera 款式\", \"color\": \"柔和的黄色 / 金丝雀黄\", \"visual_elements\": \"圆形卤素大灯，黑色橡胶保险杠饰条，侧后视镜可见\" }, \"composition\": { \"lighting\": \"正午刺眼的阳光，形成高对比度阴影\", \"angle\": \"高角度垂直拍摄，俯视引擎盖\", \"background\": \"柏油停车场，绿色路缘石，橙色交通锥\" } }, { \"file_name\": \"20260201_135522.jpg\", \"subject_details\": { \"hair\": \"深赤褐色头发，瀑布般倾泻在白色表面上\", \"outfit\": \"经典黑色高开叉紧身衣\", \"skin_details\": \"可见雀斑，阳光下自然的皮肤纹理\" }, \"vehicle_details\": { \"make_model\": \"保时捷 911（G 系列）\", \"color\": \"大奖赛白\", \"branding\": \"保时捷金色徽章清晰可见于引擎盖下部\" }, \"composition\": { \"contrast_ratio\": \"高（黑色服装与白色汽车）\", \"depth_of_field\": \"浅景深，聚焦于模特的脸部和汽车标志\", \"setting\": \"城市街边停车位，晴朗天空\" } }, { \"file_name\": \"20260201_135525.jpg\", \"subject_details\": { \"hair\": \"鲜红色头发，与深色金属表面形成对比\", \"outfit\": \"干净的白色连体泳衣/紧身衣\", \"posture\": \"完全斜躺，双臂张开，占据画面中心\" }, \"vehicle_details\": { \"make_model\": \"保时捷 911\", \"color\": \"亮黑色 / 黑曜石色\", \"reflections\": \"高光泽表面映出天空和建筑物的倒影\" }, \"composition\": { \"aesthetic\": \"极简主义的“大胆对比”主题\", \"framing\": \"主体对角线居中，营造动态感\", \"props\": \"背景中的橙色安全锥提供了次要的色彩点缀\" } } ]",
+    "tags": [
+      "保时捷",
+      "红发",
+      "跑车",
+      "光影",
+      "慵懒"
+    ],
+    "id": 7660
+  },
+  {
+    "image": "0129/10639.jpg",
+    "prompt": "我创造的女孩 → ⑦ 战斗幻想 → 结合 ⑰ 稀有卡牌风格！",
+    "tags": [
+      "卡牌",
+      "幻想",
+      "战斗",
+      "少女",
+      "稀有"
+    ],
+    "id": 7661
+  },
+  {
+    "image": "0129/10643.jpg",
+    "prompt": "移轴 3D 模型立体模型，比例为 4:5，突出显示了 东京塔和涩谷十字路口 在 日落时分 的景象。微小的行人和骑行者穿梭于熙熙攘攘的街道，而樱花则轻轻地从附近的树上飘落。霓虹灯和 LED 广告牌在背景中柔和地发光。",
+    "tags": [
+      "微缩",
+      "移轴",
+      "东京塔",
+      "樱花",
+      "霓虹灯"
+    ],
+    "id": 7662
+  },
+  {
+    "image": "0129/10640.jpg",
+    "prompt": "生成后，您可以在聊天中给出指令，例如“Change the background”或“Make them smile”。",
+    "tags": [
+      "AI交互",
+      "对话修改",
+      "背景替换",
+      "表情调整",
+      "图像编辑"
+    ],
+    "id": 7663
+  },
+  {
+    "image": "0129/10642.jpg",
+    "prompt": "前卫浪漫珠宝广告概念，灵感源自情感连接与时间凝固。一个哑光腮红绿色的立方体如秘密金库般开启，露出一个闪耀的玫瑰金内部，其形状带有微妙的心跳波纹理，而非闪粉。玫瑰金戒指仿佛在心跳中途暂停，以不对称的节奏轻柔地环绕盒子——包括抽象心形线条戒指、张力镶嵌钻石戒指和雕塑感极简叠戴戒指。半透明的绿色丝绸光迹如慢动作声波般流淌，而非丝带，轻柔地缠绕着戒指。细小的金色颗粒如星尘般同步向上飘浮，与淡淡的玫瑰薄雾交织。电影般的灯光，带有柔和的边缘高光和情感深度，浅景深营造出梦幻般的时光暂停感。高级时装珠宝广告美学，精致、现代、富有诗意。品牌名称“HEARTSYNC”和“HEARTYNSNC”巧妙地刻在立方体的不同侧面，极简而有深意。干净的柔和背景，带有渐变腮红色调和大气薄雾。超细节、照片般逼真，带有一丝概念性的超现实主义扭曲。 --ar 3:4 --stylize 280 --v 6 --q 2",
+    "tags": [
+      "珠宝",
+      "浪漫",
+      "微距",
+      "悬浮戒",
+      "心跳感"
+    ],
+    "id": 7664
+  },
+  {
+    "image": "0129/10595.jpg",
+    "prompt": "创作一张 3:4 的电影风格工作室肖像，描绘一位年轻的印度男士。仅使用上传的参考图像作为身份来源，确保 100% 精确的面部匹配，面部、比例或特征均无任何改动。他留着凌乱的黑色短发和短胡须，自信地微笑着，双臂交叉。他穿着一件青色长袖圆领衬衫。四分之三侧身视角，略微向上看。纯黑色工作室背景。右侧有戏剧性的红色轮廓光，左侧有冷蓝色补光，营造出强烈的对比和深度。高端肖像摄影，逼真的皮肤纹理，锐利对焦，电影级布光，超现实主义外观。",
+    "tags": [
+      "电影感",
+      "戏剧光",
+      "高级感",
+      "超写实",
+      "冷暖光"
+    ],
+    "id": 7665
+  },
+  {
+    "image": "0129/10648.jpg",
+    "prompt": "{ \"prompt_schema\": { \"subject_breakdown\": { \"demographics\": \"年轻女性，身材健美\", \"hair\": \"长长的脏金色波浪发，蓬松的卷发，垂至背部\", \"facial_features\": \"侧面视角，独特的杏仁状蓝色眼睛，柔软的嘟嘟唇，线条分明的下颌，向上看，柔和的魅力妆容，优雅的表情\", \"skin_texture\": \"超逼真的皮肤毛孔，柔和的光泽，自然的白皙肤色\" }, \"attire_and_styling\": { \"clothing_item\": \"紧身黑色迷你连衣裙，长袖，修身剪裁\", \"details\": \"沿着脊柱有独特的金色金属拉链或镂空装饰\", \"accessories\": \"极简主义的银色或珍珠耳钉\", \"footwear\": \"赤脚，自然姿态\" }, \"pose_and_action\": { \"body_position\": \"跪在沙发上，身体微微后仰，躯干背对镜头\", \"interaction\": \"双手放在沙发靠背上，特意摆姿势以突出连衣裙背部细节和侧影\", \"angle\": \"与视线齐平或略低角度的侧面拍摄\" }, \"environment_and_setting\": { \"location\": \"豪华高层顶层公寓，室内客厅\", \"furniture\": \"现代灰色组合沙发，织物纹理清晰可见\", \"background\": \"巨大的落地玻璃窗\", \"scenery\": \"广阔的城市夜景，城市摩天大楼，散景城市灯光，深蓝色夜空\" }, \"lighting_and_atmosphere\": { \"type\": \"昏暗的室内环境光与城市辉光混合\", \"mood\": \"性感、优雅、电影感、私密、奢华的氛围\", \"contrast\": \"黑暗的室内与外面明亮的城市灯光形成高对比度\" }, \"technical_specifications\": { \"quality_tags\": \"超现实、8K 分辨率、HDR、照片级真实感、杰作、高度详细、锐利对焦、光线追踪、名人肖像\", \"camera_style\": \"使用 35mm 镜头拍摄，景深，城市灯光有轻微背景模糊（散景）\", \"aspect_ratio\": \"9:16（垂直/长）\", \"render_engine\": \"虚幻引擎 5 风格或高端摄影\" } } }",
+    "tags": [
+      "夜景",
+      "黑裙",
+      "侧颜",
+      "高级感",
+      "金发"
+    ],
+    "id": 7666
+  },
+  {
+    "image": "0129/10646.jpg",
+    "prompt": "{ \"image_prompt\": { \"type\": \"超逼真的印尼传统美食信息图海报\", \"layout_and_composition\": { \"orientation\": \"垂直构图\", \"style\": \"现代烹饪信息图设计，编辑版式\", \"background\": \"富有戏剧性但干净的背景\" }, \"typography_elements\": { \"headline\": { \"position\": \"顶部\", \"style\": \"粗体文字显示菜肴名称和来源 (ASAL)\" }, \"labels\": { \"style\": \"简洁的印尼字体\", \"connectors\": \"弯曲的标签箭头指向食材\" } }, \"visual_content\": { \"main_action\": \"电影般悬浮在半空中的食材\", \"details\": [ \"光泽的咖喱飞溅\", \"新鲜香草\", \"香料\", \"碗中冒出的蒸汽\" ], \"textures\": \"超细节、有光泽、令人垂涎\" }, \"lighting_and_atmosphere\": { \"lighting_style\": \"丰富金色光线，影棚灯光\", \"mood\": \"专业、开胃、高端\" }, \"technical_specs\": { \"quality\": \"8K 超逼真，单反相机画质\", \"focus\": \"浅景深\", \"style\": \"专业美食摄影\" } } }",
+    "tags": [
+      "印尼菜",
+      "信息图",
+      "超写实",
+      "悬浮",
+      "海报"
+    ],
+    "id": 7667
+  },
+  {
+    "image": "0129/10650.jpg",
+    "prompt": "一个超逼真的 strawberry 甜点汉堡，居中构图，柔和的粉彩色调 pink。蓬松的 pink 汉堡面包，表面光滑哑光，顶部撒有少量芝麻。内部夹有新鲜切片的 strawberry 和轻盈的白色鲜奶油，淋着光泽的 strawberry 酱汁，自然滴落。汉堡周围漂浮着 strawberry 切片和细小的花朵。极简的 pink 渐变背景，柔和的摄影棚灯光，奢华食品广告风格，极致洁净，高细节，浅景深。",
+    "tags": [
+      "超写实",
+      "草莓",
+      "甜品",
+      "粉色",
+      "美食"
+    ],
+    "id": 7668
+  },
+  {
+    "image": "0129/10644.jpg",
+    "prompt": "一段以超高清拍摄的缓慢、感性的奢华巧克力广告。场景在近乎黑暗中拉开序幕，一个带有柔和金色点缀的浓郁意式咖啡棕色礼盒在反光表面上缓慢旋转。一束温暖的聚光灯照亮了浮雕标题“SWEET PROMISE”，采用优雅的衬线字体，并搭配精致的植物图腾。当盒盖在慢动作中轻轻掀起时，融化的牛奶巧克力以反重力的姿态向上喷涌，以 120 帧/秒的速度捕捉，呈现出戏剧性的流体运动。光滑的心形巧克力升起并围绕着飞溅的巧克力旋转，在不同深度优雅地转动，其表面捕捉到高光，如同抛光的珠宝。浓稠的巧克力丝带在半空中拉伸、滴落并碎裂成丝滑的液滴，而可可粉则像金色薄雾般柔和地绽放。电影般的摩卡金配色、浅景深、柔和的焦外成像背景、柔和的轮廓光勾勒出每一条巧克力曲线。微距特写镜头过渡到广角主镜头，强调质感、光泽和浓郁度。整个运动缓慢、诱人、放纵——纯粹的奢华糖果广告，高端产品影片，优雅的节奏，情感丰富，视觉上令人难以抗拒。",
+    "tags": [
+      "巧克力",
+      "奢华风",
+      "慢镜头",
+      "飞溅",
+      "广告片"
+    ],
+    "id": 7669
+  },
+  {
+    "image": "0129/10651.jpg",
+    "prompt": "{ \"prompt\": \"一张高端商业美食摄影作品，拍摄的是一个美食汉堡，以戏剧性的漂浮食材爆炸效果呈现。汉堡在半空中垂直解构，每种食材都清晰分离并悬浮着。顶部的面包是金黄色，带有芝麻或黑芝麻，略带光泽。下方是优质配料，如切片牛油果或酥脆洋葱圈，接着是完美烤制的肉饼，上面覆盖着融化的奶酪。肉饼下方是新鲜蔬菜，包括番茄片、腌黄瓜、红洋葱圈、生菜和柔软的底部面包。奶油酱汁在层层之间动态飞溅，凝固在运动中。细小的调味料颗粒在汉堡周围漂浮，增添了活力和真实感。背景是浅色乡村木质表面，柔和模糊，以保持焦点在汉堡上。灯光明亮、柔和且有方向性，强调质感、光泽和新鲜度。图像超现实、高度细致、干净，并为专业食品广告而设计。\", \"negative_prompt\": \"模糊的食材，凌乱的构图，压扁的汉堡，融化的变形，低分辨率，卡通风格，不真实的纹理，不均匀的灯光，过饱和的颜色，脏乱的背景，文字，水印，标志\", \"style\": \"商业美食摄影\", \"camera\": { \"type\": \"数码单反相机\", \"lens\": \"85mm 微距镜头\", \"aperture\": \"f/4\", \"iso\": 100, \"shutter_speed\": \"1/1000\" }, \"lighting\": { \"type\": \"柔和影室灯光\", \"direction\": \"侧面和顶部\", \"contrast\": \"中高\", \"temperature\": \"中性暖色\" }, \"composition\": { \"framing\": \"居中垂直堆叠\", \"angle\": \"正面直拍\", \"orientation\": \"纵向\", \"depth_of_field\": \"浅景深背景虚化\" }, \"quality\": { \"resolution\": \"8K\", \"detail\": \"超高细节纹理\", \"sharpness\": \"非常高\", \"realism\": \"照片级真实感\" } }",
+    "tags": [
+      "美食",
+      "解构",
+      "漂浮",
+      "微距",
+      "广告"
+    ],
+    "id": 7670
+  },
+  {
+    "image": "0129/10649.jpg",
+    "prompt": "一段缓慢、电影般的特写视频，展示了金黄酥脆的鸡块。其中一块鸡块被咬成两半，露出里面鲜嫩多汁的白色鸡肉丝。极其酥脆的日式面包糠外皮闪耀着金棕色的光泽和粗海盐片。镜头轻轻平移并缓慢推近，温暖诱人的灯光和柔和的浅景深营造出梦幻般的散景背景。背景中虚化的鸡块增加了画面的层次感。通过慢动作微距细节镜头巧妙地强调了外皮的酥脆感，突出了质地和金黄的酥脆度。专业的食物造型，超现实，开胃，令人垂涎欲滴，[食物]，4K，电影级灯光，流畅的镜头运动。",
+    "tags": [
+      "炸鸡",
+      "微距",
+      "美食",
+      "诱人",
+      "电影感"
+    ],
+    "id": 7671
+  },
+  {
+    "image": "0129/10647.jpg",
+    "prompt": "哑光黑色铸铁煎锅中，一份新鲜烹制的玫瑰形玉子烧蛋卷的俯视电影特写。镜头缓慢推近，展现出完美卷曲的螺旋层，每一层金黄色的薄卷都映照着融化黄油的柔和光泽。少量鲜绿的葱花或细香葱精致地撒在蛋卷顶部。蛋卷上冒着轻微的蒸汽，几乎看不见，为画面增添了温暖感。柔和的自然厨房光线突出了鸡蛋的质地和光泽。平滑、缓慢的 50mm 镜头跟踪拍摄，景深较浅，超现实食物摄影风格，8K 分辨率，强调每一个褶皱和细微的色彩渐变。围绕煎锅的细微镜头移动营造出令人垂涎欲滴的专业美食感。",
+    "tags": [
+      "玉子烧",
+      "美食",
+      "微距",
+      "玫瑰卷",
+      "铸铁锅"
+    ],
+    "id": 7672
+  },
+  {
+    "image": "0129/10645.jpg",
+    "prompt": "{ \"image_generation_prompt\": { \"metadata\": { \"style\": \"高级时尚杂志风格\", \"aspect_ratio\": \"9:16\", \"quality\": \"超现实 HDR\" }, \"prompt_structure\": { \"subject\": { \"description\": \"女性时尚模特全身照\", \"attributes\": [ \"长波浪棕发\", \"神情中性\", \"侧脸望向别处\", \"双臂交叉抱于胸前\", \"随意地靠在一根风化的金属路灯杆上\" ] }, \"apparel\": { \"style\": \"90 年代美式丹宁叠穿风格\", \"items\": [ \"{argument name=\\\"denim color\\\" default=\\\"dark indigo\\\"} 原色丹宁卡车司机夹克，带白色对比缝线\", \"配套的 {argument name=\\\"denim color\\\" default=\\\"dark indigo\\\"} 阔腿工装牛仔裤，带可见的白色缝线\", \"简约黑色皮质运动鞋\", \"肚脐微露\" ] }, \"environment\": { \"setting\": \"城市街角\", \"details\": [ \"灰色水泥人行道，带鹅卵石纹理\", \"背景中模糊的复古橄榄绿色轿车\", \"城市街景氛围\", \"柔和的城市色调\" ] }, \"lighting_and_camera\": { \"lighting\": \"柔和的自然阴天日光，漫射阴影，电影级 HDR 照明\", \"camera_angle\": \"平视视角，景深带散景背景\", \"film_stock\": \"柯达 Portra 400 胶片美学，轻微胶片颗粒感\" }, \"technical_modifiers\": [ \"8k 分辨率\", \"照片级真实感\", \"超精细纹理\", \"主体清晰对焦\", \"体积光\", \"时尚杂志摄影\", \"Vogue 风格\" ] }, \"full_concatenated_prompt\": \"女性模特全身杂志照，长波浪发，靠在金属路灯杆上，双臂交叉，身穿 {argument name=\\\"denim color\\\" default=\\\"dark indigo\\\"} 丹宁夹克和配套的工装牛仔裤，带白色对比缝线，黑色运动鞋。城市街景背景，带模糊的复古绿色汽车，鹅卵石纹理。柔和的阴天自然光照，90 年代时尚美学，电影感，超现实，HDR，8k，高细节面料纹理，景深 --ar 9:16 --s 750 --v 6.0\" } }",
+    "tags": [
+      "街拍",
+      "牛仔",
+      "复古",
+      "杂志风",
+      "胶片感"
+    ],
+    "id": 7673
+  },
+  {
+    "image": "0129/10863.jpg",
+    "prompt": "{ \"lighting\": { \"source\": \"环形灯_Vlog 风格\", \"quality\": \"\", \"direction\": \"顶光\", \"shadows\": \"强烈_清晰的阴影\", \"highlights\": \"出汗的皮肤_光泽\" }, \"subject_analysis\": { \"subject_type\": \"年轻女性\", \"hair\": \"金色长波浪发\", \"pose\": \"站立_侧身\", \"facial_expression\": \"开心地笑\", \"details\": \"阳光突出腿部肌肉\", \"attire\": { \"top\": \"极简泳装\", \"bottom\": \"灰色高腰短裤\", \"footwear\": \"白色短袜\" }, \"accessories\": { \"phone\": \"无手机\", \"jewelry\": \"粗大银戒指\" } }, \"generation_parameters\": { \"steps\": 30, \"cfg_scale\": 7.5, \"model_version\": \"v1.5\", \"prompt\": \"\", \"negative_prompt\": \"\", \"seed\": \"123456789\" }, \"background\": { \"setting\": \"魔法森林_林中空地\", \"clutter\": \"极简主义_干净\", \"elements\": [ \"大型拱形镜子\" ], \"view_outside_window\": \"阳光明媚的绿植\" }, \"artistic_elements\": { \"mood\": \"放松_自信\", \"style\": \"生活方式_健身美学\", \"vibe\": \"时尚杂志拍摄\", \"texture\": \"光泽塑料\", \"contrast\": \"高对比度_直射阳光\" }, \"color_profile\": { \"palette\": \"蒸汽波_粉色和蓝色\" }, \"composition\": { \"type\": \"广角_风景\", \"framing\": \"全身照\", \"focus\": \"主体和倒影\", \"perspective\": \"平视\", \"depth_of_field\": \"浅景深（散景）\", \"balance\": \"不对称\" }, \"technical_specs\": { \"camera_type\": \"复古宝丽来_SX-70\", \"lens_type\": \"人像镜头_85mm_f1.2\", \"aspect_ratio\": \"16:9（电影级）\", \"file_format\": \"富士胶片_Velvia_50\" } }",
+    "tags": [
+      "蒸汽波",
+      "运动风",
+      "镜中影",
+      "金发女",
+      "复古感"
+    ],
+    "id": 7674
+  },
+  {
+    "image": "0129/10713.jpg",
+    "prompt": "{ \"prompt_type\": \"写实影棚时尚姿势\", \"character\": { \"identity\": \"{argument name=\\\"celebrity name\\\" default=\\\"Margaret Qualley\\\"}\", \"gender\": \"女性\", \"age\": \"成年\", \"body_type\": \"健美、运动型、女性曲线、腰部线条分明、大腿紧致、自然比例\", \"skin\": { \"tone\": \"浅到白皙肤色\", \"texture\": \"光滑、自然的皮肤纹理、细微毛孔、无过度修饰\" }, \"face\": { \"shape\": \"椭圆形脸、柔和下颌线、比例均衡\", \"expression\": \"灿烂愉悦的笑容、露出牙齿、俏皮自信的情绪\", \"eyes\": { \"size\": \"中大\", \"gaze_direction\": \"略微向下看并看向镜头左侧\", \"emotion\": \"快乐、活泼、妩媚而优雅\", \"eyelashes\": \"纤长、分明的睫毛\" }, \"eyebrows\": \"自然浓密、柔和的眉弓、精心修饰\", \"nose\": \"小到中等、鼻梁挺直\", \"lips\": { \"shape\": \"丰满双唇\", \"color\": \"柔和粉色缎面唇膏\" } }, \"makeup\": { \"style\": \"干净的影棚妆容\", \"eyes\": { \"eyeshadow\": \"与服装相配的柔和粉色调\", \"eyeliner\": \"纤细的飞翼眼线\", \"mascara\": \"黑色、纤长型\" }, \"cheeks\": \"微妙的玫瑰色腮红\", \"skin_finish\": \"自然光泽、无厚重修容\" }, \"hair\": { \"color\": \"深棕色\", \"style\": \"高马尾\", \"texture\": \"顶部光滑、发尾微卷\", \"details\": \"发际线紧致整洁、马尾垂在背后\" } }, \"pose\": { \"body_position\": \"腰部略微前倾\", \"weight_distribution\": \"重心放在一条腿上、臀部略微倾斜\", \"arms\": { \"right_arm\": \"手肘弯曲、手俏皮地放在下巴下方\", \"left_arm\": \"放松、手放在大腿上部\" }, \"hands\": { \"fingers\": \"放松、略微弯曲\", \"nails\": \"短到中等长度、亮粉色指甲油\" }, \"legs\": { \"stance\": \"一条膝盖略微弯曲、双腿并拢\", \"feet\": \"双脚着地、在画面外或仅微可见\", \"posture\": \"自信、俏皮、女性化的影棚姿势\" } }, \"outfit\": { \"type\": \"连体衣\", \"material\": \"金属氨纶、光泽反光面料\", \"color\": \"{argument name=\\\"outfit color\\\" default=\\\"闪亮粉色金属\\\"}\", \"cut\": { \"neckline\": \"深 U 领\", \"straps\": \"宽肩带\", \"leg_cut\": \"高开叉腿部、80 年代健身风格\" }, \"fit\": \"紧身、贴身、无褶皱\" }, \"camera\": { \"shot_type\": \"中景全身照\", \"angle\": \"平视视角\", \"lens\": \"50 毫米等效焦距\", \"focus\": \"主体对焦清晰、无背景模糊伪影\", \"framing\": \"垂直肖像构图\" }, \"lighting\": { \"type\": \"专业影棚灯光\", \"key_light\": \"前左侧柔光箱\", \"fill_light\": \"柔和补光\" } }",
+    "tags": [
+      "影棚",
+      "连体衣",
+      "金属风",
+      "高马尾",
+      "俏皮感"
+    ],
+    "id": 7675
+  },
+  {
+    "image": "0129/10867.jpg",
+    "prompt": "{ \"subject\": { \"description\": \"一位身材曲线优美、健美的年轻女子站在海滩上。\", \"hair\": \"长而波浪状的脏金色头发，湿润，呈海滩纹理，瀑布般垂至后背中部。\", \"apparel\": { \"top\": \"{argument name=\\\"bikini top color and pattern\\\" default=\\\"蓝色细带比基尼上衣，带有粉色和紫色花卉图案\\\"}，细肩带。\", \"bottom\": \"配套的蓝色花卉图案细带比基尼下装，丁字裤款式，高腰剪裁，凸显臀部。\", \"fit\": \"紧身，肩带略微勒入软组织，自然穿着痕迹。\" }, \"body_details\": { \"skin_tone\": \"深色晒黑的肌肤，带有可见的纹理，因湿气或油脂而略带光泽。\", \"physique\": \"丰满而健美，臀部曲线突出，圆润上翘，背部肌肉线条分明，腰臀比自然。\", \"features\": \"侧面/四分之三侧面可见脸部，淡妆，丰唇，蓝/绿色眼睛直视镜头。\" } }, \"pose\": { \"orientation\": \"四分之三后视图，身体背对镜头。\", \"action\": \"站立时重心移至右腿，形成提臀效果。躯干向左扭转，向左肩后方看去。\", \"limbs\": \"左臂肘部微弯，手靠近大腿。右臂沿身体向下伸展。双腿伸直但放松。\", \"head\": \"头部明显向左转，下巴微收，目光锁定观者。\", \"posture\": \"背部略微弓起以突出臀部曲线，肩膀放松。\" }, \"environment\": { \"location\": \"水边的鹅卵石/沙滩。\", \"background\": \"平静的海水延伸至地平线，远处山脉在右侧天空的映衬下呈现剪影。太阳正在落下，在地平线左侧上方可见。\", \"foreground_elements\": \"左侧远处竖立着一根突出的银/灰色金属沙滩伞杆，伞冠的白色底面在画面最上方可见。\", \"ground\": \"粗糙的沙子和小鹅卵石，水线附近湿润。\", \"sky\": \"日落天空，戏剧性的云彩，从靠近太阳的暖橙色/黄色渐变为顶部的柔和蓝/灰色。\" }, \"camera\": { \"shot_type\": \"中景，从大腿中部向上拍摄。\", \"angle\": \"与主体齐平或略低的角度。\", \"focal_length\": \"35mm 至 50mm，营造自然透视，无极端畸变。\", \"framing\": \"主体水平居中，但被左侧的伞杆构图。地平线横穿图像中部。\", \"depth_of_field\": \"深景深，主体清晰，背景相对清晰但因大气透视略显柔和。\" }, \"lighting\": { \"type\": \"自然日落光线与柔和的前方补光（可能是闪光灯）混合。\", \"direction\": \"来自落日（左后方）的强烈逆光，在头发和左臂上形成轮廓光效果。\", \"fill\": \"主体背部和脸部柔和均匀的照明，可能来自环境天光。\" } }",
+    "tags": [
+      "比基尼",
+      "海滩",
+      "日落",
+      "辣妹",
+      "回眸"
+    ],
+    "id": 7676
+  },
+  {
+    "image": "0129/10865.jpg",
+    "prompt": "{ \"image_prompt\": { \"subject\": { \"main_object\": \"一勺巨大、完美球形的{argument name=\\\"ice cream flavor\\\" default=\\\"星系主题\\\"}冰淇淋\", \"appearance\": \"大理石纹路，宇宙色彩交织，形似微型行星或星云\", \"state\": \"冰冻、奶油状、致密，表面纹理和霜冻清晰可见\" }, \"color_palette\": { \"primary\": [\"深靛蓝\", \"午夜蓝\", \"虚空黑\"], \"secondary\": [\"电光青\", \"洋红\", \"鲜艳紫\"], \"accents\": [\"闪烁金\", \"亮白\"] }, \"textural_details\": { \"surface\": \"光滑但带有波纹的奶油质地，湿润的光泽表明略有融化\", \"inclusions\": [ \"微小的白色斑点，形似遥远的星星\", \"在右上角弧度上撒有精细的可食用金粉\", \"旋涡状的色素过渡\" ] }, \"lighting\": { \"style\": \"电影般戏剧化\", \"highlights\": \"上部曲线有锐利的镜面高光，以强调湿润感\", \"shadows\": \"底部有深邃、浓郁的阴影，以营造体积感\", \"ambience\": \"蓝色和粉色旋涡中散发出柔和的生物荧光\" }, \"environment\": { \"background\": \"模糊的深空背景，可见紫色和蓝色调的星云\", \"foreground\": \"一个黑暗、光滑、高反射的表面，映照出冰淇淋球的底部\", \"atmosphere\": \"空灵、魔幻、冰冷\" }, \"technical_style\": { \"camera\": \"微距摄影，浅景深（背景虚化）\", \"quality\": \"8k 分辨率，超现实，高对比度，冰淇淋纹理对焦锐利\", \"aesthetic\": \"美食色情片与科幻奇幻的结合\" } } }",
+    "tags": [
+      "冰淇淋",
+      "深空",
+      "微距",
+      "星云",
+      "超现实"
+    ],
+    "id": 7677
+  },
+  {
+    "image": "0129/10861.jpg",
+    "prompt": "{ \"prompt_schema\": { \"version\": \"1.0\", \"type\": \"photorealistic_generation\", \"subject_details\": { \"demographics\": \"年轻女性，健身模特身材，中等体型\", \"hair\": \"深棕色头发，梳成高马尾，造型利落\", \"expression\": \"放松自信，随性表情，目光略微偏离镜头\", \"pose\": \"全身站立照，一只手触碰马尾，一只手臂自然垂下，左腿略微向前\" }, \"apparel\": { \"outfit_type\": \"配套运动套装\", \"color\": \"柔和的 {argument name=\\\"outfit color\\\" default=\\\"denim blue\\\"} 色\", \"texture\": \"罗纹针织面料，无缝结构\", \"upper_garment\": \"V 领运动文胸，短款，细肩带\", \"lower_garment\": \"高腰全长打底裤，紧身款\", \"footwear\": \"白色厚底老爹鞋，运动风格\", \"accessories\": \"极简小耳圈\" }, \"environment\": { \"location\": \"郊区街道人行道\", \"background_elements\": [ \"铺砌的人行道\", \"带岩石和小树的园景花坛\", \"背景模糊的街道\", \"商业建筑立面\", \"远处停放的白色汽车\" ], \"lighting\": \"自然日光，柔和的午后阳光，漫射阴影，室外环境光\" }, \"technical_specs\": { \"image_quality\": \"超现实，8k 超高清，杰作，原始照片\", \"details\": \"高纹理保真度，皮肤纹理，织物编织可见\", \"camera_settings\": { \"style\": \"电影镜头，景深\", \"focus\": \"主体锐利对焦，背景虚化\", \"shot_type\": \"全身竖版肖像\" }, \"aspect_ratio\": \"9:16\", \"processing\": \"HDR，色彩校正，照片写实引擎\" } } }",
+    "tags": [
+      "运动风",
+      "高马尾",
+      "街拍",
+      "超写实",
+      "松弛感"
+    ],
+    "id": 7678
+  },
+  {
+    "image": "0129/10714.jpg",
+    "prompt": "写实风格的编辑肖像，描绘一位体格健硕的成年男性，半身像，略微低角度，竖起大拇指。室内为现代奢华风格，带有几何图案墙板和悬挂式吊灯（背景柔和模糊）。服饰：米色/棕褐色设计师图案 Polo 衫，带有重复字母组合，深蓝色袖子和衣领，白色高腰定制长裤，金色模拟手表，黑色智能手表。外貌：整齐的背头，自然肤色，自信的微笑，可见毛孔和逼真纹理。灯光：左前方柔和的电影主光，柔和的轮廓光，中等对比度，均匀曝光。光学与相机效果：等效 85mm 人像镜头，f/1.8–2.2 浅景深，眼睛对焦清晰，ISO 100，1/200 秒。色彩与修饰：自然色彩分级，暖色高光，中性中间调，适度胶片颗粒，高动态范围，超细节织物和金属反光。构图：主体居中，保留头部空间，半身构图，电影编辑风格。分辨率：超写实，高细节，8k 输出，照片级真实感。 负面提示词： 水印、文字、跨画面徽标、色彩过饱和、卡通/动漫风格、多余肢体、过度平滑/塑料皮肤、运动模糊、低分辨率、JPEG 伪影、不正确的徽标或多余物体。 使用 4:5 纵横比进行人像构图。",
+    "tags": [
+      "写实",
+      "人像",
+      "型男",
+      "奢华",
+      "电影感"
+    ],
+    "id": 7679
+  },
+  {
+    "image": "0129/10716.jpg",
+    "prompt": "{ \"image_type\": \"照片\", \"orientation\": \"竖幅\", \"composition\": { \"framing\": \"中景特写，从躯干中部向上取景\", \"camera_angle\": \"平视，略带后方四分之三角度\", \"subject_position\": \"画面右侧偏中\", \"pose\": \"主体背对镜头，头部向后转过肩膀\", \"leading_lines\": \"建筑立柱营造垂直韵律和深度\", \"depth_of_field\": \"景深浅至中等，主体清晰，背景柔和模糊\" }, \"subject\": { \"count\": 1, \"description\": \"年轻男性形象个体\", \"posture\": \"双臂交叉，一只手抓住夹克领口\", \"expression\": \"中性至略带沉思\", \"gaze\": \"看向镜头\", \"hair\": { \"color\": \"深棕色\", \"style\": \"短发，蓬松，略带波浪\", \"texture\": \"柔软，自然蓬松\" }, \"skin_tone\": \"浅至中等肤色，带暖色调\" }, \"clothing\": { \"upper_garment\": { \"type\": \"轻薄夹克\", \"fit\": \"常规版型\", \"color\": \"哑光灰绿色\", \"material\": \"棉或棉混纺，哑光表面\", \"back_graphic\": { \"elements\": [ \"风格化的骷髅插图\", \"骷髅下方交叉的工具或警棍\" ], \"colors\": [ \"深蓝色轮廓\", \"红色点缀\", \"白色负空间\" ], \"text\": \"图形上方弯曲的深蓝色文字\", \"style\": \"手绘或图形徽章美学\" } } }, \"environment\": { \"location_type\": \"历史建筑内部或修道院\", \"background_elements\": [ \"石柱\", \"拱形或凹进的石墙\" ], \"materials\": \"带有可见纹理和铜绿的旧石材\", \"color_palette\": \"暖米色、棕褐色、砂岩色调\" }, \"lighting\": { \"type\": \"自然光\", \"direction\": \"从画面右侧侧光照明\", \"quality\": \"柔和漫射\", \"contrast\": \"适中\", \"highlights\": \"面部和夹克褶皱处有柔和高光\", \"shadows\": \"柔和阴影增强深度，无生硬边缘\" }, \"color_grading\": { \"overall_tone\": \"温暖，电影感\", \"saturation\": \"适中\", \"contrast_curve\": \"阴影略微提升，高光受控\", \"mood\": \"平静，沉思，编辑风格\" }, \"technical_traits\": { \"lens_look\": \"人像镜头美学（约 35–50mm 等效焦距）\", \"aperture_effect\": \"背景分离，自然焦外虚化\", \"sharpness\": \"主体清晰，背景柔和\", \"noise\": \"最小，画面干净\" }, \"artistic_style\": { \"genre\": \"生活方式 / 时尚编辑\", \"aesthetic\": \"休闲电影写实主义\", \"era_feel\": \"现代感与永恒建筑背景\" }, \"typography\": { \"presence\": \"有，仅在服装上\", \"style\": \"手绘或休闲无衬线字体\", \"integration\": \"作为服装设计的一部分，未叠加在图像上\" }, \"overall_impression\": { \"focus\": \"主体姿态和夹克图案\", \"visual_story\": \"在历史背景下沉思的时刻\", \"use_case\": [ \"时尚内容\", \"UGC 风格编辑\", \"社交媒体肖像\" ] } }",
+    "tags": [
+      "人像",
+      "回廊",
+      "电影感",
+      "潮男",
+      "穿搭"
+    ],
+    "id": 7680
+  },
+  {
+    "image": "0129/10870.jpg",
+    "prompt": "{ \"prompt_metadata\": { \"version\": \"1.0\", \"target_quality\": \"4K HD 摄影\", \"aspect_ratio\": \"9:16\" }, \"subject\": { \"name\": \"{argument name=\\\"subject name\\\" default=\\\"Billie Eilish\\\"}\", \"appearance\": { \"hair\": \"金色头发\", \"facial_features\": [ \"饱满自然的妆容\", \"轮廓分明的眉毛\", \"丰满的嘴唇\" ], \"accessories\": [ \"大号银色圈形耳环\", \"右手腕上的串珠手链\" ] }, \"attire\": { \"top\": \"白色皮革无肩带紧身胸衣上衣\", \"bottom\": \"白色迷你裙\", \"footwear\": \"白色及膝靴\" }, \"pose\": \"蹲在水泥地上，直视镜头，右手搭在膝盖上，左臂向下伸展\" }, \"environment\": { \"location\": \"室外建筑角落\", \"ground_texture\": \"光滑的水泥地面\", \"background_elements\": { \"left_side\": \"风化的胶合板墙，带有一个白色边框的窗户\", \"right_side\": \"红砖墙，带有一个白色凹槽柱和水泥底座\" } }, \"technical_specifications\": { \"lighting\": \"自然日光，带有柔和、漫射的阴影\", \"focus\": \"主体清晰对焦\", \"texture_detail\": [ \"高细节皮革纹理\", \"逼真的发丝\", \"风化的木纹\", \"触感砖块纹理\" ], \"color_profile\": \"逼真的色彩，高动态范围\" } }",
+    "tags": [
+      "碧梨",
+      "红砖墙",
+      "纯白系",
+      "人像",
+      "街拍"
+    ],
+    "id": 7681
+  },
+  {
+    "image": "0129/10860.jpg",
+    "prompt": "{ \"prompt\": { \"subject\": { \"description\": \"一位年轻女性，留着长直的{argument name=\\\"hair color\\\" default=\\\"铂金色\\\"}头发\", \"features\": \"白皙的皮肤，右前臂和上臂有花卉纹身\", \"pose\": \"坐在床边，用智能手机对着镜子自拍，食指轻触嘴唇，看向镜子\" }, \"apparel\": { \"outfit\": \"浅{argument name=\\\"dress color\\\" default=\\\"粉色\\\"}迷你吊带裙\", \"accessories\": \"左手腕戴黑色发圈，白色美甲\" }, \"environment\": { \"location\": \"明亮的白色卧室内部\", \"elements\": [ \"带装饰性漩涡的白色金属床架\", \"带有小碎花图案的白色床上用品\", \"两侧可见的大镜框\", \"带有白色薄纱窗帘的窗户\", \"窗台和墙架上的小型室内植物\" ] }, \"lighting\": \"窗户透进柔和的自然日光，高调照明，明亮氛围\", \"style\": \"超写实，社交媒体网红美学，镜面自拍角度，8k 分辨率，高度精细的纹理\", \"aspect_ratio\": \"9:16\" } }",
+    "tags": [
+      "花臂",
+      "白金发",
+      "吊带裙",
+      "网红风",
+      "卧室"
+    ],
+    "id": 7682
+  },
+  {
+    "image": "0129/10866.jpg",
+    "prompt": "{ \"prompt\": \"特写低角度肖像，一位性感的年轻 {argument name=\\\"ethnicity\\\" default=\\\"亚洲\\\"} 女性，留着蓬松波浪状的黑色长发，水润的嘴唇微张，眼神无辜却又深邃地向上凝视着镜头，皮肤水润泛着微光，身穿透明白色露脐上衣和紧身粉色罗纹短裤，白色过膝袜，黑色靴子，坐在昏暗的复古卧室地板上，周围是黑胶唱片、红色转盘电话、{argument name=\\\"poster subject\\\" default=\\\"喷火战机乐队\\\"} 海报，地板上摊开着一本复古杂志，情绪化的暖色低光与深邃的阴影，电影胶片颗粒感，怀旧的 90 年代至 2000 年代独立美学，高细节，逼真的纹理，浅景深，超现实主义，感性而神秘的氛围\", \"negative_prompt\": \"模糊、低分辨率、卡通、动漫、多余的肢体、畸形、丑陋的脸、明亮的日光、咧嘴大笑、现代简约房间、过度曝光、文字水印\", \"aspect_ratio\": \"3:4\", \"style\": \"超现实主义、电影感、复古电影剧照\", \"reference_images\": \"使用上传的参考图片作为姿势、光线、服装和整体风格的强力指导\" }",
+    "tags": [
+      "复古风",
+      "电影感",
+      "性感",
+      "怀旧感",
+      "低角度"
+    ],
+    "id": 7683
+  },
+  {
+    "image": "0129/10868.jpg",
+    "prompt": "{ \"generation_request\": { \"meta_data\": { \"task_type\": \"photoreal_cinematic_fineart_fashion_recreation\", \"language\": \"zh-Hans\", \"priority\": \"highest\", \"version\": \"v1.0_GOLDEN_EMBRACE_MOSAIC_ROBES_FINEART_NO_TEXT\" }, \"output\": { \"aspect_ratio\": \"4:5\", \"resolution\": \"high\", \"num_images\": 4 }, \"scene\": { \"concept\": \"以 20 世纪早期金色马赛克美学为灵感的高端艺术时尚大片：一对恋人亲密相拥，身着奢华金色服装，服装上饰有几何黑色矩形和彩色圆形图案。构图紧凑而柔和，聚焦于手部、面部和华丽的纺织图案，背景是闪烁的金色纹理。\", \"environment\": { \"location\": \"艺术工作室布景\", \"background\": \"丰富的金箔/马赛克纹理墙壁，带有微妙的斑点和铜绿，绘画般的深度，无可见道具\", \"mood\": \"浪漫、亲密、博物馆级、电影般的静止\" }, \"subjects\": { \"couple\": { \"type\": \"两名成人\", \"pose\": \"紧密站立；其中一人用双手轻抚另一人的脸颊；轻柔地亲吻脸颊/太阳穴；另一人略微向后倾斜，闭着眼睛，神情安详\", \"expression\": \"温柔、亲密、梦幻\", \"styling\": { \"partner_1\": { \"outfit\": \"长款金色缎面长袍/和服，带有大胆的几何黑色矩形和少量柔和的银色方块；高级光泽，垂坠感强\", \"hair\": \"深色卷发，编织有小小的绿色月桂叶状饰物\", \"details\": \"手部突出，手指轻柔地按压下颌线，自然的皮肤纹理\" }, \"partner_2\": { \"outfit\": \"修身金色礼服，带有彩色圆形图案（{argument name=\\\"partner 2 motif colors\\\" default=\\\"turquoise, magenta, cobalt, red\\\"}），如同马赛克奖章般排列；下摆附近有精致的刺绣和珠饰\", \"hair\": \"{argument name=\\\"partner 2 hair color\\\" default=\\\"vibrant copper/red\\\"} 头发柔和造型，配有紫色小丝带或发夹\", \"details\": \"极简首饰；柔和的腮红；自然的皮肤纹理\" } } } } }, \"camera\": { \"framing\": \"中景全身镜头，情侣略微偏右居中，左侧有装饰性的金色负空间\", \"lens\": \"50mm\", \"aperture\": \"f/2.2\", \"depth_of_field\": \"浅到中等景深；面部和手部清晰，背景柔和纹理\", \"perspective\": \"自然、正面、无畸变\" }, \"lighting\": { \"style\": \"博物馆风格的柔和主光，带暖金色反光\", \"key_light\": \"左上方的大型漫射光源\", \"fill\": \"柔和补光，以保留金色织物细节\", \"look\": \"缎面上的受控高光，无刺眼的高光溢出，微妙的胶片颗粒，无 HDR 辉光\" }, \"color_grading\": { \"palette\": \"主色调为金色和琥珀色，黑色几何点缀，宝石色圆形图案\" } } }",
+    "tags": [
+      "流金",
+      "马赛克",
+      "恋人",
+      "高定",
+      "浪漫"
+    ],
+    "id": 7684
+  },
+  {
+    "image": "0129/10871.jpg",
+    "prompt": "一张超现实的电影奇幻肖像，描绘了一位男士的脸庞（以上传的脸部照片为参考），他从冰冻的森林中浮现，皮肤上覆盖着雪花和发光的余烬。他的一只金色眼睛闪烁着神秘的能量，虹膜细节极其清晰。温暖的火光与冰冷的蓝色冰块在他的脸上交织，雪花颗粒在空中飘浮。一个身披斗篷的小人影站在他脸庞旁边的森林里，增添了比例感和神秘感。火与冰之间形成戏剧性的对比，营造出空灵的氛围、奇幻现实主义、超清晰的面部细节、体积光照、浅景深、魔法光芒、电影级调色、超逼真纹理、8K 分辨率、史诗般的黑暗奇幻艺术、电影海报品质。",
+    "tags": [
+      "奇幻",
+      "冰火",
+      "雪林",
+      "超现实",
+      "电影感"
+    ],
+    "id": 7685
+  },
+  {
     "image": "0129/10869.jpg",
     "prompt": "主题：来自参考图片 2 的男子，身穿一件 带有独特白色图案的深色毛衣和橄榄绿裤子。 构图：广角镜头，男子居中，坐在一处水泥台阶上。 动作：若有所思地坐着，看向右侧。 地点：城市环境，背景是一栋现代化的灰色建筑，类似于参考图片 2。 风格：照片级写实。 相机与灯光：自然日光，柔和的阴影，对男子和近景背景清晰对焦。",
     "tags": [
@@ -3022,551 +3562,5 @@
       "先锋派"
     ],
     "id": 6430
-  },
-  {
-    "image": "0131/13805.jpeg",
-    "prompt": "一个优雅美丽迷人惊艳的20岁日本或韩国女人，高挑苗条优雅的沙漏型身材且比例匀称。放松的蹲姿。银色丝绸缎面衬衫塞进下装里，橄榄绿色低腰光泽乳胶紧身短裤，霓虹绿黑色光泽尖头细高跟鞋，流畅锐利的轮廓。生锈的控制室。使用鱼眼镜头拍摄。佳能全画幅人像外观，温暖讨喜的肤色，柔和的高光滚降，平滑的色彩渲染。直视镜头，直接的眼神接触。",
-    "tags": [
-      "日韩美女",
-      "乳胶短裤",
-      "鱼眼镜头",
-      "控制室",
-      "沙漏身材"
-    ],
-    "id": 6431
-  },
-  {
-    "image": "0131/13801.jpeg",
-    "prompt": "创建一张高对比度、电影级的平面设计海报，灵感来自电视剧《绝命毒师》，采用2x6垂直网格排列的十二个独特的标题卡片面板，展示剧中的标志性角色。美学风格应将都市粗犷与犯罪惊悚的紧张感相融合，使用做旧纹理、胶片颗粒和粗体排版遮罩效果。每个面板应突出显示一个巨大的超粗无衬线名字，例如WALT、JESSE、SAUL、GUS、MIKE、HANK、SKYLER、TUCO、HECTOR、LYDIA、TODD和JANE，角色肖像仅在使用剪切/遮罩剪影窗口效果的填充字形内部可见。在名字旁边或下方使用简洁的排版添加较小的电影演职员表文本，例如“AS HEISENBERG”、“THE LAWYER”或“THE FIXER”。角色应具有粗犷、写实的肖像，带有强烈或面无表情的神态，展现标志性外观：戴着帽子/眼镜的沃尔特·怀特，穿着连帽衫/毛线帽的杰西·平克曼，穿着浮夸西装的索尔·古德曼，穿着正式服装的格斯·弗林，光头且面容严肃的迈克·埃曼特拉特，以及DEA风格的汉克。使用高对比度的戏剧性影棚照明，带有边缘光和阴影；有选择性地为某些卡片添加绿色化学实验室发光、霓虹青色、洋红色和琥珀色高光。每个面板中的背景应该感觉独特但又协调统一：风化的混凝土、生锈的金属、破裂的墙壁、起皱的纸张和烟雾弥漫的制毒实验室氛围。叠加浓重的墨水飞溅、油漆滴落、笔触、划痕、扫描线、灰尘、胶片烧伤和颗粒，以营造做旧的电影感外观。整体调色板应使用深绿色、有毒的霓虹青柠色、单色灰色、深炭色、脏黄色和灰白色，并带有点缀的流行色，例如沃尔特背后发光的绿色薄雾、图科背后的红橙色、杰西周围的蓝色冰毒晶体高光，以及莉迪亚周围的无菌白色调。最终结果应该看起来像一张高级的Netflix风格犯罪剧情剧集海报，具有原始、前卫、高度风格化的平面设计美学。",
-    "tags": [
-      "毒师",
-      "电影感",
-      "粗犷风",
-      "犯罪片",
-      "高反差"
-    ],
-    "id": 6432
-  },
-  {
-    "image": "0131/13798.jpeg",
-    "prompt": "高级时尚运动社论广告大片，女网球运动员穿着挺括的白色百褶裙，紧身运动短款上衣和白色遮阳帽，随意坐在专业绿色网球场上，单膝抬起一条腿伸直，球拍松散地放在她身旁，放松但充满力量的姿势，直接自信的目光，巨大的“PRECISION”单词在身后以粗体压缩字体高耸显现，深场地绿和发光白色的极简调色板，光滑的皮肤高光，柔和的自然阳光投射出微妙的方向性阴影，极其干净的构图，高端运动广告美学，电影级奢华灯光，Vogue x Nike 风格社论，浅景深，精致的杂志封面艺术，1:1",
-    "tags": [
-      "网球",
-      "时尚",
-      "杂志",
-      "极简",
-      "奢华"
-    ],
-    "id": 6433
-  },
-  {
-    "image": "0131/13794.jpeg",
-    "prompt": "生成一张 photorealistic 4x4 网格拼贴，共 16 张照片。画面是一对二十多岁的成年情侣，用复古傻瓜相机互相拍照和自拍，像笨拙又亲密的旅行回忆照。每格都是不同瞬间：手抖、轻微失焦、歪斜构图、闪光灯、胶片颗粒、暖色复古滤镜、轻微漏光、自然表情。整体像真实旧相册 contact sheet。",
-    "tags": [
-      "胶片感",
-      "情侣照",
-      "复古风",
-      "网格拼贴",
-      "旅行记"
-    ],
-    "id": 6434
-  },
-  {
-    "image": "0131/13753.jpeg",
-    "prompt": "用iPhone拍摄的一对年轻情侣在度假时互相自拍和一起自拍的自然怀旧照片的4x4网格。大量相机抖动，业余构图，以及充满情感的/复古美学。",
-    "tags": [
-      "情侣照",
-      "复古风",
-      "度假游",
-      "随手拍",
-      "自拍图"
-    ],
-    "id": 6435
-  },
-  {
-    "image": "0131/13839.jpeg",
-    "prompt": "一个年轻女子穿着一件精致的白色小碎花图案柔和蓝色超迷你裙，光脚穿着简单的白色凉鞋，站在一个明亮的春日公园里。这条裙子是及膝的超迷你长度（膝盖上方15厘米）。长长的自然头发，在自然阳光下微笑，逼真的皮肤纹理，鲜艳的色彩，8K分辨率，照片写实风格，背景中有樱花树，小径和草地地面的混合。",
-    "tags": [
-      "樱花",
-      "少女",
-      "碎花裙",
-      "春日",
-      "写实"
-    ],
-    "id": 6436
-  },
-  {
-    "image": "0131/13863.jpeg",
-    "prompt": "你是一名专注于原创女性偶像英雄动漫主视觉图的图像生成艺术总监。 始终创建原创图像。不要复制任何上传的图像、特定艺术家、工作室、系列、受版权保护的角色或商标设计。不要从任何参考中重现相同的主题、姿势、道具、地标或构图。仅将参考用于广泛的质量、打磨、密度和氛围。 核心风格： 创建以女性偶像英雄为中心的高冲击力动漫主视觉图：一位结合了明星魅力、象征性服装设计、情感存在感和战斗就绪能量的女主角。该图像应该让人感觉像是主要动漫、游戏或幻想偶像动作系列的优质宣传艺术。 角色方向： 女主角必须感觉具有标志性、受人敬仰且一眼就能认出。她应该具有强烈的轮廓、富有表现力的眼睛、精致的面部设计、美丽的头发流动，以及融合了偶像魅力与英雄实用性的服装。她的设计应该感觉令人向往且令人难忘，而不是普通的。 服装语言： 使用分层、优雅的舞台英雄时尚：紧身胸衣或表演夹克、装饰性饰边、丝带、不对称配饰、装饰性扣件、手套、靴子、结构化的裙板或英雄披风元素，以及一个连贯的主题，如天体、花卉、水晶、皇家、未来主义或元素。该服装应该看起来优质、具有表演性且具备战斗能力。 姿势与存在感： 优先考虑具有指挥力、像明星一样的肢体语言。她应该投射出自信、优雅和英雄般的领导力。使用动态但可读的姿势，使她感觉既是表演者又是救世主形象。避免僵硬的写真相片姿势。 构图： 使用具有清晰焦点层次结构的宣传主视觉构图。女主角应该主导画面。在头发、丝带、面料、粒子和光弧中采用优雅的运动。使用强烈的轮廓可读性、分层深度和电影般的比例感。偏好戏剧性的低角度或舞台前框取。 世界与氛围： 将幻想英雄主义与偶像奇观相融合。背景可能包括天体建筑、魔法舞台元素、耀眼的城市灯光、漂浮的符文、水晶结构、英雄徽章或风格化的大气风景。环境应该支持女主角的神话和名望。 光照与色彩： 使用大胆、打磨、优质的动漫光照。将迷人的舞台般高光与英雄般的幻想光芒相结合。偏好干净的对比、发光的轮廓光、闪烁的点缀和强烈的标志性调色板。图像应该感觉光芒四射、令人向往且充满情感。 渲染： 清晰的动漫线条、打磨的面部渲染、带有绘画般光点缀的干净赛璐璐阴影、详细的服装纹理、发光的粒子、锐利的眼睛、优雅的双手和优质的海报润色。 避免： 普通的女学生造型、随机的幻想盔甲、虚弱的轮廓、平淡的服装设计、无生命的表情、过度性化的呈现、杂乱的构图、浑浊的颜色、照片写实主义、3D渲染外观、Q版比例、扭曲的解剖结构、额外的手指、额外的四肢、文本、徽标、水印以及对任何参考图像的明显复制。",
-    "tags": [
-      "偶像",
-      "英雄",
-      "动漫",
-      "战斗",
-      "华丽"
-    ],
-    "id": 6437
-  },
-  {
-    "image": "0131/13872.jpeg",
-    "prompt": "概念转换，有机蘑菇生长塑造出一盏柔和的氛围台灯，从森林微距摄影到生长阶段图表，再到圆润的体积抽象，最后到最终物体的序列，穹顶般的顶部漫射出温暖的光线，柔触感哑光材质，带有微妙渐变的泥土色调，舒适的现代美学，设计板布局，顶部草图，底部渲染，温暖的氛围照明。",
-    "tags": [
-      "概念设计",
-      "蘑菇台灯",
-      "有机生长",
-      "现代美学",
-      "暖光氛围"
-    ],
-    "id": 6438
-  },
-  {
-    "image": "0131/13873.jpeg",
-    "prompt": "陈桥兵变的微信朋友圈",
-    "tags": [
-      "脑洞",
-      "朋友圈",
-      "兵变",
-      "搞笑",
-      "穿越"
-    ],
-    "id": 6439
-  },
-  {
-    "image": "0131/13875.jpeg",
-    "prompt": "西方极乐世界（又称西方净土、安乐国），是阿弥陀佛（无量寿佛）的佛土，核心特点是无有众苦、但受诸乐，与我们这个 “堪忍”（娑婆）世界形成鲜明对比。 在我们世界的西方，距离十万亿佛土之遥（《阿弥陀经》）。 佛主：教主阿弥陀佛（无量光、无量寿），常住说法；左右胁侍为观世音菩萨、大势至菩萨，合称 “西方三圣”。 国土环境：七宝庄严，完美无瑕 大地：黄金为地，平坦柔软、光明洁净，无山川沟壑、荆棘土石。 七宝池与八功德水： 遍地七宝池（金、银、琉璃、玻璃、砗磲、赤珠、玛瑙）。 池水具八功德：甘、冷、软、轻、清、香、饮时、饮已，能除烦恼、润身悦心。 池底金沙，阶道七宝，池中莲花大如车轮，青、黄、赤、白，各放光明。 建筑：七宝楼阁、宫殿、讲堂，浮空而起、随心大小，光明通透，胜过天界无数倍。 宝树与天乐： 七重行树、七重栏楯、七重罗网，皆四宝所成。 风吹宝树罗网，出微妙法音，如百千乐同时俱作，闻者自然生念佛、念法、念僧之心。 气候与天雨：无寒暑、无风雨，永远温和舒适；昼夜六时，天雨曼陀罗花，缤纷飘落，香气芬芳。 奇禽：白鹤、孔雀、鹦鹉、迦陵频伽等，皆佛变化所作，出和雅音，宣说佛法，令众生常生善念。 众生：无苦唯乐，寿命无量 往生方式：众生由七宝池莲花化生，非父母胎生，无生老病死之苦。 身形：紫磨金色身，相好庄严，与阿弥陀佛相似；具天眼、天耳、他心、宿命、神足五通，自在无碍。 寿命：无量无边阿僧祇劫，几乎永恒，无夭折衰老。 心性：皆是诸上善人，无贪嗔痴、无嫉妒争斗，人人慈悲平等、智慧清净，常闻佛法、不退菩提。 生活：衣食自然化现，不需劳作；清晨可赴他方十万亿佛土供养诸佛，食时即返，自在无碍。 时间与空间：无限永恒 时间：无昼夜、无年月，永恒安乐，世界无 “成住坏空” 之变。 空间：广大无边，十方众生尽往亦不拥挤；一微尘可纳三千大千世界，事事无碍。",
-    "tags": [
-      "佛国",
-      "七宝池",
-      "莲花",
-      "金光",
-      "曼陀罗"
-    ],
-    "id": 6440
-  },
-  {
-    "image": "0131/13876.jpeg",
-    "prompt": "请根据我上传的体检报告，创作一张高完成度、适合手机端查看的「体检报告计划卡 / Health Plan Card」。 这不是体检摘要海报，而是一张围绕“接下来如何按阶段推进健康管理”展开的计划图。请自动从体检报告中提炼最重要的健康管理任务，并把它们整理成一张具有时间推进逻辑的健康管理路线图。 【核心任务】 请自动识别体检报告中最值得管理的 3–6 个重点问题，并将其整理成“阶段计划”。 整张图要帮助用户理解： - 接下来 7 天做什么 - 接下来 30 天做什么 - 接下来 90 天做什么 - 每天和每周可以坚持什么 - 到什么时间点适合复查什么 【内容表达方向】 整体要偏“计划性、路线图、阶段推进、执行节奏”。 重点不在展示全部体检数据，而在于把健康管理拆成清晰阶段。 【推荐内容模块】 1. 顶部标题区 - 主标题可为：体检报告计划卡 / 90天健康管理计划 / 体检后健康改善路线图 - 副标题：根据本次体检报告整理的分阶段管理建议 2. 核心目标区 - 自动提炼 3–5 个健康管理主目标 - 例如： - 控制心血管风险 - 减轻体重与代谢负担 - 改善饮食与生活习惯 - 处理需要确认的问题 - 建立复查节奏 3. 第1阶段（1–7天） - 先做确认和记录 - 哪些问题建议优先处理 / 复查 - 哪些基础指标要开始记录 - 哪些生活方式先开始调整 4. 第2阶段（第2–4周） - 开始稳定执行饮食、步行、轻训练、睡眠管理 - 每周做什么 - 日常要坚持什么 - 以“可执行小目标”为主 5. 第3阶段（1–3个月） - 体重、血压、血脂、尿酸、肝功能等是否有改善 - 哪些项目适合复查 - 哪些问题继续随访 - 形成阶段性成果目标 6. 每日 / 每周执行区 - 每天做什么 - 每周做什么 - 可用短句 + 小卡片形式表达 - 例如：饭后步行、记录体重、少甜饮料、规律睡眠、轻力量训练等 - 内容根据报告重点自动适配 7. 复查与随访区 - 自动识别哪些问题更适合“复查确认”或“定期随访” - 用温和、非诊断式表述，例如： - 建议按需复查 - 建议门诊进一步评估 - 建议随访观察 8. 警示提醒区 - 哪些情况出现时要停止拖延并及时联系医生 - 用红色提示区集中表达 【视觉要求】 - 竖版 9:16，适配 iPhone - 模块清晰，具备“阶段路线图”感觉 - 可使用时间轴、阶段卡片、编号模块、箭头关系 - 字号大，适合中老年用户阅读 - 主色建议为绿色 / 蓝绿色，辅助色用于区分阶段 - 画面要专业、清爽、计划感强 - 可以加入健康人物插画或家庭场景辅助视觉，但重点仍然是计划结构 【输出目标】 最终生成的是一张“按时间推进的体检报告健康管理计划卡”，让用户看到后知道未来 7 天、30 天、90 天该怎么做。",
-    "tags": [],
-    "id": 6441
-  },
-  {
-    "image": "0131/13881.jpeg",
-    "prompt": "你是一个高端东方美学视觉生成系统，目标是为人物、意象、器物、城市或抽象主题生成新中式极简东方海报。 一、整体视觉方向 生成一张 9:16 竖版新中式高级海报，整体风格为： 极简（minimal） 克制（restrained） 留白（negative space） 东方意境（oriental poetic atmosphere） 高端商业视觉（luxury oriental editorial） 背景采用： 宣纸白（#F5F0E6）或极浅暖白渐变 可带极轻微纸张肌理（rice paper texture, subtle） 保持大面积留白（不少于40%） 整体视觉需具备： 高级感、呼吸感、东方韵律、视觉张力 二、核心设计原则 主体必须为画面视觉中心（视觉占比 40%–65%） 构图优先使用： S 型流动构图（S-curve composition） 对角线构图（diagonal flow） 画面“少即是多”，拒绝信息堆叠 不使用现代 UI 卡片、边框、信息图结构 所有元素需“自然生长”，避免拼贴感 强调气韵，而非单纯写实 风格关键词： 新中式（Neo-Chinese aesthetics） 水墨融合（ink + modern rendering） 东方商业插画（oriental luxury illustration） 诗意叙事（poetic storytelling） 三、画面结构 1. 顶部标题区（左上或沿构图走势） 主标题（中文）： {主题名称} 副标题（短句）： {一句具有东方意境的表达} 细横线（极细，浅灰或淡墨） 英文/拼音（可选）： {拼音或英文表达} 排版要求： 不居中堆叠 顺应构图走势（随 S 曲线或对角线排布） 留白充足 2. 主体视觉（中部） 生成一个具有东方审美表达的核心主体： {主体内容：人物 / 花 / 城市 / 山水 / 器物 / 抽象意象} 要求： 具有真实质感 + 艺术提炼（写实 × 意境） 材质可信（丝绸 / 石 / 水 / 雾 / 金属 / 宣纸） 光影为： 电影级侧逆光（cinematic side/back lighting） 体积光（volumetric light） 柔和轮廓光（rim light） 可加入元素（必须克制）： 云气 / 水纹 / 金线 / 飘带 / 花瓣 / 雾气 禁止复杂背景 允许极简承托物（如石、舟、水面、枝） 3. 视觉辅助结构 意境型点缀结构（非信息块） 可选 2–4 个“轻量表达元素”： 例如： 印章（朱红，极简） 小字题注（单行或双行） 细线图形（山形 / 水纹 / 圆弧） 抽象符号（如金线流动） 要求： 不规则分布 不可对齐成 UI 模块 必须“像画的一部分” 4. 底部留白区 底部只保留一句总结（极克制）： {一句具有东方哲思或诗性的表达} 风格： 灰色小字 字距略宽 居中或偏侧 不可抢视觉 四、字体与排版 主标题： 宋体 / 仿宋 / 高级黑体 大字号，低字距，稳重 副标题： 浅灰 中等字号 字距略松 英文： 极简无衬线（Helvetica / 思源黑体风格） 整体原则： 排版“呼吸感优先” 不密集、不对齐过度 五、色彩规范 主背景： 宣纸白 / 米白 / 极浅暖灰 主色： 墨黑 / 深灰 点缀色（仅少量使用）： 鎏金（金色细线） 朱砂红（印章） 青绿（山水） 靛蓝 / 松石绿 原则： 低饱和 + 局部提亮 避免大面积纯色块 六、图像质量要求 8K / 超清细节 真实材质表现（physically accurate materials） 无塑料感、无低质贴图 无畸形结构 边缘干净 强调： 气韵 > 细节堆叠 克制 > 炫技 七、禁止项 不要： ❌ 卡片 / 圆角 / 信息图排版 ❌ 复杂背景 ❌ 大面积渐变炫光 ❌ 廉价国潮纹样 ❌ 过度金色堆叠 ❌ 文案过多 ❌ 主体过小 --- 主题名称：项羽",
-    "tags": [],
-    "id": 6442
-  },
-  {
-    "image": "0131/13885.jpeg",
-    "prompt": "概念转换，鸟巢建造技术塑造雕塑休闲椅，从筑巢摄影到编织图解到有机结构抽象再到最终产品的序列，交织框架形成座椅和靠背，天然纤维搭配柔软软垫，泥土色调搭配精致表面处理，可持续奢华美学，展示布局，上方草图，下方渲染图，温暖的自然光",
-    "tags": [
-      "鸟巢椅",
-      "休闲椅",
-      "编织",
-      "自然风",
-      "概念化"
-    ],
-    "id": 6443
-  },
-  {
-    "image": "0131/13888.jpeg",
-    "prompt": "请基于用户上传的正面形象照片，生成一张横向 4:3 的高完成度「AI 五官美学升级报告 / Before & After Facial Aesthetic Upgrade Report」。 请严格保留用户本人的身份特征、脸部辨识度、五官核心轮廓、年龄感、皮肤真实纹理和整体气质，让人一眼能认出是同一个人。不要换头，不要变成模板网红脸，不要通过换衣服来制造变化。本次升级重点只放在五官、轮廓、皮肤质感和面部精神状态上。 画面采用「中央 Before / After 双脸主视觉 + 周围专业标注 + 底部方案矩阵」的横向报告版式。 中央区域： 左侧为 Before 原始脸部状态，尽量保持用户上传照片的真实状态； 右侧为 After 五官美学升级模拟脸，必须仍然是同一个人，但看起来更精神、更清爽、更立体、更精致、更上镜。 两张脸保持相似角度、相似光线、相似构图，方便形成清楚对比。 After 的升级方向： 韩系自然医美风、清爽高级、Clean Beauty、自然微调感、真实但更精致。 目标是自然变帅、自然变精致、自然变高级，而不是明显整容脸。 请在 After 脸上加入精致的编号圆点、细线箭头和局部放大注释，明确标注以下六个区域： 01 眉毛 / Brow： 分析眉形清晰度、眉峰眉尾、浓淡、左右协调度；建议自然修眉或男士自然眉方向，提升眉眼精神感。 02 眼部 / Eyes： 分析单双眼皮状态、眼神精神感、上睑状态、眼周疲态；建议自然型眼部精神感优化，不要夸张双眼皮，不要过度开眼角。 03 鼻部 / Nose： 分析鼻梁、鼻根、鼻头、鼻翼与中面部关系；建议自然增强鼻部立体感和鼻头精致度，避免过高鼻梁、过尖鼻头和假体感。 04 面部轮廓 / Facial Contour： 分析颧骨、下颌线、下巴、正面脸型比例；建议让下颌线更清晰、面部轮廓更利落，但不要模板化 V 脸，不要女性化。 05 唇部与口周 / Lips & Mouth Area： 分析唇形、嘴角、口周精致度和表情亲和力；建议轻微提升口周干净度和唇形自然度，不要丰唇过度。 06 皮肤质感 / Skin & Texture： 分析肤色均匀度、光泽感、气色、清爽度；After 皮肤更干净、更均匀、更有自然光泽，但必须保留真实皮肤纹理，避免过度磨皮、塑料感和蜡像感。 信息模块： 左侧信息区展示「原始五官观察」和「主要优化机会」； 右侧信息区展示「建议动作」和「具体方式」； 底部总结区展示「优先级矩阵」，包括： - 优先改善：修眉、皮肤管理、眼周精神感 - 可尝试：自然纹眉、基础轻医美、口周精致度优化 - 可评估：鼻部微调、轮廓线条优化 - 高谨慎：骨相级项目、明显侵入式整形，仅作为面诊方向，不下绝对结论 视觉风格： 高端医美咨询提案板 + 潮流杂志内页 + 专业顾问分析图。 背景以白色、米白、浅灰为主，少量银色、灰蓝、浅橄榄绿作为强调色。 整体干净、高级、专业、有呼吸感，文字清晰易读，信息丰富但不拥挤。 标题： AI 五官美学升级报告 Before & After Facial Aesthetic Upgrade Report 辅助标签可使用： FACIAL RESET NATURAL ENHANCEMENT Aesthetic Proposal Personal Face Upgrade 底部小字加入： 本报告为五官美学方向评估与视觉提案，不替代医生面诊。涉及纹眉、半永久、注射、整形等项目时，请以正规机构专业评估为准。 严格避免： 不要生成衣品升级报告； 不要重点换衣服、帽子、项链、包包； 不要让 After 靠穿搭变帅； 不要换头； 不要网红脸； 不要过度双眼皮、开眼角、高鼻梁、尖鼻头、V脸、丰唇； 不要过度磨皮； 不要把男性脸改得过于女性化； 不要遗漏眉毛、眼睛、鼻子、面部轮廓、唇部口周、皮肤质感六大区域。",
-    "tags": [],
-    "id": 6444
-  },
-  {
-    "image": "0131/10739.jpg",
-    "prompt": "请绘制“Popopo-popopopo♪”",
-    "tags": [
-      "音符",
-      "梦幻",
-      "跃动",
-      "童话",
-      "旋律"
-    ],
-    "id": 6445
-  },
-  {
-    "image": "0131/10737.jpg",
-    "prompt": "当我指示它以 5:2 的比例创建 X 缩略图时，它生成了完美的大小。",
-    "tags": [
-      "缩略图",
-      "封面图",
-      "宽屏感",
-      "高清感",
-      "社媒风"
-    ],
-    "id": 6446
-  },
-  {
-    "image": "0131/10738.jpg",
-    "prompt": "{ \"色彩\": { \"色彩行为\": \"主色调主导，辅以极柔和的第二色点缀\", \"饱和度\": \"中高饱和度，柔化处理，绝不刺眼或浑浊\" }, \"环境\": { \"世界类型\": \"抽象的画布表面\", \"材质\": [ \"水墨颜料\", \"微妙的调色刀纹理\", \"极简笔触\", \"轻薄的颜料堆叠肌理\" ], \"表现规则\": \"环境以克制的色彩、干净的质感和可控的颜料厚度象征性地表现运动场地或竞技场——绝不追求字面意义上的写实\", \"背景风格\": \"平静、均匀的色彩块，带有微妙的颜料肌理\" }, \"主体\": { \"比例\": \"微缩模型\", \"外观\": \"高度写实的人物形象\", \"活动\": \"运动中的动态瞬间\", \"服装\": \"精准的运动专用服装与装备\", \"姿态风格\": \"自然、运动中的姿态\", \"阴影\": \"柔和、微妙的阴影直接投射在主体下方，强化俯视视角\" }, \"构图\": { \"镜头角度\": \"严格俯视\", \"镜头朝向\": \"与表面完全垂直（90度正上方视角）\", \"透视规则\": [ \"无倾斜\", \"无对角角度\", \"无透视变形\", \"无景深透视\" ], \"布局\": \"图形化、编辑感、简洁几何\", \"负空间\": \"刻意且充裕\", \"景深\": \"扁平的、海报式景深\" }, \"灯光\": { \"类型\": \"柔和的工作室灯光\", \"光线方向\": \"均匀的顶部照明\", \"对比度\": \"低至中等的对比度\", \"目的\": \"保持表面平静感，消除方向性戏剧性\" }, \"风格\": { \"风格流派\": [ \"概念性纯艺术\", \"编辑摄影\", \"超现实微缩\" ] } }",
-    "tags": [
-      "微缩人",
-      "俯视角",
-      "极简风",
-      "竞技场",
-      "概念派"
-    ],
-    "id": 6447
-  },
-  {
-    "image": "0131/10741.jpg",
-    "prompt": "王家卫式忧郁色调，以浓重的青绿色为主（95–98% 的绿色/蓝绿色扩散），伦勃朗式明暗对比照明，强烈的胶片颗粒感，高 ISO 噪点，低分辨率 DV 摄像机美学，强烈的运动模糊，双重曝光隧道轨迹。偷窥式特写镜头，前景有大量遮挡，镜面反射，画中画感觉。超广角 18–24mm 镜头，极致特写（面部距离镜头仅 2–4 厘米），极度夸张的透视效果——头部比远处的元素大得多。背景是漫长黑暗的公路隧道，充满大量模糊的线性光条（主要是鲜绿色 + 微量淡黄色），强烈的长时间曝光拖影。 关键面部修复 - 男性（参考图片 1）： 28 岁男性，面部特征与参考图片 1 完全一致： - 面部必须与参考图片 1 100% 相同 - 脸型：[与参考图片 1 完全一致的脸型] - 眼睛：[与参考图片 1 完全一致的眼睛形状、大小、眼睑类型、间距、颜色] - 眉毛：[与参考图片 1 完全一致的眉毛形状、粗细、眉弓] - 鼻子：[与参考图片 1 完全一致的鼻梁高度、鼻尖形状、鼻孔宽度] - 嘴巴：[与参考图片 1 完全一致的嘴唇形状、厚度、宽度] - 下颌线：[与参考图片 1 完全一致的下颌形状、下巴形状] - 肤色：[与参考图片 1 完全一致的肤色/底色] - 头发：[与参考图片 1 完全一致的发型、颜色、质地、长度] - 面部毛发：[与参考图片 1 完全一致的胡茬/胡须样式] - 独特特征：[与参考图片 1 完全一致的痣、疤痕、独特标记] - 不允许与参考图片 1 有任何偏差 - 光滑年轻的皮肤，与参考纹理一致 - 港式明星美学 - 骑行并操控摩托车时，目光专注地直视前方 - 不包含参考图片 1 中的服装/服饰细节——完全忽略参考服装 关键面部修复 - 女性（参考图片 2）： 女性，面部特征与参考图片 2 完全一致： - 面部必须与参考图片 2 100% 相同 - 脸型：[与参考图片 2 完全一致的脸型] - 眼睛：[与参考图片 2 完全一致的眼睛形状、大小、眼睑类型、间距、颜色] - 眉毛：[与参考图片 2 完全一致的眉毛形状、粗细、眉弓] - 鼻子：[与参考图片 2 完全一致的鼻梁高度、鼻尖形状、鼻孔宽度] - 嘴巴：[与参考图片 2 完全一致的嘴唇形状、厚度、宽度] - 下颌线：[与参考图片 2 完全一致的下颌形状、下巴形状] - 肤色：[与参考图片 2 完全一致的肤色/底色] - 头发：[与参考图片 2 完全一致的发型、颜色、质地、长度] - 妆容：[如果参考图片 2 中有妆容，则与参考图片 2 完全一致的妆容风格] - 独特特征：[与参考图片 2 完全一致的痣、美人痣、独特标记] - 不允许与参考图片 2 有任何偏差 - 坐在男性身后摩托车后座上 - 双臂紧紧环抱他的腰部，亲密相拥 - 脸颊亲密地贴在他的肩膀/背部 - 不包含参考图片 2 中的服装/服饰细节——完全忽略参考服装 服装与造型（原始提示 - 不来自参考图片）： - 男性：休闲现代 \"",
-    "tags": [
-      "王家卫",
-      "青绿调",
-      "机车",
-      "隧道",
-      "胶片感"
-    ],
-    "id": 6448
-  },
-  {
-    "image": "0131/10740.jpg",
-    "prompt": "画面为左右对半分割构图，左半与右半清晰分界，整体对齐，呈现“概念图与落地实景”的对照效果。 左半部分为高度精细的现代极简建筑平面图插画，风格与参考图一致。俯视正投影的住宅布局，包含并清晰标注空间与动线：客厅，餐区，开放式厨房，卧室，玄关，走廊及流线，阳台或廊下空间，飘窗与窗洞位置。配色使用中性米色与暖灰，线条干净利落，轻微柔影与细腻材质纹理，室内设计方案展示质感，蓝图式平铺视觉，家具摆放可见且尺度准确。 右半部分为与左侧平面图同一客厅的超写实室内照片效果，空间比例与布局严格对应平面图。客厅包含弧形沙发组合，中央茶几，柔软地毯，温润木地板，中性墙面，大窗引入自然光。整体为现代温暖的居家风，泥土色系与柔和灯光，材质真实可触，细节有生活感但保持整洁克制。右侧呈现为室内真实摄影质感，清晰纹理与高分辨率细节。 风格与氛围为建筑可视化结合真实室内摄影，现代，温暖，优雅，专业设计工作室展示感，强调从方案到实景的对比表达。 光照与色彩要求：左侧为均匀平光与中性色，右侧为自然日光与柔和阴影及暖高光；两侧色彩保持统一的和谐关系。 镜头与技术要求：左侧为顶视正交视角，右侧为室内广角镜头的平视视角，画面清晰锐利，真实材质与细节丰富。 负面提示词：卡通风，细节粗糙，室内杂乱，户型与实景不匹配，比例失真，过强硬光，夸张饱和色，文字叠加，水印，logo，噪点，模糊。",
-    "tags": [
-      "平面图",
-      "极简风",
-      "对比图",
-      "客厅",
-      "效果图"
-    ],
-    "id": 6449
-  },
-  {
-    "image": "0131/10736.jpg",
-    "prompt": "{ \"image_prompt_data\": { \"subject\": { \"identity\": \"年轻女性\", \"appearance\": { \"hair\": \"齐肩纹理波波头，蜂蜜金色带金色挑染，蓬松沙滩波浪，中分\", \"eyes\": \"大而富有表现力的蓝绿色眼睛，锐利的上扬眼线，分明的睫毛\", \"skin\": \"无瑕的白皙肤色，光泽水润的妆面，颧骨处有柔和的玫瑰色腮红\", \"lips\": \"光泽裸粉色唇彩，自然丰满的唇形\" }, \"expression\": \"自信，沉着，眼神直接接触，目光柔和而中性\" }, \"attire\": { \"garment\": \"{argument name=\\\"gown color\\\" default=\\\"冰蓝色/银色\\\"} 缎面礼服，定制高级时装风格\", \"details\": [ \"深 V 领口\", \"结构化紧身胸衣\", \"胸部罩杯上有厚重的水晶和亮片装饰\", \"露肩水晶镶嵌肩带\", \"细吊带\", \"光滑、反光的缎面织物纹理\" ] }, \"accessories\": { \"jewelry\": [ \"精致的钻石网球项链\", \"小颗明亮式切割钻石耳钉\" ] }, \"environment\": { \"setting\": \"红毯媒体墙 / 迎宾背景板\", \"background\": \"深色/黑色背景，带有模糊的白色标志（可见部分文字：&#x27;GLAAD&#x27;，&#x27;Hyundai&#x27;）\", \"atmosphere\": \"迷人、备受瞩目的名人活动\" }, \"lighting\": { \"type\": \"专业活动闪光摄影\", \"characteristics\": [ \"正面柔和闪光\", \"面部均匀照明\", \"眼睛中有清晰的眼神光\", \"缎面礼服和水晶上有微妙的镜面高光\", \"主体阴影极少\" ] }, \"technical_details\": { \"camera_type\": \"高端全画幅单反相机（例如：佳能 EOS R5 或索尼 A1）\", \"lens\": \"85mm f/1.4 定焦人像镜头\", \"settings\": { \"aperture\": \"f/2.0 至 f/2.8（营造浅景深）\", \"shutter_speed\": \"1/200 秒\", \"iso\": \"400\" }, \"style\": \"超写实主义，8k 分辨率，面部对焦锐利，背景虚化柔和，皮肤纹理和织物纹理高度细节化\" } } }",
-    "tags": [
-      "红毯",
-      "晚礼服",
-      "超写实",
-      "闪光灯",
-      "冰蓝色"
-    ],
-    "id": 6450
-  },
-  {
-    "image": "0131/10745.jpg",
-    "prompt": "{ \"image_generation_request\": { \"model\": \"Nano Banana\", \"created_at\": \"2026-02-03T06:05:00.000000\", \"concept\": \"{argument name=\\\"concept\\\" default=\\\"19 世纪伦敦：卖火柴的小女孩走在贫民窟与繁荣的交界处\\\"}\", \"parameters\": { \"5w1h\": { \"who\": \"{argument name=\\\"person\\\" default=\\\"卖火柴的小女孩（破旧的披肩，沾满煤灰的脸颊，清澈的眼睛）\\\"}\", \"when\": \"下午 3 点左右（冬日低垂的太阳，长长的阴影，寒冷潮湿的氛围）\", \"where\": \"19 世纪伦敦泥泞街道的贫民窟与远处清晰可见的鹅卵石伦敦市中心之间的分界线。背景是烟囱冒出的烟雾和一排排煤气灯。\", \"what\": \"抬头仰望厚重阴沉的天空中的一丝缝隙，仿佛在祈祷，走向城市的灯光。\", \"why\": \"步履蹒跚，膝盖因寒冷和疲惫而弯曲，拖着不合脚的旧鞋。\", \"how\": \"正侧视图（侧视图），浅景深，聚焦于女孩，背景城市景观模糊而美丽。\" }, \"style\": \"超写实主义，电影级光照，8k 分辨率，细节纹理\", \"version\": \"1.1_Enhanced\" } } }",
-    "tags": [
-      "超写实",
-      "电影感",
-      "英伦风",
-      "凛冬",
-      "边缘人"
-    ],
-    "id": 6451
-  },
-  {
-    "image": "0131/10747.jpg",
-    "prompt": "NanoBananaPro 版的 Rina Arkenlux，使用相同的提示",
-    "tags": [
-      "丽娜",
-      "超清",
-      "精绘",
-      "光影",
-      "二次元"
-    ],
-    "id": 6452
-  },
-  {
-    "image": "0131/10749.jpg",
-    "prompt": "Style Nano Banana Pro 🍌 b3lla 和 Dead 🤍💖💙🖤💖💙",
-    "tags": [
-      "病娇",
-      "暗黑",
-      "死亡",
-      "哥特",
-      "少女"
-    ],
-    "id": 6453
-  },
-  {
-    "image": "0131/10743.jpg",
-    "prompt": "① 始终将模式切换到“Thought”或“Pro”（我个人觉得“Thought”更好） ② 使用“句子描述场景”，而不是罗列关键词 ③ 将主体、背景和氛围作为三点组合来明确说明 ④ 不要一次性追求完美；采用“渐进式修正” ⑤ 避免使用负面表达；用肯定句给出指令 ⑥ 添加英文质量关键词（例如 4K、high resolution） ⑦ 在开头清晰说明目的（例如：\"提案图示\"） ⑧ 使用负面提示排除不必要的元素 ⑨ 不要试图一次性进行复杂的编辑；分段进行 ⑩ 将常用提示保存为模板",
-    "tags": [
-      "提示词",
-      "绘画术",
-      "进阶法",
-      "防废图",
-      "干货贴"
-    ],
-    "id": 6454
-  },
-  {
-    "image": "0131/10744.jpg",
-    "prompt": "&#x27;分析这张照片并给我一个非常详细的json提示来重现它，必须非常详细，一定要分解色彩分级和照片中的所有确切颜色&#x27; 使用此json作为参考，生成拿着我的产品的人[附加产品图像]",
-    "tags": [
-      "产品图",
-      "超写实",
-      "商拍",
-      "调色",
-      "细节"
-    ],
-    "id": 6455
-  },
-  {
-    "image": "0131/10742.jpg",
-    "prompt": "给我看看之前/之后发生了什么。 给我看看那之前/之后发生了什么。",
-    "tags": [
-      "对比图",
-      "时间流",
-      "大蜕变",
-      "前与后",
-      "因果链"
-    ],
-    "id": 6456
-  },
-  {
-    "image": "0131/10746.jpg",
-    "prompt": "AI Manga Nano Banana Pro 🍌",
-    "tags": [
-      "动漫",
-      "微观",
-      "香蕉",
-      "细节",
-      "纳米"
-    ],
-    "id": 6457
-  },
-  {
-    "image": "0131/10748.jpg",
-    "prompt": "AI 构思的、以玄凤鹦鹉为原型的运动鞋。细节非常精致，甚至连脸颊斑纹都表现出来了。",
-    "tags": [
-      "玄凤",
-      "运动鞋",
-      "概念鞋",
-      "超细节",
-      "仿生"
-    ],
-    "id": 6458
-  },
-  {
-    "image": "0131/10754.jpg",
-    "prompt": "请使用随附的面部照片，原样创建一张垂直的 3 帧低分辨率网络摄像头拼贴画。 关于面部的绝对规则： 请勿对脸部进行任何改动。 保持五官、脸型、眼睛大小、鼻子、嘴巴和下颌线的精确比例。 请勿让人物看起来更年轻或过于可爱。 请勿改变输入照片中人物的性别。 请勿生成新人物（异性/同性）。 发型： 保持原始发型。 请勿改变长度、分缝或卷度。 仅以自然略显凌乱、粗糙的状态呈现。 拍摄色调和色彩（参考反光）： 色彩表达与随附的参考照片完全一致。 背景： 日式木质旅馆。 尽量减少背景细节。 保持黑暗和模糊的状态。 服装规则（基于输入照片）： 如果输入照片是女性 → 黑色 浴衣，所有帧均带有红色花卉图案。 如果输入照片是男性 → 黑色丝绸正装衬衫，所有帧均带有 红色领带。 第 1 帧： 悲伤的表情，如同悲情电影中的主角。 手指靠近嘴巴。 第 2 帧： 头部略微转向一侧。 展现美丽的侧脸。 随意的自拍感觉，没有过度的摆拍。 第 3 帧： 温暖而美丽的微笑。 双手合十，托着下巴。 情绪平静，氛围梦幻。 重要的附加说明： 仅使用输入照片中的一个人。 请勿改变性别、面部或氛围。 风格变化应仅应用于光照、色彩、噪点和效果。 所有帧的面部保持一致。 关于效果的绝对规则： 所有帧均应用相同的 cinesteel 800T 胶片风格和电影光效。 关于效果的绝对规则： 所有帧均在一侧应用相同的红色照明效果，并从左到右应用雅致的运动模糊效果。",
-    "tags": [
-      "胶片感",
-      "三宫格",
-      "低保真",
-      "情绪向",
-      "日系风"
-    ],
-    "id": 6459
-  },
-  {
-    "image": "0131/10753.jpg",
-    "prompt": "竖构图，逼真的弱光手机自拍，在漆黑的卧室里，脸部与参考图一致。苍白的脸庞映着蓝紫色屏幕光；深色背景，左侧有米色遮光窗帘。困倦而舒适的深夜低保真氛围，特写，略低角度。主体趴着，靠在带图案的灰色枕头上，凌乱的黑发和稀疏的刘海。柔和、梦幻、空洞的眼神，嘴巴微张，手靠近脸部，手指轻触嘴唇。穿着黑色无袖防晒衣，戴着细银项链，左肩裸露。柔焦，可见颗粒感，明亮的脸部与黑暗的背景形成高对比度。负面提示词：明亮的白天，阳光，影棚/闪光灯照明，暖色/橙色调，户外，锐利对焦，专业相机，手部扭曲，多余/缺失的手指，脸部失焦，只有一张照片。",
-    "tags": [
-      "深夜",
-      "自拍",
-      "慵懒",
-      "胶片感",
-      "迷幻感"
-    ],
-    "id": 6460
-  },
-  {
-    "image": "0131/10750.jpg",
-    "prompt": "我正在暗自努力的地方",
-    "tags": [
-      "偷努力",
-      "小角落",
-      "深夜",
-      "沉淀",
-      "独处"
-    ],
-    "id": 6461
-  },
-  {
-    "image": "0131/10751.jpg",
-    "prompt": "我也尝试用 Nanobanana Pro 制作。 毕竟，香蕉 还是香蕉，对吧？😁💕",
-    "tags": [
-      "搞笑香蕉",
-      "搞怪日常",
-      "奇趣脑洞",
-      "魔性瞬间",
-      "水果派对"
-    ],
-    "id": 6462
-  },
-  {
-    "image": "0131/10752.jpg",
-    "prompt": "竖幅构图，逼真的弱光手机自拍，在漆黑的卧室里，脸部与参考图完全一致。苍白的脸庞映着蓝紫色的屏幕光；深色背景，左侧有米色遮光窗帘。困倦舒适的深夜 lo-fi 氛围，特写，略低角度。主体俯卧，靠在带图案的灰色枕头上，凌乱的黑发和稀疏的刘海。柔和、梦幻、空洞的眼神，嘴巴微张，手靠近脸部，手指轻触嘴唇。穿着黑色无袖防晒衣，戴着细银项链，左肩裸露。柔焦，可见颗粒感，明亮的脸部与黑暗的背景形成高对比度。负面提示词：明亮的白天、阳光、影棚/闪光灯照明、暖色/橙色调、户外、锐利对焦、专业相机、手部扭曲、多余/缺失手指、脸部失焦、仅一张照片。",
-    "tags": [
-      "氛围感",
-      "眠系",
-      "暗光",
-      "柔焦",
-      "特写"
-    ],
-    "id": 6463
-  },
-  {
-    "image": "0131/10755.jpg",
-    "prompt": "图片：构图与取景：相机采用低角度、正对前方的视角，位置略低于主体，因此两罐饮料都高出地平线；两罐饮料均直立垂直放置，并排摆放，间距很窄，占据画面中央偏上的三分之一区域；画面底部边缘截取了一段金属台面作为基底，而罐身从底部到边缘都完整可见；构图对称，但高度略有错落，由于透视关系，右侧的罐子在画面中略高；负空间主导了上方背景，强化了垂直感和产品的独立性。光照与氛围：一个略微抬高并居中的正面主光源，在两罐饮料上产生均匀的照明，在冷凝水滴上形成密集、高对比度的镜面高光；阴影极小且柔和，表明前方和侧面有漫射补光；水珠清晰地捕捉光线，暗示在整体受控的照明设置中存在硬光成分；没有大气雾霾，但表面冷凝水创造出一种触感冰冷的视觉提示。主体几何形状与材质：每个主体都是一个高大的圆柱形铝罐，具有光滑的垂直壁和圆润的边缘；两者都涂有哑光白色印刷标签，带有醒目、高对比度的字体；圆形彩色图案平整地印在表面上——左侧罐子是 品红色和红色，右侧罐子是 黄色和绿色；铝表面覆盖着均匀分布、直径各异的水滴，通过表面张力附着；水滴产生微透镜效应，扭曲了下方的文字和图案；边缘清晰，没有变形，表明包装坚硬。环境分层：前景是一个带有线性凹槽和可见紧固件的水平金属台面，对焦清晰；罐子直接放在这个台面上，建立了物理接触；中景完全被罐子占据；背景是一个均匀、失焦的深红色渐变墙，带有微妙的色调变化，没有可辨别的纹理；除了这三个平面，没有其他额外的物体或分层。技术瑕疵与色彩：调色板将罐子上冷白色和饱和的强调色与温暖、深红色的背景形成对比；印刷圆圈中的饱和度适中到高，而背景保持柔和；整个图像中可见细微的胶片颗粒，尤其是在较暗的红色区域，这表明可能是高 ISO 或有意为之的纹理；轻微的渐晕使画面边缘变暗；没有可见的色差或运动模糊；水滴上的高光清晰，过渡控制良好。文字：标题：“IMAGE & COMMERCE”；副标题：“Cinematic prompt just for you”（部分可见）；正文：左侧罐子上的口味名称包括“覆盆子番石榴”，右侧罐子上的口味名称是“柠檬青柠”；行动号召：无；标志：“I&C”；免责声明",
-    "tags": [
-      "产品图",
-      "易拉罐",
-      "水滴感",
-      "电影感",
-      "极简风"
-    ],
-    "id": 6464
-  },
-  {
-    "image": "0131/10781.jpg",
-    "prompt": "{ \"image_prompt\": { \"type\": \"超逼真美食信息图\", \"subject\": { \"cuisine\": \"{argument name=\\\"cuisine type\\\" default=\\\"印尼\\\"}\", \"base_element\": \"一个盛有热气腾腾菜肴的传统碗\", \"levitating_ingredients\": [ \"鲜嫩肉块\", \"金黄酥脆豆腐\", \"空中飞溅的浓郁酱汁滴\", \"新鲜绿色香草\", \"红辣椒\", \"青柠片\", \"蒜蓉\", \"酥炸葱头\" ] }, \"composition\": { \"layout\": \"极简、垂直堆叠布局\", \"arrangement\": \"食材自然漂浮，仿佛悬浮在空中\", \"background\": \"有纹理的乡村木质桌面\", \"visual_hierarchy\": \"碗固定在底部，食材在其上方升腾\" }, \"graphic_design_elements\": { \"labels\": \"清晰的印尼语注释\", \"lines\": \"细白色连接线\", \"style\": \"高端编辑美食信息图，杂志级设计\" }, \"lighting_and_mood\": { \"lighting\": \"受控电影级影棚灯光\", \"color_palette\": \"温暖、诱人的色调\", \"effects\": \"可见的蒸汽和凝固动作的食物元素\" }, \"technical_specs\": { \"camera_settings\": \"浅景深，焦点清晰，单反风格拍摄\", \"details\": \"极其细致的表面纹理\", \"resolution\": \"8K，超逼真效果\" } } }",
-    "tags": [
-      "信息图",
-      "印尼菜",
-      "超写实",
-      "悬浮感",
-      "美食志"
-    ],
-    "id": 6465
-  },
-  {
-    "image": "0131/10783.jpg",
-    "prompt": "一位快乐的年轻女子，一头浓密波浪状的金色长发披散在肩上，发丝在阳光下轻轻闪耀，她开怀大笑，脸上洋溢着无忧无虑、灿烂的笑容，展现出纯粹的幸福。她随意地坐在一座古老的风化石台上，周围环绕着巨大的石雕猛犸象雕像，它们巨大的象牙和粗糙的石质表面在阳光普照的古生物公园内营造出一种戏剧性的史前氛围。 她穿着一件飘逸的祖母绿吊带裙，带有微妙的豹纹图案，轻盈的面料随着夏日的微风轻轻摆动，纤细精致的肩带自然地搭在肩上，裙子优雅地垂坠在她的身上。脚上穿着黑色厚底凉鞋，现代而时尚，与古老的周围环境形成了美丽的对比。她身旁的石头上放着一个黑色几何链条包，结构化的设计和金属链条细节捕捉着柔和的光线。 她的姿势放松而自然，一只手放在身后以保持平衡，另一只手随意地放在膝盖上，身体微微转向光线。她的表情充满活力——眼睛因笑容而微微眯起，脸颊泛着淡淡的红晕，皮肤在自然妆容下焕发光彩，散发着阳光亲吻般的温暖。 场景捕捉于一个阳光明媚的夏日黄金时段，温暖的金色光线环绕着她和雕像，营造出梦幻般的光芒。背景虚化成柔和的奶油色散景，隐约可见的绿色植物、石板小径和远处的雕塑模糊不清，增加了景深。色彩鲜艳而自然，浓郁的绿色、温暖的石色调和金色高光完美平衡。 以高端时尚摄影风格拍摄，电影般的构图，浅景深，主体对焦超清晰，织物和皮肤细节纹理精美。高度细致，超写实，逼真的阴影和光线衰减，有机胶片颗粒，富士 Superia 400 胶片特有的微妙色彩偏移，怀旧而现代的美学，专业编辑品质，8k 真实感，自然动态，抓拍式生活时尚瞬间。",
-    "tags": [
-      "猛犸象",
-      "豹纹裙",
-      "胶片感",
-      "时尚片",
-      "散景"
-    ],
-    "id": 6466
-  },
-  {
-    "image": "0131/10782.jpg",
-    "prompt": "“生成色彩鲜艳的高清壁纸，以不同色调和布局的玉米棒为特色，重点突出玉米粒的细节和自然纹理，背景设置为质朴的 农场或户外 环境”， \"style\": \"美食摄影\", \"resolution\": \"4K\", \"colors\": [\"金黄色\", \"奶油白\", \"深紫色\", \"鲜绿色\", \"泥土棕\"], \"elements\": [\"玉米棒\", \"玉米皮\", \"玉米粒\", \"玉米叶\", \"农田\"]",
-    "tags": [
-      "玉米",
-      "壁纸",
-      "田园风",
-      "微距",
-      "丰收季"
-    ],
-    "id": 6467
-  },
-  {
-    "image": "0131/10778.jpg",
-    "prompt": "{ \"image_generation_prompt\": { \"subject\": { \"description\": \"一位年轻女性，带着率真、略显粗犷的审美，正在对着镜子自拍。\", \"hair\": \"凌乱、有质感的红棕色头发，偏分，看起来随意且未经打理。\", \"skin\": \"苍白的皮肤，具有高清晰度纹理，毛孔可见，有自然的瑕疵和雀斑。未经修饰。\", \"face\": \"直视镜头，锐利的飞翼眼线，左手咬指甲/手指，姿态略显紧张或俏皮。\" }, \"body_and_clothing\": { \"pose\": \"靠近镜子站立，一只手臂抬至嘴边。\", \"outfit\": \"简约的深麻灰色 V 领 T 恤。\", \"tattoos\": [ \"左前臂向上延伸的线条艺术花卉/叶状树枝纹身\", \"左手腕外侧的文字纹身\", \"左手中指上的微小爱心轮廓纹身\", \"胸部/胸骨中央的小型极简爱心轮廓纹身\" ] }, \"environment_and_style\": { \"setting\": \"杂乱的浴室，带有复古的 {argument name=\\\"wallpaper pattern\\\" default=\\\"米色花卉图案\\\"} 壁纸。\", \"foreground_details\": \"脏兮兮的镜面，有明显的水渍、污迹和灰尘颗粒，在主体上形成一层纹理。\", \"background_details\": \"毛巾架、浴帘杆和天花板灯具在镜面反射中可见。\" }, \"technical_specifications\": { \"aesthetic\": \"业余闪光摄影，2000 年代数码相机风格，原始而率真。\", \"lighting\": \"刺眼的直射相机闪光，在镜子上产生明亮的眩光，并在主体后面形成硬阴影。\", \"quality\": \"超写实，4K，聚焦于皮肤纹理和镜面污垢细节。\", \"camera_angle\": \"与视线平齐的镜面自拍视角。\" } } }",
-    "tags": [
-      "千禧年",
-      "闪光灯",
-      "镜面拍",
-      "小纹身",
-      "真实感"
-    ],
-    "id": 6468
-  },
-  {
-    "image": "0131/10780.jpg",
-    "prompt": "{ \"image_analysis\": { \"overall_scene\": \"一名年轻女性在健身房里，刚运动完自拍的特写镜头。她明显出汗，脸颊泛红，在明亮的室内灯光下，捕捉到了一个随意而亲密的瞬间。\", \"subject\": { \"identity\": \"西德尼·斯威尼 (Sydney Sweeney)（极其相似）\", \"age_appearance\": \"20 岁出头\", \"build\": \"运动型，身材匀称，有自然的曲线，肩膀和手臂线条分明，胸部丰满\", \"skin\": \"白皙，因运动而泛红，脸部、颈部、胸部和肩膀上布满晶莹的汗珠，皮肤纹理自然，毛孔和少量雀斑可见\", \"hair\": \"红色，扎成一个松散凌乱的马尾辫，湿漉漉的发丝贴在前额和颈部，碎发散落在脸庞周围\", \"face\": \"心形脸，大而富有表现力的蓝色眼睛直视镜头，带着疲惫/性感的半眯眼神，丰满自然的嘴唇微微嘟起，没有明显妆容，运动后的光泽\", \"other_details\": \"脸颊上有一颗小美人痣，锁骨上泛着微妙的光泽\" }, \"pose\": \"以特写自拍的姿势向前倾斜，头部略微倾斜，肩膀放松，表情混合着运动后的疲惫和俏皮的自信，一只手臂可能拿着手机（被裁剪掉了）\", \"clothing\": { \"visible\": \"浅粉色罗纹运动文胸/背心式短款上衣，深 U 领，粗肩带，修身且略有弹性，突出乳沟和腰部（下半身不可见）\" }, \"lighting_and_color\": { \"lighting\": \"明亮的顶部荧光健身房照明，均匀且略显刺眼，在汗水和皮肤上形成强烈的高光，下巴和手臂下方有微妙的阴影\", \"color_palette\": \"中性健身房色调：白色运动文胸与泛红的粉色皮肤形成对比，模糊的深色背景设备\" }, \"background\": \"模糊的现代健身房内部，可见的健身器材、拉索机、带有裸露管道的水泥天花板、深色橡胶地板，景深较浅，焦点紧密集中在主体上\", \"photography_style\": \"写实亲密的健身房自拍，高分辨率，汗珠和皮肤纹理细节清晰，从手臂长度的低角度拍摄，自然的运动后美学\" }, \"generated_prompt\": { \"full_text_prompt\": \"写实特写，运动后自拍，一位与 {argument name=\\\"subject likeness\\\" default=\\\"Sadie Sink\\\"} 极其相似的美丽年轻女性，20 岁出头，红色凌乱湿润的马尾辫，发丝贴在前额，白皙泛红的皮肤布满汗珠，大大的蓝色眼睛带着疲惫性感的眼神，丰满的嘴唇微微嘟起，穿着紧身 {argument name=\\\"bra color\\\" default=\\\"light yellow\\\"} 罗纹运动文胸，深 U 领展现乳沟，锁骨和肩膀晶莹发亮，在健身房环境中向前倾斜，明亮的顶部荧光照明，背景模糊，有健身器材和水泥天花板，高度详细的汗水和皮肤纹理，自然光泽，面部和上半身清晰对焦，亲密运动\" } }",
-    "tags": [
-      "健身房",
-      "自拍",
-      "汗水",
-      "辣妹",
-      "红发"
-    ],
-    "id": 6469
-  },
-  {
-    "image": "0131/10779.jpg",
-    "prompt": "{ \"scene_description\": { \"location\": \"现代室内健身房\", \"background_elements\": [ \"整面墙的镜子，映衬出房间的深度\", \"一排排黑色哑铃架\", \"背景中的拉索器械\", \"右侧的黑色软垫举重凳\", \"黑色橡胶健身房地板\", \"线型 LED 天花板灯提供明亮、冷色调的照明\" ], \"atmosphere\": \"充满活力、专注健身、休闲生活方式\" }, \"subjects\": [ { \"id\": \"subject_1\", \"position\": \"左侧\", \"appearance\": { \"hair\": \"红金色，长发，扎成马尾辫\", \"skin_tone\": \"白皙\", \"expression\": [ \"灿烂的笑容\", \"看着镜子\", \"侧视\", \"直接对着镜头微笑\" ] }, \"apparel\": { \"outfit_type\": \"配套的罗纹运动套装\", \"color\": \"{argument name=\\\"subject 1 outfit color\\\" default=\\\"柠檬黄\\\"}\", \"top\": \"U 领运动内衣，束带上印有清晰可见的“alo”标志\", \"bottom\": \"高腰骑行短裤（及大腿中部）\", \"footwear\": \"白色中筒袜，白色运动鞋\" }, \"poses\": [ \"双手叉腰站立\", \"身体略微内转站立\", \"宽站距深蹲，双手放在大腿上\" ] }, { \"id\": \"subject_2\", \"position\": \"右侧\", \"appearance\": { \"hair\": \"棕色，扎成凌乱的高发髻\", \"skin_tone\": \"浅至中等肤色\", \"expression\": [ \"浅笑\", \"专注的平静表情\", \"看着镜子中的手机屏幕\" ] }, \"apparel\": { \"outfit_type\": \"配套的罗纹运动套装\", \"color\": \"{argument name=\\\"subject 2 outfit color\\\" default=\\\"亮红色\\\"}\", \"top\": \"深 V 领运动内衣\", \"bottom\": \"高腰迷你短裤\", \"footwear\": \"白色中筒袜，白色运动鞋\" }, \"accessories\": [ \"带深色手机壳和 MagSafe 环的智能手机\", \"带银色手柄的黑色哑铃\" ], \"poses\": [ \"站立，手持手机进行镜面自拍\", \"双手抱住哑铃置于胸前，进行高脚杯深蹲\" ] } ], \"camera_perspective\": { \"type\": \"镜面自拍和低角度定时拍摄\", \"framing\": \"全身和 3/4 身照片\", \"lighting\": \"头顶人工健身房条形灯照明\", \"focus\": \"主体清晰对焦，背景反射略带景深\" }, \"specific_details\": { \"color_contrast\": \"黄色和红色服装与灰色/黑色健身房背景形成强烈对比\", \"distinctive_features\": \"健身器材的倒影，黄色上衣上的“alo”品牌标识\" } }",
-    "tags": [
-      "健身房",
-      "闺蜜",
-      "运动装",
-      "自拍",
-      "活力"
-    ],
-    "id": 6470
-  },
-  {
-    "image": "0131/10784.jpg",
-    "prompt": "{ \"prompt_description\": \"超级英雄的超写实抓拍肖像\", \"subject\": { \"appearance\": \"年轻女性，齐肩红色头发向后梳理，皮肤白皙，有少量雀斑。\", \"expression\": \"俏皮，撅起嘴唇做出“飞吻”或“鸭子嘴”表情，直视镜头。\", \"likeness\": \"酷似女演员 {argument name=\\\"subject likeness\\\" default=\\\"Sadie Sink\\\"}。\" }, \"outfit\": { \"garment\": \"全身蜘蛛侠超级英雄套装。\", \"colors\": \"经典的鲜红色和深蓝色。\", \"texture\": \"高品质纹理氨纶/网眼材料，织物纹理清晰可见。\", \"details\": \"黑色蜘蛛网图案覆盖，胸前有蜘蛛标志，关节处有逼真的织物褶皱。\" }, \"pose\": { \"stance\": \"直立站立，姿势随意。\", \"hands\": \"右手拿着一个带纸板套的白色一次性咖啡杯，靠近胸部。左手举起比出和平（V）手势。\", \"mood\": \"抓拍、下班、有趣、随意、自信。\" }, \"environment\": { \"location\": \"白天纽约市街道。\", \"background\": \"红色砖砌公寓楼，带有黑色防火梯，典型的纽约建筑风格。\", \"surroundings\": \"混凝土人行道，背景中模糊的行人穿着冬装走过。\", \"depth\": \"背景虚化（散景）以突出主体。\" }, \"lighting\": { \"type\": \"自然日光。\", \"quality\": \"柔和、漫射、阴天光线。\", \"effect\": \"面部光线均匀，没有刺眼的阴影，套装纹理上有逼真的反光。\" }, \"camera_settings\": { \"style\": \"电影街头摄影风格。\", \"lens\": \"85mm 人像镜头。\", \"aperture\": \"f/1.8（浅景深）。\", \"resolution\": \"8K，超细节。\", \"focus\": \"主体面部和套装纹理清晰对焦。\" }, \"tech_specs\": { \"engine_style\": \"虚幻引擎 5 渲染风格，光线追踪。\", \"quality_tags\": \"超写实、超逼真、高细节皮肤纹理、原始照片、HDR。\" } }",
-    "tags": [
-      "蜘蛛侠",
-      "超写实",
-      "街拍",
-      "红发",
-      "下班感"
-    ],
-    "id": 6471
-  },
-  {
-    "image": "0131/10777.jpg",
-    "prompt": "{ \"prompt_details\": { \"subject\": { \"identity\": \"Sydney Sweeney\", \"appearance\": \"金色头发，蓬松质感，柔和的蓝色眼睛，自然水润的妆容，光泽肌肤\", \"pose\": \"坐在地板上，膝盖收拢，身体略微前倾，深情地直视镜头，双手放松\", \"clothing\": \"优雅的 {argument name=\\\"clothing color\\\" default=\\\"black\\\"} 黑色缎面吊带裙，展现身材，细吊带，裙摆飘逸\" }, \"environment\": { \"setting\": \"极简主义的弧形背景摄影棚，无缝背景\", \"color_palette\": \"单色 {argument name=\\\"color palette\\\" default=\\\"pastel pink\\\"} 柔和粉色，柔和的淡紫色，洋红色高光，珠光白\" }, \"lighting_and_mood\": { \"lighting_style\": \"梦幻的体积光，柔和的紫色霓虹滤光片，漫射光晕，高调美学，空灵的轮廓光\", \"mood\": \"性感，宁静，空灵，高端时尚杂志风格\" }, \"camera_technical\": { \"equipment\": \"Sony A7R V，85mm f/1.4 GM 镜头\", \"settings\": \"f/1.8 光圈营造浅景深，ISO 100，1/200s 快门速度\", \"perspective\": \"平视视角，中景全身\" }, \"quality_tags\": [ \"8k 分辨率\", \"超逼真\", \"超精细皮肤纹理\", \"皮肤次表面散射\", \"杰作\", \"锐利对焦\", \"Vogue 杂志风格 比例 9:16\" ] } }",
-    "tags": [
-      "斯威尼",
-      "黑缎裙",
-      "梦幻光",
-      "杂志风",
-      "氛围感"
-    ],
-    "id": 6472
-  },
-  {
-    "image": "0131/10786.jpg",
-    "prompt": "{ \"metadata\": { \"confidence_score\": \"high\", \"image_type\": \"photograph\", \"primary_purpose\": \"social media/lifestyle\" }, \"composition\": { \"rule_applied\": \"rule of thirds\", \"aspect_ratio\": \"4:5 portrait\", \"layout\": \"single subject with foreground elements\", \"focal_points\": [ \"Subject&#x27;s face and eyes\", \"Subject&#x27;s torso/bikini\" ], \"visual_hierarchy\": \"Eye starts at face, moves down body curve, references product on table, then scans background environment\", \"balance\": \"asymmetric - heavy subject placement on right balanced by counter and greenery on left\" }, \"color_profile\": { \"dominant_colors\": [ { \"color\": \"Cream/Beige\", \"hex\": \"#E8E2D2\", \"percentage\": \"30%\", \"role\": \"background walls/furniture\" }, { \"color\": \"Tan Skin Tone\", \"hex\": \"#D6A986\", \"percentage\": \"25%\", \"role\": \"primary subject\" }, { \"color\": \"White\", \"hex\": \"#FFFFFF\", \"percentage\": \"10%\", \"role\": \"clothing/accent\" }, { \"color\": \"Deep Green\", \"hex\": \"#2F4F2F\", \"percentage\": \"15%\", \"role\": \"foliage background\" }, { \"color\": \"Concrete Grey\", \"hex\": \"#8C8C8C\", \"percentage\": \"10%\", \"role\": \"surfaces\" } ], \"color_palette\": \"natural/neutral with green accents\", \"temperature\": \"warm\", \"saturation\": \"moderate\", \"contrast\": \"medium contrast\" }, \"lighting\": { \"type\": \"natural mixed\", \"source_count\": \"single source main with ambient fill\", \"direction\": \"front/45-degree side\", \"directionality\": \"moderately directional\", \"quality\": \"soft light/diffused\", \"intensity\": \"bright/daylight\", \"contrast_ratio\": \"medium contrast\", \"mood\": \"casual/relaxed/warm\", \"shadows\": { \"type\": \"soft gradual edges\", \"density\": \"gray/transparent\", \"placement\": \"under chair/under counter/under chin\", \"length\": \"short\" }, \"highlights\": { \"treatment\": \"preserved/soft\", \"placement\": \"shoulders/forehead/cheekbones/shins\" }, \"ambient_fill\": \"present\", \"light_temperature\": \"warm (golden hour influence)\" }, \"technical_specs\": { \"medium\": \"digital photography\", \"style\": \"realistic/lifestyle/influencer style\", \"texture\": \"smooth skin/textured fabric/stucco walls\", \"sharpness\": \"tack sharp on subject\", \"grain\": \"none\", \"depth_of_field\": \"medium - background slightly soft but details distinguishable\", \"perspective\": \"straight on/eye level\" }, \"artistic_elements\": { \"genre\": \"lifestyle portrait\", \"influences\": [ \"Social media aesthetics\", \"Commercial lifestyle photography\" ], \"mood\": \"relaxed/confident/inviting/summery\", \"atmosphere\": \"Casual backyard hanging out, warm afternoon vibes\", \"visual_style\": \"clean/bright/polished\" }, \"typography\": null }",
-    "tags": [
-      "夏日",
-      "比基尼",
-      "慵懒风",
-      "度假感",
-      "少女感"
-    ],
-    "id": 6473
-  },
-  {
-    "image": "0131/10787.jpg",
-    "prompt": "创作一张引人注目的新黑色时尚肖像，描绘一位男士身着考究的黑色三件套西装、白色正装衬衫和修身黑领带，手中拿着 枪. 他头部微倾，脸部略微朝下并转向一侧，神情沉郁而内省。他的存在感显得克制、疏离而强大——如同一个游走于不同世界之间的时尚反英雄。他留着中等长度的波浪形深色头发，发丝随意地散落在太阳穴周围，蓄着修剪整齐的胡须，戴着完全遮住眼睛的圆形黑色墨镜，这更增添了他的神秘感和权威性。他的姿态放松却又刻意，毫不费力地流露出自信。主体以戏剧性的黑白呈现，而背景则是浓郁、富有质感的 深红色，营造出强烈的对比和视觉冲击力。红色背景象征着危险、激情、叛逆和电影般的张力，充满情感色彩。光线阴沉且具有方向性，通过微妙的高光和深邃的阴影勾勒出面部特征和西装面料。细腻的胶片颗粒和绘画般的纹理增添了编辑感和海报般的质感。这张图片感觉就像一个奢侈品时尚广告、一部黑色漫画小说的封面，或是一张艺术电影海报。使用 4:5 的宽高比。",
-    "tags": [
-      "新黑色",
-      "反英雄",
-      "电影感",
-      "黑西装",
-      "持枪"
-    ],
-    "id": 6474
-  },
-  {
-    "image": "0131/10790.jpg",
-    "prompt": "{ \"prompt\": \"一位年轻女性的特写肖像，她留着铂金色长发和厚重的齐刘海，皮肤白皙，化着浓重的深色眼妆，眼线和睫毛膏浓密，眼神锐利而诱惑，透过她双手捧着的白色陶瓷咖啡杯边缘直视镜头，双唇微启，湿润，身穿深棕色纹理宽松毛衣，背景是昏暗舒适的咖啡馆，暖棕色调，柔和的散景灯光，电影胶片剧照，忧郁而神秘的氛围，高细节，逼真的皮肤纹理，浅景深，使用 {argument name=\\\"film type\\\" default=\\\"35mm film\\\"} 拍摄，色彩分级如艺术电影场景\", \"negative_prompt\": \"卡通、动漫、模糊、低质量、多余的肢体、变形的脸、明亮的灯光、微笑、开心的表情、现代服装、彩色背景、过曝\", \"aspect_ratio\": \"2:3\", \"style\": \"电影感、超写实\", \"reference_images\": \"使用上传的参考图像作为强烈的风格和姿势指导\" }",
-    "tags": [
-      "胶片感",
-      "咖啡馆",
-      "魅惑",
-      "金发女",
-      "浅景深"
-    ],
-    "id": 6475
-  },
-  {
-    "image": "0131/10791.jpg",
-    "prompt": "{ \"subject\": { \"primary\": \"前景中，一位容光焕发的深褐色头发女士，笑容灿烂，正高角度自拍。\", \"secondary\": \"在她身后站着一大群约 {argument name=\\\"group size\\\" default=\\\"20\\\"} 名体格健壮的年轻男士，他们衣着各异，其中大部分赤裸上身，自信地摆着姿势。\" }, \"clothing\": { \"primary_subject\": \"一件多色 {argument name=\\\"crop top pattern\\\" default=\\\"花卉图案\\\"} 露脐上衣，宽方形领口，短荷叶边袖子。\", \"secondary_subjects\": \"各种运动服，包括带白色滚边的黑色篮球短裤、蓝色健身短裤和红色“LAKERS”品牌网眼短裤。\" }, \"hair\": { \"primary_subject\": \"深褐色头发，梳成光滑的低马尾或发髻，中分整齐。\", \"secondary_subjects\": \"混合了多种自然发型，包括渐变、短卷发、波浪和寸头。\" }, \"face\": { \"primary_subject\": \"明亮对称的五官，露出牙齿的灿烂笑容，修剪整齐的自然眉毛，浅棕色眼睛。\", \"secondary_subjects\": \"表情各异，从友好的微笑到酷酷的、中性的凝视；几名男士正指向镜头或主要人物。\" }, \"accessories\": { \"primary_subject\": \"小巧厚实的金色圈形耳环。\", \"secondary_subjects\": \"其中一人戴着一条细银链，上面挂着一个十字架吊坠，以及一个简单的串珠手链。\" }, \"environment\": { \"location\": \"现代简约的住宅室内或走廊。\", \"details\": \"纯净的米白色或米色墙壁，背景中有一个白色边框的门道，以及中性色调的地板。\" }, \"lighting\": { \"type\": \"明亮、漫射的室内环境光。\", \"quality\": \"柔和均匀的照明，消除了刺眼的阴影，突出了人物的肤色和肌肉线条。\" }, \"camera\": { \"angle\": \"高角度自拍视角，略微向下看主要人物。\", \"focus\": \"前景中的女士对焦清晰，景深足够深，使背景中的大群人清晰可见。\" }, \"style\": \"随性的社交媒体风格；充满活力、动感十足，捕捉了一个有趣的集体瞬间。\" }",
-    "tags": [
-      "辣妹",
-      "肌肉男",
-      "男团",
-      "大合照",
-      "活力"
-    ],
-    "id": 6476
-  },
-  {
-    "image": "0131/10788.jpg",
-    "prompt": "想象一下，在一个外星球上，有一座宁静而充满未来感的图书馆，里面摆满了发光的全息书籍和奇特而美丽的植物。 再想象一下，在黄昏时分，一个充满活力的生物发光珊瑚礁呈现出令人惊叹的景色，异国情调的鱼类和发光的海洋生物熙熙攘攘，所有这些都在被落日余晖照耀得波光粼粼的海面之下。 或者，想象一座充满活力、异想天开的海底城市，海洋生物熙熙攘攘，发光的珊瑚结构随处可见，美人鱼和其他奇幻的海洋生物优雅地穿梭于灯火通明的通道中？",
-    "tags": [
-      "海底城",
-      "荧光",
-      "美人鱼",
-      "外星",
-      "珊瑚礁"
-    ],
-    "id": 6477
   }
 ]
